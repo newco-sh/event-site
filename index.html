@@ -18,6 +18,10 @@
   <style type="text/css">
     body {
       font-family: 'Raleway', sans-serif !important;
+      font-size: 16px;
+    }
+    .text-primary {
+      color: #334A75;
     }
     header {
       background:
@@ -28,18 +32,36 @@
       background-position: center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
-      background-size: cover;
       -o-background-size: cover;
-      text-align: center;
+      background-size: cover;
+      color: white;
+    }
+    section[data-anchor=participate] {
+      background:
+        linear-gradient(rgba(51, 74, 117, 1), rgba(51, 74, 117, 0.8)),
+        url('img/section-participate-banner.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
       color: white;
     }
     .navbar-header {
       background-color: transparent;
-      border-color: transparent;
     }
     .navbar-section {
-      background-color: rgb(51, 74, 117);
+      background-color: #334A75;
+    }
+    .navbar-header,
+    .navbar-section {
       border-color: transparent;
+    }
+    .navbar-header .navbar-nav>li>a,
+    .navbar-section .navbar-nav>li>a {
+      color: #ddd;
     }
     .navbar-brand {
       margin: 0;
@@ -54,14 +76,32 @@
       border-radius: 0;
       color: #fff;
     }
+    .btn-inverse:hover,
+    .btn-inverse:focus {
+      background-color: #C2AC78;
+      border-color: #C2AC78;
+      color: #fff;
+    }
     .btn-xl {
       padding: 10px 16px;
       font-size: 24px;
     }
-    .btn-xl:hover,
-    .btn-xl:focus {
+    .label-inverse {
+      background-color: #1A1918;
+      border-color: #1A1918;
+      border-radius: 0;
+      color: #fff;
+    }
+    .label-primary {
+      background-color: #334A75;
+      border-color: #334A75;
+      border-radius: 0;
+      color: #fff;
+    }
+    .label-secondary {
       background-color: #C2AC78;
       border-color: #C2AC78;
+      border-radius: 0;
       color: #fff;
     }
   </style>
@@ -74,7 +114,7 @@
   <![endif]-->
 </head>
 <body>
-  <nav id="top-nav" class="navbar navbar-default navbar-header navbar-fixed-top">
+  <nav id="top-nav" class="navbar navbar-inverse navbar-header navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav-collapse">
@@ -86,9 +126,8 @@
       </div>
       <div class="collapse navbar-collapse" id="top-nav-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <!-- <li data-menuanchor="home" class="active"><a href="#home">home</a></li> -->
-          <li data-menuanchor="intro"><a href="#intro">intro</a></li>
-          <li data-menuanchor="participate"><a href="#participate">participate</a></li>
+          <li data-menuanchor="intro"><a href="#intro">About</a></li>
+          <li data-menuanchor="participate"><a href="#participate">Participation</a></li>
           <li data-menuanchor="global"><a href="#global">global</a></li>
           <li data-menuanchor="social"><a href="#social">social</a></li>
           <li data-menuanchor="local"><a href="#local">local</a></li>
@@ -109,24 +148,76 @@
           <span class="header-title" style="display:block;position:absolute;font-size:84px;top:-80px;left:510px;">
             Shanghai
           </span>
-          <span class="header-subtitle" style="display:block;position:absolute;font-size:24px;top:80px;left:0;right:0;margin-left:auto;margin-right:auto;width:100%;">
-            On September 13, 2016<br>
-            Opening Doors To Shanghai’s Finest Companies
+          <span class="text-center header-subtitle" style="display:block;position:absolute;font-size:18px;top:95px;left:0;right:0;margin-left:auto;margin-right:auto;width:100%;">
+            Opening Doors To Shanghai’s Finest Companies<br>
+            On September 13, 2016
           </span>
-          <a href="#intro" class="btn btn-default btn-inverse btn-xl header-btn" style="position:absolute;top:200px;left:0;right:0;margin-left:auto;margin-right:auto;width:180px;">
+          <a href="#intro" class="btn btn-default btn-inverse btn-xl header-btn" role="button" style="position:absolute;top:200px;left:0;right:0;margin-left:auto;margin-right:auto;width:195px;">
             Learn More
           </a>
         </div>
       </div>
     </header>
-    <section class="section" data-anchor="intro">
+    <section class="section" data-anchor="intro" style="background-color:#eee;">
       <div class="container">
-        <h1 class="text-center">Introduction</h1>
-        <h3 class="text-center text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h1 class="text-center">
+          What's <span class="label label-default label-inverse">NewCo</span> ?
+        </h1>
+        <h3 class="text-center text-muted">Get Out To Get In</h3>
+        <p class="text-primary" style="margin-top:2em;margin-bottom:3.5em;">NewCo represents a radical departure from the traditional business conference format. Rather than learning in a conventional setting, festival attendees visit companies of their choice throughout the city. They learn about the companies first-hand from leaders and CEOs, right inside the offices.</p>
+        <h1 class="text-center">What To Expect?</h1>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <h4 class="text-primary">
+              <span class="badge">20</span>
+              NewCo Event Hosts
+            </h4>
+          </div>
+          <div class="col-md-4 text-center">
+            <h4 class="text-primary">
+              <span class="badge">8</span>
+              Tech Pioneer and VC Speakers
+            </h4>
+          </div>
+          <div class="col-md-4 text-center">
+            <h4 class="text-primary">
+              <span class="badge">300+</span>
+              NewCo Attendees
+            </h4>
+          </div>
+        </div>
       </div>
     </section>
     <section class="section" data-anchor="participate">
-
+      <div class="container">
+        <h1 class="text-center" style="margin-bottom:1.5em;">Participation</h1>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <a href="#" class="btn btn-default btn-inverse btn-lg" role="button" style="margin-bottom:1.5em;">
+              Host A Session
+            </a>
+            <p>
+              Your NewCo session is a chance to tell your own story of innovation, and to gather just the right audience in the context of your business goals.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="#" class="btn btn-default btn-inverse btn-lg" role="button" style="margin-bottom:1.5em;">
+              Get Your Ticket
+            </a>
+            <p>
+              On September 13th, choose from 20 sessions led by founders and executives to learn about their innovation story.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="#" class="btn btn-default btn-inverse btn-lg disabled" role="button" style="margin-bottom:1.5em;">
+              Become A Volunteer
+            </a>
+            <p>
+              Stay Tuned...
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="section" data-anchor="global">
 
