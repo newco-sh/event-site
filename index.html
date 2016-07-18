@@ -12,7 +12,7 @@
   <!-- styles -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <style type="text/css">
@@ -36,6 +36,9 @@
       background-size: cover;
       color: white;
     }
+    section {
+       background-color: #eee;
+    }
     section[data-anchor=participate] {
       background:
         linear-gradient(rgba(51, 74, 117, 1), rgba(51, 74, 117, 0.8)),
@@ -48,6 +51,18 @@
       -o-background-size: cover;
       background-size: cover;
       color: white;
+    }
+    section[data-anchor=sponsors] {
+      background:
+        linear-gradient(rgba(238, 238, 238, 0.8), rgba(238, 238, 238, 0.9)),
+        url('img/section-sponsors-banner.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
     .navbar-header {
       background-color: transparent;
@@ -104,6 +119,12 @@
       border-radius: 0;
       color: #fff;
     }
+    .sponsor-icon {
+      padding-top: 1.5em;
+    }
+    .sponsor-icon i {
+      font-size: 48px;
+    }
   </style>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -126,11 +147,10 @@
       </div>
       <div class="collapse navbar-collapse" id="top-nav-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li data-menuanchor="intro"><a href="#intro">About</a></li>
-          <li data-menuanchor="participate"><a href="#participate">Participation</a></li>
-          <li data-menuanchor="global"><a href="#global">global</a></li>
-          <li data-menuanchor="social"><a href="#social">social</a></li>
-          <li data-menuanchor="local"><a href="#local">local</a></li>
+          <li data-menuanchor="intro"><a href="#intro">NewCo</a></li>
+          <li data-menuanchor="participate"><a href="#participate">Participate</a></li>
+          <li data-menuanchor="sponsors"><a href="#sponsors">Sponsors</a></li>
+          <li data-menuanchor="chinaccelerator"><a href="#chinaccelerator">Chinaccelerator</a></li>
         </ul>
       </div>
     </div>
@@ -140,9 +160,9 @@
     <header class="section" data-anchor="home">
       <div class="container" style="position:relative;">
         <div class="header-block" style="position:absolute;left:0;right:0;margin-left:auto;margin-right:auto;">
-          <span class="header-lead-in text-left" style="display:block;position:absolute;padding:12px;font-size:24px;background-color:#C2AC78;top:-240px;left:240px;">
-            Chinaccelerator<br>
-            Presents
+          <span class="header-lead-in text-left" style="display:block;position:absolute;padding:0.5em 1em;font-size:24px;background-color:#C2AC78;top:-240px;left:205px;">
+            <img src="img/chinaccelerator-logo.png" style="display:block;max-height:120px;">
+            <h2 class="text-center" style="margin-bottom:0;">Presents</h2>
           </span>
           <img class="header-logo" src="img/newco-logo.svg" style="height:225px;position:absolute;top:-190px;left:355px;">
           <span class="header-title" style="display:block;position:absolute;font-size:84px;top:-80px;left:510px;">
@@ -158,13 +178,15 @@
         </div>
       </div>
     </header>
-    <section class="section" data-anchor="intro" style="background-color:#eee;">
+    <section class="section" data-anchor="intro">
       <div class="container">
         <h1 class="text-center">
           What's <span class="label label-default label-inverse">NewCo</span> ?
         </h1>
         <h3 class="text-center text-muted">Get Out To Get In</h3>
-        <p class="text-primary" style="margin-top:2em;margin-bottom:3.5em;">NewCo represents a radical departure from the traditional business conference format. Rather than learning in a conventional setting, festival attendees visit companies of their choice throughout the city. They learn about the companies first-hand from leaders and CEOs, right inside the offices.</p>
+        <p class="text-primary" style="margin:2em;">
+          NewCo represents a radical departure from the traditional business conference format. Rather than learning in a conventional setting, festival attendees visit companies of their choice throughout the city. They learn about the companies first-hand from leaders and CEOs, right inside the offices.
+        </p>
         <h1 class="text-center">What To Expect?</h1>
         <div class="row">
           <div class="col-md-4 text-center">
@@ -190,7 +212,7 @@
     </section>
     <section class="section" data-anchor="participate">
       <div class="container">
-        <h1 class="text-center" style="margin-bottom:1.5em;">Participation</h1>
+        <h1 class="text-center" style="margin-bottom:1.5em;">Ways To Participate</h1>
         <div class="row">
           <div class="col-md-4 text-center">
             <a href="#" class="btn btn-default btn-inverse btn-lg" role="button" style="margin-bottom:1.5em;">
@@ -219,13 +241,65 @@
         </div>
       </div>
     </section>
-    <section class="section" data-anchor="global">
-
+    <section class="section" data-anchor="sponsors">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 text-center">
+            <h2 class="text-center">Global Sponsors</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="sponsor-icon">
+                  <i class="fa fa-apple"></i>
+                  <h4>Apple</h4>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="sponsor-icon">
+                  <i class="fa fa-amazon"></i>
+                  <h4>Amazon</h4>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="sponsor-icon">
+                  <i class="fa fa-github-alt"></i>
+                  <h4>GitHub</h4>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="sponsor-icon">
+                  <i class="fa fa-tripadvisor"></i>
+                  <h4>TripAdvisor</h4>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="sponsor-icon">
+                  <i class="fa fa-google"></i>
+                  <h4>Google</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 text-center text-primary">
+            <h2 class="text-center">Local Sponsors</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="sponsor-icon">
+                  <i class="fa fa-qq"></i>
+                  <h4>Tencent</h4>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="sponsor-icon">
+                  <i class="fa fa-weibo"></i>
+                  <h4>Sina</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="section" data-anchor="social">
-
-    </section>
-    <section class="section" data-anchor="local">
+    <section class="section" data-anchor="chinaccelerator">
 
     </section>
   </div>
@@ -233,7 +307,8 @@
   <!-- scripts -->
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/vendors/scrolloverflow.min.js"></script> -->
   <script>
     $(function() {
       $('#full-page').fullpage({
