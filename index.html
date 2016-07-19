@@ -24,6 +24,9 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <!-- page style -->
   <link href="newco.css" rel="stylesheet">
+  <style type="text/css">
+    /* header responsiveness for absolute elements */
+  </style>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -44,7 +47,18 @@
       </div>
       <div class="collapse navbar-collapse" id="top-nav-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li data-menuanchor="intro"><a href="#intro">NewCo</a></li>
+          <li data-menuanchor="intro">
+            <a href="#intro">NewCo</a>
+          </li>
+          <li class="dropdown">
+            <a href="#intro" class="dropdown-toggle" data-toggle="dropdown">
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#about">NewCo Shift</a></li>
+              <li><a href="#about">NewCo Cities</a></li>
+            </ul>
+          </li>
           <li data-menuanchor="participate"><a href="#participate">Participate</a></li>
           <li data-menuanchor="sponsors"><a href="#sponsors">Sponsors</a></li>
         </ul>
@@ -76,35 +90,29 @@
     </header>
     <section class="section" data-anchor="intro">
       <div class="container">
-        <h1 class="text-center">
-          What's NewCo?
-        </h1>
-        <h3 class="text-center text-secondary">Get Out To Get In</h3>
-        <p style="margin:2em;">
+        <h2 class="text-center" style="margin-bottom:0.7em;">
+          What's NewCo?<br>
+          <small class="text-secondary">Get Out To Get In</small>
+        </h2>
+        <p>
           NewCo represents a radical departure from the traditional business conference format. Rather than learning in a conventional setting, festival attendees visit companies of their choice throughout the city. They learn about the companies first-hand from leaders and CEOs, right inside the offices.
         </p>
-        <h1 class="text-center">What To Expect?</h1>
+        <h2 class="text-center" style="margin-bottom:0.7em;margin-top:1.2em;">What To Expect?</h2>
         <div class="row">
-          <div class="col-md-4 text-center">
-            <h1>
-              <span class="label label-secondary">20</span>
-            </h1>
+          <div class="col-md-4 text-center" style="padding-top:0.5em;">
+            <span class="label label-secondary" style="font-size:32px;">20</span>
             <h4 style="margin-top:1em;">
               NewCo Event Hosts
             </h4>
           </div>
-          <div class="col-md-4 text-center">
-            <h1>
-              <span class="label label-secondary">8</span>
-            </h1>
+          <div class="col-md-4 text-center" style="padding-top:0.5em;">
+            <span class="label label-secondary" style="font-size:32px;">8</span>
             <h4 style="margin-top:1em;">
               Tech Pioneer and VC Speakers
             </h4>
           </div>
-          <div class="col-md-4 text-center">
-            <h1>
-              <span class="label label-secondary">300+</span>
-            </h1>
+          <div class="col-md-4 text-center" style="padding-top:0.5em;">
+            <span class="label label-secondary" style="font-size:32px;">300+</span>
             <h4 style="margin-top:1em;">
               NewCo Attendees
             </h4>
@@ -114,7 +122,7 @@
     </section>
     <section class="section" data-anchor="participate">
       <div class="container">
-        <h1 class="text-center" style="margin-bottom:1.5em;">Ways To Participate</h1>
+        <h2 class="text-center" style="margin-bottom:0.7em;">Ways To Participate</h2>
         <div class="row">
           <div class="col-md-4 text-center">
             <a href="#" class="btn btn-default btn-inverse btn-lg" role="button" style="margin-bottom:1.5em;">
@@ -147,33 +155,33 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-12 text-center">
-            <h1 style="margin-bottom:1.5em;">Global Sponsors</h1>
+            <h2 style="margin-bottom:0.7em;">Global Sponsors</h2>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-sm-4 col-xs-6">
                 <div class="sponsor-icon">
                   <i class="fa fa-apple"></i>
                   <h4>Apple</h4>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-sm-4 col-xs-6">
                 <div class="sponsor-icon">
                   <i class="fa fa-amazon"></i>
                   <h4>Amazon</h4>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-sm-4 col-xs-6">
                 <div class="sponsor-icon">
                   <i class="fa fa-github-alt"></i>
                   <h4>GitHub</h4>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-sm-4 col-xs-6">
                 <div class="sponsor-icon">
                   <i class="fa fa-tripadvisor"></i>
                   <h4>TripAdvisor</h4>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-sm-4 col-xs-6">
                 <div class="sponsor-icon">
                   <i class="fa fa-google"></i>
                   <h4>Google</h4>
@@ -182,15 +190,15 @@
             </div>
           </div>
           <div class="col-md-6 col-sm-12 text-center">
-            <h1 style="margin-bottom:1.5em;">Local Sponsors</h1>
+            <h2 style="margin-bottom:0.7em;">Local Sponsors</h2>
             <div class="row text-secondary">
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="sponsor-icon">
                   <i class="fa fa-qq"></i>
                   <h4>Tencent</h4>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="sponsor-icon">
                   <i class="fa fa-weibo"></i>
                   <h4>Sina</h4>
@@ -201,11 +209,11 @@
         </div>
       </div>
     </section>
-    <footer class="section fp-auto-height">
-      <div class="container" style="padding:2em 0;">
+    <footer class="section fp-auto-height" data-anchor="about">
+      <div class="container" style="padding:2em 0;font-size:0.8em;">
         <div class="row">
           <div class="col-md-6 col-sm-12">
-            <img src="img/newco-logo-shift.png" class="center-block" style="margin-bottom:21px;">
+            <img src="img/newco-logo-shift.png" class="center-block" style="height:48px;margin-bottom:4px;">
             <ul class="list-inline text-center">
               <li>
                 <a href="https://shift.newco.co/" class="link-secondary">Shift on Medium</a>
@@ -220,8 +228,8 @@
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="text-center">
-              <img src="img/newco-logo.svg" style="height:90px;">
-              <span style="font-size:54px;vertical-align:text-top;">Cities</span>
+              <img src="img/newco-logo.svg" style="height:36px;">
+              <span style="font-size:32px;vertical-align:text-top;">Cities</span>
             </div>
             <ul class="list-inline text-center">
               <li>
@@ -267,13 +275,11 @@
         <h2 class="text-center">
           About <span class="text-secondary">Chinaccelerator</span>
         </h2>
-        <p style="font-size:0.9em;">
+        <p style="margin-left:1em;margin-right:1em;">
           Chinaccelerator, the first startup accelerator in China and Asia, is a mentorship-driven program helping internet startups from around the world cross borders - from the world into China and from China to the world. It is backed by the venture fund SOSV with $250M AUM operating five accelerator programs around the world.
-        </p>
-        <p style="font-size:0.9em;">
+          <br><br>
           This September, NewCo and Chinaccelerator are coming together to connect the world’s top start-ups, high-growth companies, investors, influencers and entrepreneurs through NewCo Shanghai and Chinaccelerator 8x8, an event where 8 of the tech industries biggest movers and shakers give 8 minute talks about how they have succeeded in building tech companies.
-        </p>
-        <p style="font-size:0.9em;">
+          <br><br>
           Find out more: <a href="http://chinaccelerator.com/" class="link-secondary">www.chinaccelerator.com</a>
         </p>
       </div>
