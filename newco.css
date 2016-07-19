@@ -1,0 +1,130 @@
+body {
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 16px;
+  color: #fff;
+}
+.link-secondary {
+  color: #C2AC78;
+}
+.link-secondary:focus,
+.link-secondary:hover {
+  background-color: rgba(0, 0, 0, 1);
+  color: #C2AC78;
+}
+.text-primary {
+  color: #334A75;
+}
+.text-secondary {
+  color: #C2AC78;
+}
+.section:nth-child(even) {
+  background-color: #1A1918;
+  color: #fff;
+}
+.section:nth-child(odd) {
+  background-color: #334A75;
+  color: #fff;
+}
+.section[data-anchor=home] {
+  background:
+    linear-gradient(rgba(51, 74, 117, 0.9), rgba(51, 74, 117, 0.4)),
+    url('img/header-banner.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.section[data-anchor=participate] {
+  background:
+    linear-gradient(rgba(51, 74, 117, 1), rgba(51, 74, 117, 0.8)),
+    url('img/section-participate-banner.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.section[data-anchor=sponsors] {
+  background:
+    linear-gradient(rgba(26, 25, 24, 0.8), rgba(26, 25, 24, 1)),
+    url('img/section-sponsors-banner.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar-header {
+  background-color: transparent;
+}
+.navbar-section {
+  background-color: #334A75;
+}
+.navbar-header,
+.navbar-section {
+  border-color: transparent;
+}
+.navbar-header .navbar-nav>li>a,
+.navbar-section .navbar-nav>li>a {
+  color: #C2AC78;
+}
+.navbar-section .navbar-nav>.active>a,
+.navbar-section .navbar-nav>.active>a:focus,
+.navbar-section .navbar-nav>.active>a:hover {
+  color: #1A1918;
+  background-color: #C2AC78;
+}
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand img {
+  max-height: 100%;
+}
+.btn-inverse {
+  background-color: #1A1918;
+  border-color: #1A1918;
+  border-radius: 0;
+  color: #C2AC78;
+}
+.btn-inverse:hover,
+.btn-inverse:focus {
+  background-color: #C2AC78;
+  border-color: #C2AC78;
+  color: #1A1918;
+}
+.btn-xl {
+  padding: 10px 16px;
+  font-size: 24px;
+}
+.label-inverse {
+  background-color: #1A1918;
+  border-color: #1A1918;
+  color: #fff;
+}
+.label-primary {
+  background-color: #334A75;
+  border-color: #334A75;
+  color: #fff;
+}
+.label-secondary {
+  background-color: #C2AC78;
+  border-color: #C2AC78;
+  color: #1A1918;
+}
+.badge-secondary {
+  background-color: #C2AC78;
+}
+.sponsor-icon {
+  padding-top: 1.5em;
+}
+.sponsor-icon i {
+  font-size: 48px;
+}
