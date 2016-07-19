@@ -20,10 +20,28 @@
       font-family: 'Raleway', sans-serif !important;
       font-size: 16px;
     }
+    .link-secondary {
+      color: #C2AC78;
+    }
+    .link-secondary:focus,
+    .link-secondary:hover {
+      background-color: rgba(0, 0, 0, 1);
+      color: #C2AC78;
+    }
     .text-primary {
       color: #334A75;
     }
-    header {
+    .text-secondary {
+      color: #C2AC78;
+    }
+    .section:nth-child(even) {
+       background-color: #e3e3e3;
+    }
+    .section:nth-child(odd) {
+      background-color: #334A75;
+      color: white;
+    }
+    .section[data-anchor=home] {
       background:
         linear-gradient(rgba(51, 74, 117, 0.9), rgba(51, 74, 117, 0.4)),
         url('img/header-banner.jpg');
@@ -36,10 +54,7 @@
       background-size: cover;
       color: white;
     }
-    section {
-       background-color: #eee;
-    }
-    section[data-anchor=participate] {
+    .section[data-anchor=participate] {
       background:
         linear-gradient(rgba(51, 74, 117, 1), rgba(51, 74, 117, 0.8)),
         url('img/section-participate-banner.jpg');
@@ -50,11 +65,10 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      color: white;
     }
-    section[data-anchor=sponsors] {
+    .section[data-anchor=sponsors] {
       background:
-        linear-gradient(rgba(238, 238, 238, 0.8), rgba(238, 238, 238, 0.9)),
+        linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1)),
         url('img/section-sponsors-banner.png');
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -76,7 +90,13 @@
     }
     .navbar-header .navbar-nav>li>a,
     .navbar-section .navbar-nav>li>a {
-      color: #ddd;
+      color: #C2AC78;
+    }
+    .navbar-section .navbar-nav>.active>a,
+    .navbar-section .navbar-nav>.active>a:focus,
+    .navbar-section .navbar-nav>.active>a:hover {
+      color: #000;
+      background-color: #C2AC78;
     }
     .navbar-brand {
       margin: 0;
@@ -89,13 +109,13 @@
       background-color: #1A1918;
       border-color: #1A1918;
       border-radius: 0;
-      color: #fff;
+      color: #C2AC78;
     }
     .btn-inverse:hover,
     .btn-inverse:focus {
       background-color: #C2AC78;
       border-color: #C2AC78;
-      color: #fff;
+      color: #000;
     }
     .btn-xl {
       padding: 10px 16px;
@@ -104,20 +124,20 @@
     .label-inverse {
       background-color: #1A1918;
       border-color: #1A1918;
-      border-radius: 0;
       color: #fff;
     }
     .label-primary {
       background-color: #334A75;
       border-color: #334A75;
-      border-radius: 0;
       color: #fff;
     }
     .label-secondary {
       background-color: #C2AC78;
       border-color: #C2AC78;
-      border-radius: 0;
-      color: #fff;
+      color: #000;
+    }
+    .badge-secondary {
+      background-color: #C2AC78;
     }
     .sponsor-icon {
       padding-top: 1.5em;
@@ -165,7 +185,7 @@
             <h2 class="text-center" style="margin-bottom:0;">Presents</h2>
           </span>
           <img class="header-logo" src="img/newco-logo.svg" style="height:225px;position:absolute;top:-190px;left:355px;">
-          <span class="header-title" style="display:block;position:absolute;font-size:84px;top:-80px;left:510px;">
+          <span class="text-secondary header-title" style="display:block;position:absolute;font-size:84px;font-weight:900;top:-80px;left:510px;">
             Shanghai
           </span>
           <span class="text-center header-subtitle" style="display:block;position:absolute;font-size:18px;top:95px;left:0;right:0;margin-left:auto;margin-right:auto;width:100%;">
@@ -183,27 +203,33 @@
         <h1 class="text-center">
           What's <span class="label label-default label-inverse">NewCo</span> ?
         </h1>
-        <h3 class="text-center text-muted">Get Out To Get In</h3>
+        <h3 class="text-center text-secondary">Get Out To Get In</h3>
         <p class="text-primary" style="margin:2em;">
           NewCo represents a radical departure from the traditional business conference format. Rather than learning in a conventional setting, festival attendees visit companies of their choice throughout the city. They learn about the companies first-hand from leaders and CEOs, right inside the offices.
         </p>
         <h1 class="text-center">What To Expect?</h1>
         <div class="row">
           <div class="col-md-4 text-center">
-            <h4 class="text-primary">
-              <span class="badge">20</span>
+            <h1>
+              <span class="label label-secondary">20</span>
+            </h1>
+            <h4 class="text-primary" style="margin-top:1em;">
               NewCo Event Hosts
             </h4>
           </div>
           <div class="col-md-4 text-center">
-            <h4 class="text-primary">
-              <span class="badge">8</span>
+            <h1>
+              <span class="label label-secondary">8</span>
+            </h1>
+            <h4 class="text-primary" style="margin-top:1em;">
               Tech Pioneer and VC Speakers
             </h4>
           </div>
           <div class="col-md-4 text-center">
-            <h4 class="text-primary">
-              <span class="badge">300+</span>
+            <h1>
+              <span class="label label-secondary">300+</span>
+            </h1>
+            <h4 class="text-primary" style="margin-top:1em;">
               NewCo Attendees
             </h4>
           </div>
@@ -245,8 +271,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-12 text-center">
-            <h2 class="text-center">Global Sponsors</h2>
-            <div class="row">
+            <h2>Global Sponsors</h2>
+            <div class="row text-primary">
               <div class="col-md-4">
                 <div class="sponsor-icon">
                   <i class="fa fa-apple"></i>
@@ -279,9 +305,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12 text-center text-primary">
-            <h2 class="text-center">Local Sponsors</h2>
-            <div class="row">
+          <div class="col-md-6 col-sm-12 text-center">
+            <h2>Local Sponsors</h2>
+            <div class="row text-secondary">
               <div class="col-md-6">
                 <div class="sponsor-icon">
                   <i class="fa fa-qq"></i>
@@ -300,7 +326,20 @@
       </div>
     </section>
     <section class="section" data-anchor="chinaccelerator">
-
+      <div class="container">
+        <h1 class="text-center" style="margin-bottom:1.5em;">
+          About <span class="label label-default label-inverse">Chinaccelerator</span>
+        </h1>
+        <p>
+          Chinaccelerator, the first startup accelerator in China and Asia, is a mentorship-driven program helping internet startups from around the world cross borders - from the world into China and from China to the world. It is backed by the venture fund SOSV with $250M AUM operating five accelerator programs around the world.
+        </p>
+        <p>
+          This September, NewCo and Chinaccelerator are coming together to connect the world’s top start-ups, high-growth companies, investors, influencers and entrepreneurs through NewCo Shanghai and Chinaccelerator 8x8, an event where 8 of the tech industries biggest movers and shakers give 8 minute talks about how they have succeeded in building tech companies.
+        </p>
+        <p>
+          Find out more: <a href="http://chinaccelerator.com/" class="link-secondary">www.chinaccelerator.com</a>
+        </p>
+      </div>
     </section>
   </div>
 
