@@ -428,10 +428,7 @@
         if (index === 1) {
           $('#top-nav').removeClass('navbar-section').addClass('navbar-header');
           $('#top-nav .navbar-brand').addClass('hidden');
-        }
-      },
-      onLeave: function(index, nextIndex, direction) {
-        if (nextIndex !== 1) {
+        } else {
           $('#top-nav').removeClass('navbar-header').addClass('navbar-section');
           $('#top-nav .navbar-brand').removeClass('hidden');
         }
