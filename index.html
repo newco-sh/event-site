@@ -25,180 +25,32 @@
   <!-- page style -->
   <link href="newco.css" rel="stylesheet">
   <style type="text/css">
-    /* header responsiveness for absolute elements */
-    .abs-center {
-      left: 0;
-      right: 0;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .header-block,
-    .header-logo,
-    .header-btn,
+    /* header specifics */
     .header-lead-in,
-    .header-title,
-    .header-subtitle {
-      position: absolute;
+    .header-logo {
+      display: inline-block;
+      padding-bottom: 1.5em;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      vertical-align: text-top;
     }
-    .header-lead-in,
-    .header-lead-in>img,
-    .header-title,
-    .header-subtitle {
-      display: block;
+    .header-logo {
+      padding-top: 2em;
+      max-width: 100%;
     }
-    .header-lead-in {
-      padding: 1em;
-    }
-    .header-subtitle {
-      width: 100%;
-    }
-    @media only screen and (max-width: 479px) {
-      .header-lead-in {
-        top: -275px;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .header-lead-in>img {
-        max-height: 64px;
-      }
-      .header-lead-in>span {
-        font-size: 100%;
-      }
+    @media (max-width: 480px) {
       .header-logo {
-        height: 129px;
-        top: -135px;
-        left: 55px;
-      }
-      .header-title {
-        font-size: 48px;
-        font-weight: 900;
-        top: -70px;
-        left: 145px;
-      }
-      .header-subtitle {
-        font-size: 15px;
-        top: 25px;
-      }
-      .header-btn {
-        top: 115px;
-        width: 195px;
+        width: 288px;
       }
     }
-    @media only screen and (min-width: 480px) {
-      .header-lead-in {
-        top: -200px;
-        left: 60px;
-      }
-      .header-lead-in>img {
-        max-height: 48px;
-      }
-      .header-lead-in>span {
-        font-size: 80%;
-      }
+    @media (min-width: 481px) and (max-width: 1023px) {
       .header-logo {
-        height: 129px;
-        top: -150px;
-        left:135px;
-      }
-      .header-title {
-        font-size: 48px;
-        font-weight: 900;
-        top: -80px;
-        left: 225px;
-      }
-      .header-subtitle {
-        font-size: 15px;
-        top: 35px;
-      }
-      .header-btn {
-        top: 120px;
-        width: 195px;
+        width: 360px;
       }
     }
-    @media only screen and (min-width: 768px) {
-      .header-lead-in {
-        top: -200px;
-        left: 140px;
-      }
-      .header-lead-in>img {
-        max-height: 64px;
-      }
+    @media (min-width: 1024px) {
       .header-logo {
-        height: 172px;
-        top: -150px;
-        left:235px;
-      }
-      .header-title {
-        font-size: 64px;
-        font-weight: 900;
-        top: -60px;
-        left: 355px;
-      }
-      .header-subtitle {
-        font-size: 16px;
-        top: 75px;
-      }
-      .header-btn {
-        top: 180px;
-        width: 195px;
-      }
-    }
-    @media only screen and (min-width: 1024px) {
-      .header-lead-in {
-        top: -240px;
-        left: 180px;
-      }
-      .header-lead-in>img {
-        max-height: 84px;
-      }
-      .header-logo {
-        height: 225px;
-        top: -190px;
-        left:295px;
-      }
-      .header-title {
-        font-size: 84px;
-        font-weight: 900;
-        top: -80px;
-        left: 445px;
-      }
-      .header-subtitle {
-        font-size: 18px;
-        top: 95px;
-      }
-      .header-btn {
-        top: 200px;
-        width: 195px;
-      }
-    }
-    @media only screen and (min-width: 1200px) {
-      .header-lead-in {
-        top: -240px;
-        left: 245px;
-      }
-      .header-lead-in>img {
-        max-height: 84px;
-      }
-      .header-logo {
-        height: 225px;
-        top: -190px;
-        left:355px;
-      }
-      .header-title {
-        font-size: 84px;
-        font-weight: 900;
-        top: -80px;
-        left: 510px;
-      }
-      .header-subtitle {
-        font-size: 18px;
-        top: 95px;
-      }
-      .header-btn {
-        top: 200px;
-        width: 195px;
+        width: 432px;
       }
     }
   </style>
@@ -243,21 +95,20 @@
   <!-- sections -->
   <div id=full-page>
     <header class="section" data-anchor="home">
-      <div class="container" style="position:relative;">
-        <div class="header-block abs-center">
-          <span class="header-lead-in text-center">
-            <img src="img/chinaccelerator-logo.png" class="center-block">
-            <span>Presents</span>
-          </span>
-          <img class="header-logo" src="img/newco-logo.svg">
-          <span class="header-title">
-            Shanghai
-          </span>
-          <span class="text-center header-subtitle abs-center">
+      <div class="container text-center">
+        <div class="header-lead-in">
+          <img src="img/chinaccelerator-logo.png" class="center-block" style="width:72px;">
+          <span style="font-size:90%;">Presents</span>
+        </div>
+        <div class="header-logo">
+          <img src="img/newco-logo-shanghai.svg" class="center-block" style="width:100%;">
+        </div>
+        <div style="padding-top:1.5em;">
+          <p>
             Opening Doors To Shanghai’s Finest Companies<br>
             On September 13, 2016
-          </span>
-          <a href="#intro" class="btn btn-default btn-inverse btn-xl header-btn abs-center" role="button">
+          </p>
+          <a href="#intro" class="btn btn-default btn-inverse btn-lg" role="button">
             Learn More
           </a>
         </div>
