@@ -64,23 +64,16 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-.navbar-header {
-  background-color: transparent;
-}
-.navbar-section {
+.navbar-newco {
   background-color: #334A75;
-}
-.navbar-header,
-.navbar-section {
   border-color: transparent;
 }
-.navbar-header .navbar-nav>li>a,
-.navbar-section .navbar-nav>li>a {
+.navbar-newco .navbar-nav>li>a {
   color: #C2AC78;
 }
-.navbar-section .navbar-nav>.active>a,
-.navbar-section .navbar-nav>.active>a:focus,
-.navbar-section .navbar-nav>.active>a:hover {
+.navbar-newco .navbar-nav>.active>a,
+.navbar-newco .navbar-nav>.active>a:focus,
+.navbar-newco .navbar-nav>.active>a:hover {
   color: #1A1918;
   background-color: #C2AC78;
 }

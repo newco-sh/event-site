@@ -62,7 +62,7 @@
   <![endif]-->
 </head>
 <body>
-  <nav id="top-nav" class="navbar navbar-inverse navbar-header navbar-fixed-top">
+  <nav id="top-nav" class="navbar navbar-inverse navbar-newco navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle text-secondary" data-toggle="collapse" data-target="#top-nav-collapse">
@@ -323,10 +323,10 @@
       autoScrolling: false,
       afterLoad: function(anchorLink, index) {
         if (index === 1) {
-          $('#top-nav').removeClass('navbar-section').addClass('navbar-header');
+          // $('#top-nav').removeClass('navbar-section').addClass('navbar-header');
           $('#top-nav .navbar-brand').addClass('hidden');
         } else {
-          $('#top-nav').removeClass('navbar-header').addClass('navbar-section');
+          // $('#top-nav').removeClass('navbar-header').addClass('navbar-section');
           $('#top-nav .navbar-brand').removeClass('hidden');
         }
       }
