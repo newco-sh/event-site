@@ -30,19 +30,7 @@ body {
 }
 .section[data-anchor=home] {
   background:
-    linear-gradient(rgba(51, 74, 117, 1), rgba(26, 25, 24, 0.1)),
-    url('img/header-banner.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.section[data-anchor=intro] {
-  background:
-    linear-gradient(rgba(51, 74, 117, 1), rgba(26, 25, 24, 0.1)),
+    linear-gradient(rgba(51, 74, 117, 1), rgba(26, 25, 24, 0.7)),
     url('img/header-banner.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -66,7 +54,7 @@ body {
 }
 .section[data-anchor=sponsors] {
   background:
-    linear-gradient(rgba(51, 74, 117, 1), rgba(26, 25, 24, 0.7)),
+    linear-gradient(rgba(26, 25, 24, 0.7), rgba(26, 25, 24, 1)),
     url('img/section-sponsors-banner.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
