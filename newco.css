@@ -160,6 +160,7 @@ body {
   .header-lead-in,
   .header-logo {
     padding-bottom: 0.5em;
+    vertical-align: middle;
   }
   .header-content,
   .header-logo {
