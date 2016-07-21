@@ -1,6 +1,5 @@
 body {
   font-family: 'Raleway', sans-serif !important;
-  font-size: 16px;
   color: #fff;
 }
 .link-secondary {
@@ -136,5 +135,36 @@ body {
   padding-top: 1.5em;
 }
 .sponsor-icon i {
-  font-size: 48px;
+  font-size: 2.7em;
+}
+/* header specifics */
+.header-lead-in,
+.header-logo {
+  display: inline-block;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  vertical-align: text-top;
+}
+.header-content,
+.header-logo {
+  padding-top: 1em;
+}
+.header-logo {
+  max-width: 100%;
+}
+@media (max-width: 480px) {
+  .header-logo {
+    width: 288px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1023px) {
+  .header-logo {
+    width: 360px;
+  }
+}
+@media (min-width: 1024px) {
+  .header-logo {
+    width: 432px;
+  }
 }
