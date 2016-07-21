@@ -159,12 +159,12 @@ body {
   }
   .header-lead-in,
   .header-logo {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.2em;
     vertical-align: middle;
   }
   .header-content,
   .header-logo {
-    padding-top: 0.5em;
+    padding-top: 0.2em;
   }
 }
 @media (min-width: 481px) and (max-width: 1023px) {
