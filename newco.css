@@ -157,6 +157,14 @@ body {
   .header-logo {
     width: 240px;
   }
+  .header-lead-in,
+  .header-logo {
+    padding-bottom: 0.5em;
+  }
+  .header-content,
+  .header-logo {
+    padding-top: 0.5em;
+  }
 }
 @media (min-width: 481px) and (max-width: 1023px) {
   .header-logo {
