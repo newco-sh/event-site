@@ -2,18 +2,17 @@ body {
   font-family: 'Raleway', sans-serif !important;
   color: #fff;
 }
-.link-secondary {
+.link-newco {
   color: #C2AC78;
+  margin: 0.2em;
+  padding: 0.1em 0.2em;
+  text-decoration: underline;
 }
-.link-secondary:focus,
-.link-secondary:hover {
-  background-color: rgba(0, 0, 0, 1);
-  color: #C2AC78;
+.link-newco:focus,
+.link-newco:hover {
+  color: #FFF9C5;
 }
-.text-primary {
-  color: #334A75;
-}
-.text-secondary {
+.text-newco {
   color: #C2AC78;
 }
 .section {
@@ -65,16 +64,23 @@ body {
 }
 .navbar-newco {
   background-color: #334A75;
-  border-color: transparent;
+  border-width: 0;
+}
+.navbar-newco.inverse {
+  background-color: #1A1918;
 }
 .navbar-newco .navbar-nav>li>a {
   color: #C2AC78;
 }
+.navbar-newco.inverse .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-newco .navbar-nav>li>a:focus,
+.navbar-newco .navbar-nav>li>a:hover,
 .navbar-newco .navbar-nav>.active>a,
 .navbar-newco .navbar-nav>.active>a:focus,
 .navbar-newco .navbar-nav>.active>a:hover {
-  color: #1A1918;
-  background-color: #C2AC78;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .navbar-brand {
   margin: 0;
@@ -88,7 +94,7 @@ body {
   margin-top: 0;
   color: #fff;
   background-color: #1A1918;
-  border-color: transparent;
+  border-width: 0;
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -113,29 +119,25 @@ body {
   border-color: #C2AC78;
   color: #1A1918;
 }
-.label-inverse {
-  background-color: #1A1918;
-  border-color: #1A1918;
+.well-newco {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-width: 0;
+}
+.well-newco small,
+.well-newco .small {
   color: #fff;
+  font-size: 48%;
 }
-.label-primary {
-  background-color: #334A75;
-  border-color: #334A75;
-  color: #fff;
+.well-newco h1,
+.well-newco h2,
+.well-newco h3,
+.well-newco h4,
+.well-newco h5,
+.well-newco h6 {
+  margin-top: 0;
 }
-.label-secondary {
-  background-color: #C2AC78;
-  border-color: #C2AC78;
-  color: #1A1918;
-}
-.badge-secondary {
-  background-color: #C2AC78;
-}
-.sponsor-icon {
-  padding-top: 1.5em;
-}
-.sponsor-icon i {
-  font-size: 2.7em;
+.well-newco ul.list-inline>li {
+  padding: 0 1em;
 }
 /* header specifics */
 .header-lead-in,
@@ -159,12 +161,12 @@ body {
   }
   .header-lead-in,
   .header-logo {
-    padding-bottom: 0.2em;
+    padding-bottom: 0em;
     vertical-align: middle;
   }
   .header-content,
   .header-logo {
-    padding-top: 0.2em;
+    padding-top: 0em;
   }
 }
 @media (min-width: 481px) and (max-width: 1023px) {
