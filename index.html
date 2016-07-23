@@ -16,12 +16,15 @@
 
   <title>NewCo - Shanghai</title>
 
+  <!-- 友付 -->
+  <script src="https://yoopay.cn/scripts/yoopay.widget.js"></script>
+
   <!-- styles -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <!-- page style -->
   <link href="newco.css" rel="stylesheet">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -44,9 +47,8 @@
       </div>
       <div class="collapse navbar-collapse" id="top-nav-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li data-menuanchor="intro">
-            <a href="#intro">NewCo</a>
-          </li>
+          <li data-menuanchor="tickets"><a href="#tickets">TICKETS</a></li>
+          <li data-menuanchor="sponsors"><a href="#sponsors">SPONSORS</a></li>
           <li class="dropdown">
             <a href="#intro" class="dropdown-toggle" data-toggle="dropdown">
               <span class="caret"></span>
@@ -56,8 +58,6 @@
               <li><a href="#about">NewCo Cities</a></li>
             </ul>
           </li>
-          <li data-menuanchor="participate"><a href="#participate">Participate</a></li>
-          <li data-menuanchor="sponsors"><a href="#sponsors">Sponsors</a></li>
         </ul>
       </div>
     </div>
@@ -65,104 +65,59 @@
   <!-- sections -->
   <div id=full-page>
     <header class="section" data-anchor="home">
-      <div class="container text-center">
-        <div class="header-lead-in">
-          <img src="img/chinaccelerator-logo.png" class="center-block" style="width:72px;">
-          <span style="font-size:90%;">Presents</span>
-        </div>
-        <div class="header-logo">
-          <img src="img/newco-logo-shanghai.svg" class="center-block" style="width:100%;">
-        </div>
-        <div class="header-content"">
-          <p>
-            Opening Doors To Shanghai’s Finest Companies<br>
-            On September 13, 2016
-          </p>
-          <a href="#intro" class="btn btn-default btn-newco btn-lg" role="button">
-            Learn More
-          </a>
-        </div>
-      </div>
-    </header>
-    <section class="section" data-anchor="intro">
       <div class="container">
-        <h2 class="text-center">
-          What's NewCo?<br>
-          <small class="text-newco">Get Out To Get In</small>
-        </h2>
-        <p>
-          NewCo represents a radical departure from the traditional business conference format. Rather than learning in a conventional setting, festival attendees visit companies of their choice throughout the city. They learn about the companies first-hand from leaders and CEOs, right inside the offices.
-        </p>
-        <h2 class="text-center">What To Expect?</h2>
         <div class="row">
-          <div class="col-md-4 text-center">
-            <div class="well well-newco">
-              <h2>
-                <span class="text-newco">20</span>
-              </h2>
-              <p>NewCo Event Hosts</p>
+          <div class="col-md-8 col-sm-12 text-center">
+            <div class="header-lead-in">
+              <img src="img/chinaccelerator-logo.png" class="center-block" style="width:72px;">
+              <span style="font-size:90%;">PRESENTS</span>
+            </div>
+            <div class="header-logo">
+              <img src="img/newco-logo-shanghai.svg" class="center-block" style="width:100%;">
+            </div>
+            <div class="header-content"">
+              <p>
+                Opening Doors To Shanghai’s Finest Companies<br>
+                On September 13, 2016
+              </p>
             </div>
           </div>
-          <div class="col-md-4 text-center">
+          <div class="col-md-4 col-sm-12">
             <div class="well well-newco">
-              <h2>
-                <span class="text-newco">8</span>
+              <h2 class="text-center">
+                What's NewCo?<br>
+                <small class="text-newco">Get Out To Get In</small>
               </h2>
-              <p>Tech Pioneer and VC Speakers</p>
-            </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="well well-newco">
-              <h2>
-                <span class="text-newco">300+</span>
-              </h2>
-              <p>NewCo Attendees</p>
+              <p>
+                NewCo represents a radical departure from the traditional business conference format. Rather than learning in a conventional setting, festival attendees visit companies of their choice throughout the city. They learn about the companies first-hand from leaders and CEOs, right inside the offices.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="section" data-anchor="participate">
+    </header>
+    <section class="section" data-anchor="tickets">
       <div class="container">
-        <h2 class="text-center">Ways To Participate</h2>
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <div class="well well-newco">
-              <h2>
-                <a href="#" class="btn btn-default btn-newco btn-lg" role="button">
-                  Host A Session
-                </a>
-              </h2>
-              <p>
-                Your NewCo session is a chance to tell your own story of innovation, and to gather just the right audience in the context of your business goals.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="well well-newco">
-            <h2>
-              <a href="#" class="btn btn-default btn-newco btn-lg" role="button">
-                Get Your Ticket
-              </a>
-            </h2>
-            <p>
-              On September 13th, choose from 20 sessions led by founders and executives to learn about their innovation story.
-            </p>
-            </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="well well-newco">
-              <h2>
-                <a href="#" class="btn btn-default btn-newco btn-lg disabled" role="button">
-                  Become A Volunteer
-                </a>
-              </h2>
-              <p>
-                Stay Tuned...
-              </p>
-            </div>
-          </div>
-        </div>
+        <ul class="list-group">
+          <li class="list-group-item item-newco text-center">
+            <h2 class="text-newco">20</h2>
+            <p>NewCo Event Hosts</p>
+          </li>
+          <li class="list-group-item item-newco text-center">
+            <h2 class="text-newco">8</h2>
+            <p>Tech Pioneer and VC Speakers</p>
+          </li>
+          <li class="list-group-item item-newco text-center">
+            <h2 class="text-newco">300+</h2>
+            <p>NewCo Attendees</p>
+          </li>
+          <li class="list-group-item item-newco text-center">
+            <h3 style="display:inline-block;">
+              Get Your <span class="text-newco">Tickets</span>
+            </h3>
+            &nbsp;<a style="border:0" href="https://yoopay.cn/event/NewCoShanghai?lang=en&type=c&etype=e&btype=1&from_page=widget&ref=" name="yoopay-button-v2">Buy</a>
+          </li>
+        </ul>
       </div>
     </section>
     <section class="section" data-anchor="sponsors">
@@ -309,7 +264,6 @@
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.js"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/vendors/scrolloverflow.min.js"></script> -->
   <script>
     $('#full-page').fullpage({
       menu: '#top-nav',
@@ -321,7 +275,7 @@
           // $('#top-nav').removeClass('navbar-header').addClass('navbar-section');
           $('#top-nav .navbar-brand').removeClass('hidden');
         }
-        $('#top-nav')[index % 2 === 0 || anchorLink == 'about' ? 'addClass' : 'removeClass']('inverse');
+        $('#top-nav')[index > 1 || anchorLink == 'about' ? 'addClass' : 'removeClass']('inverse');
       }
     });
   </script>

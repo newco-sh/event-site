@@ -1,6 +1,11 @@
 body {
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
   color: #fff;
+  font-size: 16px;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
 .link-newco {
   color: #C2AC78;
@@ -13,7 +18,7 @@ body {
   color: #FFF9C5;
 }
 .text-newco {
-  color: #C2AC78;
+  color: #C2AC78 !important;
 }
 /* default section toggling background color */
 .section:nth-child(odd) {
@@ -35,9 +40,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-.section[data-anchor=participate] {
+.section[data-anchor=tickets] {
   background:
-    linear-gradient(rgba(51, 74, 117, 1), rgba(26, 25, 24, 0.7)),
+    linear-gradient(rgba(26, 25, 24, 0.7), rgba(26, 25, 24, 1)),
     url('img/section-participate-banner.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -58,6 +63,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.list-group-item.item-newco {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 .navbar-newco {
   background-color: #334A75;
