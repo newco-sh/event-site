@@ -162,7 +162,10 @@ body {
   padding: 0 1em;
 }
 /* header specifics */
-.header-lead-in,
+.header-logo {
+  width: 50%;
+}
+/*.header-lead-in,
 .header-logo {
   display: inline-block;
   padding-bottom: 1em;
@@ -200,4 +203,4 @@ body {
   .header-logo {
     width: 320px;
   }
-}
+}*/
