@@ -353,13 +353,8 @@
       menu: '#top-nav',
       autoScrolling: false,
       afterLoad: function(anchorLink, index) {
-        if (index === 1) {
-          $('#top-nav .navbar-brand').addClass('hidden');
-        } else {
-          // $('#top-nav').removeClass('navbar-header').addClass('navbar-section');
-          $('#top-nav .navbar-brand').removeClass('hidden');
-        }
-        $('#top-nav')[index > 1 || anchorLink == 'about' ? 'addClass' : 'removeClass']('inverse');
+        $('#top-nav .navbar-brand')[index === 1 ? 'addClass' : 'removeClass']('hidden');
+        $('#top-nav')[index > 1 ? 'addClass' : 'removeClass']('inverse');
       }
     });
   </script>
