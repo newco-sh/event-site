@@ -69,6 +69,7 @@
       </div>
       <div class="collapse navbar-collapse" id="top-nav-collapse">
         <ul class="nav navbar-nav navbar-right">
+          <li data-menuanchor="home" class="hidden" id="navbar-home"><a href="#home">HOME</a></li>
           <li data-menuanchor="tickets"><a href="#tickets">TICKETS</a></li>
           <li data-menuanchor="ca"><a href="#ca">CHINACCELERATOR</a></li>
           <li data-menuanchor="sponsors"><a href="#sponsors">SPONSORS</a></li>
@@ -350,9 +351,9 @@
   <script>
     $('#full-page').fullpage({
       menu: '#top-nav',
-      autoScrolling: false,
       afterLoad: function(anchorLink, index) {
         $('#top-nav .navbar-brand')[index === 1 ? 'addClass' : 'removeClass']('hidden');
+        $('#top-nav #navbar-home')[index === 1 ? 'addClass' : 'removeClass']('hidden');
         $('#top-nav')[index > 1 ? 'addClass' : 'removeClass']('inverse');
       }
     });
