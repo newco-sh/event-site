@@ -124,7 +124,7 @@
             <h3 style="display:inline-block;">
               Get Your <span class="text-newco">Tickets</span>
             </h3>
-            &nbsp;<a style="border:0" href="https://yoopay.cn/event/NewCoShanghai?lang=en&type=c&etype=e&btype=1&from_page=widget&ref=" name="yoopay-button-v2">Buy</a>
+            &nbsp;<a style="border:0" href="https://yoopay.cn/event/NewCoShanghai?lang=en&type=c&etype=e&btype=1&from_page=widget&ref=" name="yoopay-button-v2" id="btn-yoopay">Buy</a>
           </li>
         </ul>
       </div>
@@ -313,18 +313,23 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.js"></script>
   <script>
-    $('#full-page').fullpage({
-      menu: '#top-nav',
-      autoScrolling: false,
-      afterLoad: function(anchorLink, index) {
-        if (index === 1) {
-          $('#top-nav .navbar-brand').addClass('hidden');
-        } else {
-          // $('#top-nav').removeClass('navbar-header').addClass('navbar-section');
-          $('#top-nav .navbar-brand').removeClass('hidden');
+    $(function() {
+      $('#full-page').fullpage({
+        menu: '#top-nav',
+        autoScrolling: false,
+        afterLoad: function(anchorLink, index) {
+          if (index === 1) {
+            $('#top-nav .navbar-brand').addClass('hidden');
+          } else {
+            // $('#top-nav').removeClass('navbar-header').addClass('navbar-section');
+            $('#top-nav .navbar-brand').removeClass('hidden');
+          }
+          $('#top-nav')[index > 1 || anchorLink == 'about' ? 'addClass' : 'removeClass']('inverse');
         }
-        $('#top-nav')[index > 1 || anchorLink == 'about' ? 'addClass' : 'removeClass']('inverse');
-      }
+      });
+      $('#btn-yoopay').click(function(e) {
+        $.fn.fullpage.moveTo('home')
+      });
     });
   </script>
   <!-- 友付 -->
