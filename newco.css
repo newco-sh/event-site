@@ -9,8 +9,8 @@ body {
 }
 .link-newco {
   color: #C2AC78;
-  margin: 0.2em;
-  padding: 0.1em 0.2em;
+  margin: 0.1em;
+  padding: 0.1em;
   text-decoration: underline;
 }
 .link-newco:focus,
@@ -21,12 +21,11 @@ body {
   color: #C2AC78 !important;
 }
 /* default section toggling background color */
-.section:nth-child(odd) {
-  background-color: #334A75;
-}
-.section:nth-child(even),
-.section:last-child {
+.section {
   background-color: #1A1918;
+}
+.section:first-child {
+  background-color: #334A75;
 }
 .section[data-anchor=home] {
   background:
@@ -51,6 +50,18 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.section[data-anchor=ca] {
+  background:
+    linear-gradient(rgba(26, 25, 24, 0.9), rgba(26, 25, 24, 0.9)),
+    url('img/chinaccelerator-logo.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 .section[data-anchor=sponsors] {
   background:

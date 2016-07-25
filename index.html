@@ -32,6 +32,17 @@
   <![endif]-->
 </head>
 <body>
+  <!-- wechat qr modal -->
+  <div class="modal fade" id="wechat-modal" tabindex="-1" role="dialog" aria-labelledby="wechat-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="img/ca-wechat-qr.jpg" class="img-responsive center-block">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
   <nav id="top-nav" class="navbar navbar-inverse navbar-newco navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -45,6 +56,7 @@
       <div class="collapse navbar-collapse" id="top-nav-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li data-menuanchor="tickets"><a href="#tickets">TICKETS</a></li>
+          <li data-menuanchor="ca"><a href="#ca">CHINACCELERATOR</a></li>
           <li data-menuanchor="sponsors"><a href="#sponsors">SPONSORS</a></li>
           <li class="dropdown">
             <a href="#intro" class="dropdown-toggle" data-toggle="dropdown">
@@ -117,6 +129,56 @@
         </ul>
       </div>
     </section>
+    <section class="section" data-anchor="ca">
+      <div class="container">
+        <div class="well well-newco">
+          <h2 class="text-center">
+            About <span class="text-newco">Chinaccelerator</span>
+          </h2>
+          <p style="margin-left:1em;margin-right:1em;">
+            Chinaccelerator, the first startup accelerator in China and Asia, is a mentorship-driven program helping internet startups from around the world cross borders - from the world into China and from China to the world. It is backed by the venture fund SOSV with $250M AUM operating five accelerator programs around the world.
+            <br><br>
+            This September, NewCo and Chinaccelerator are coming together to connect the world’s top start-ups, high-growth companies, investors, influencers and entrepreneurs through NewCo Shanghai and Chinaccelerator 8x8, an event where 8 of the tech industries biggest movers and shakers give 8 minute talks about how they have succeeded in building tech companies.
+          </p>
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <p>
+                Find out more: <a href="http://chinaccelerator.com/" class="link-newco">www.chinaccelerator.com</a>
+              </p>
+            </div>
+            <div class="col-md-8 col-sm-12">
+              <ul class="list-inline text-center">
+                <li>
+                  <a href="https://www.facebook.com/China.Axlr8r/" class="link-newco">
+                    <i class="fa fa-lg fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/Chinaccelerator" class="link-newco">
+                    <i class="fa fa-lg fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/chinaccelerator" class="link-newco">
+                    <i class="fa fa-lg fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://weibo.com/chinaccelerator" class="link-newco">
+                    <i class="fa fa-lg fa-weibo"></i>
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#wechat-modal" class="link-newco">
+                    <i class="fa fa-lg fa-weixin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="section" data-anchor="sponsors">
       <div class="container">
         <h2 class="text-center">SPONSORS</h2>
@@ -183,7 +245,7 @@
     <footer class="section fp-auto-height" data-anchor="about">
       <div class="container" style="padding:2em 0;font-size:0.8em;">
         <div class="row">
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-3 col-sm-12">
             <img src="img/newco-logo-shift.png" class="center-block" style="height:48px;margin-bottom:4px;">
             <ul class="list-inline text-center">
               <li>
@@ -197,7 +259,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-9 col-sm-12">
             <div class="text-center">
               <img src="img/newco-logo.svg" style="height:36px;">
               <span style="font-size:32px;vertical-align:text-top;">Cities</span>
@@ -242,17 +304,6 @@
             </ul>
           </div>
         </div>
-        <hr style="border-color:#C2AC78;">
-        <h2 class="text-center">
-          About <span class="text-newco">Chinaccelerator</span>
-        </h2>
-        <p style="margin-left:1em;margin-right:1em;">
-          Chinaccelerator, the first startup accelerator in China and Asia, is a mentorship-driven program helping internet startups from around the world cross borders - from the world into China and from China to the world. It is backed by the venture fund SOSV with $250M AUM operating five accelerator programs around the world.
-          <br><br>
-          This September, NewCo and Chinaccelerator are coming together to connect the world’s top start-ups, high-growth companies, investors, influencers and entrepreneurs through NewCo Shanghai and Chinaccelerator 8x8, an event where 8 of the tech industries biggest movers and shakers give 8 minute talks about how they have succeeded in building tech companies.
-          <br><br>
-          Find out more: <a href="http://chinaccelerator.com/" class="link-newco">www.chinaccelerator.com</a>
-        </p>
       </div>
     </footer>
   </div>
