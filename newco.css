@@ -21,6 +21,10 @@ body {
   color: #C2AC78 !important;
 }
 /* default section toggling background color */
+.section .container {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 .section {
   background-color: #1A1918;
 }
@@ -32,6 +36,7 @@ body {
     linear-gradient(rgba(51, 74, 117, 1), rgba(26, 25, 24, 0.6)),
     url('img/header-banner.jpg');
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -43,6 +48,7 @@ body {
     linear-gradient(rgba(26, 25, 24, 0.6), rgba(26, 25, 24, 0.6)),
     url('img/section-participate-banner.jpg');
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -54,6 +60,7 @@ body {
     linear-gradient(rgba(26, 25, 24, 0.9), rgba(26, 25, 24, 0.9)),
     url('img/chinaccelerator-logo.png');
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: contain;
   -moz-background-size: contain;
@@ -65,6 +72,7 @@ body {
     linear-gradient(rgba(26, 25, 24, 0.9), rgba(26, 25, 24, 0.9)),
     url('img/section-sponsors-banner.png');
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
