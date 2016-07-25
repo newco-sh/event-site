@@ -3,10 +3,6 @@ body {
   color: #fff;
   font-size: 16px;
 }
-.img-sponsor {
-  max-height: 60px;
-  max-width: 180px;
-}
 .row {
   margin-left: 0;
   margin-right: 0;
@@ -69,7 +65,7 @@ body {
 }
 .section[data-anchor=sponsors] {
   background:
-    linear-gradient(rgba(26, 25, 24, 0.6), rgba(26, 25, 24, 1)),
+    linear-gradient(rgba(26, 25, 24, 0.9), rgba(26, 25, 24, 0.9)),
     url('img/section-sponsors-banner.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -78,6 +74,9 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.modal-newco .modal-content {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .list-group-item.item-newco {
   background-color: rgba(255, 255, 255, 0.1);
@@ -142,9 +141,6 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   border-width: 0;
 }
-.well-newco.light {
-  background-color: rgba(255, 255, 255, 0.5);
-}
 .well-newco small,
 .well-newco .small {
   color: #fff;
@@ -161,46 +157,44 @@ body {
 .well-newco ul.list-inline>li {
   padding: 0 1em;
 }
-/* header specifics */
-.header-logo {
-  width: 50%;
-}
-/*.header-lead-in,
-.header-logo {
-  display: inline-block;
-  padding-bottom: 1em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  vertical-align: text-top;
-}
-.header-content,
-.header-logo {
-  padding-top: 1em;
-}
-.header-logo {
-  max-width: 100%;
-}
+/* responsiveness */
 @media (max-width: 480px) {
   .header-logo {
-    width: 180px;
+    width: 50%;
   }
-  .header-lead-in,
-  .header-logo {
-    padding-bottom: 0em;
-    vertical-align: middle;
-  }
-  .header-content,
-  .header-logo {
-    padding-top: 0em;
+  .img-sponsor {
+    height: 24px;
   }
 }
-@media (min-width: 481px) and (max-width: 1023px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .header-logo {
-    width: 240px;
+    width: 40%;
+  }
+  .img-sponsor {
+    height: 28px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1023px) {
   .header-logo {
-    width: 320px;
+    width: 30%;
   }
-}*/
+  .img-sponsor {
+    height: 36px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .header-logo {
+    width: 25%;
+  }
+  .img-sponsor {
+    height: 38px;
+  }
+}
+@media (min-width: 1200px) {
+  .header-logo {
+    width: 20%;
+  }
+  .img-sponsor {
+    height: 42px;
+  }
+}
