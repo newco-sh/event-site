@@ -45,7 +45,7 @@ h4 {
 .section[data-anchor=home] {
   background:
     linear-gradient(rgba(51, 74, 117, 1), rgba(26, 25, 24, 0.6)),
-    url('img/header-banner.jpg');
+    url('../img/header-banner.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -57,7 +57,7 @@ h4 {
 .section[data-anchor=tickets] {
   background:
     linear-gradient(rgba(26, 25, 24, 0.6), rgba(26, 25, 24, 0.6)),
-    url('img/section-participate-banner.jpg');
+    url('../img/section-participate-banner.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -69,7 +69,7 @@ h4 {
 .section[data-anchor=ca] {
   background:
     linear-gradient(rgba(26, 25, 24, 0.9), rgba(26, 25, 24, 0.9)),
-    url('img/chinaccelerator-logo.png');
+    url('../img/chinaccelerator-logo.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -81,7 +81,7 @@ h4 {
 .section[data-anchor=sponsors] {
   background:
     linear-gradient(rgba(26, 25, 24, 0.9), rgba(26, 25, 24, 0.9)),
-    url('img/section-sponsors-banner.png');
+    url('../img/section-sponsors-banner.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
