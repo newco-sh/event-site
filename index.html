@@ -31,6 +31,15 @@
   <![endif]-->
 </head>
 <body>
+  <div class="modal fade" id="rock-lobster" tabindex="-1" role="dialog" aria-labelledby="rock-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="img/rock-lobster.gif" class="img-responsive center-block">
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- wechat qr modal -->
   <div class="modal fade" id="wechat-modal" tabindex="-1" role="dialog" aria-labelledby="wechat-label">
     <div class="modal-dialog" role="document">
@@ -412,30 +421,9 @@
   <script src="js/jquery-2.2.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.fullPage.min.js"></script>
+  <script src="js/egg.min.js"></script>
   <script>
     var _lang = 'en';
-    var navTrans = {
-      hosts: {
-        en: 'HOSTS',
-        zh: '活动企业'
-      },
-      tickets: {
-        en: 'TICKETS',
-        zh: '报名购票'
-      },
-      sponsors: {
-        en: 'SPONSORS',
-        zh: '赞助机构'
-      },
-      ca: {
-        en: 'CHINACCELERATOR',
-        zh: '中国加速'
-      },
-      home: {
-        en: 'HOME',
-        zh: '首页'
-      }
-    };
     $('#toggle-translation').click(function(e) {
       e.preventDefault();
       if (_lang === 'en') {
@@ -457,6 +445,14 @@
         $('#top-nav #navbar-home')[index === 1 ? 'addClass' : 'removeClass']('hidden');
         $('#top-nav')[index > 1 ? 'addClass' : 'removeClass']('inverse');
       }
+    });
+    $(function() {
+      var egg = new Egg('up,up,down,down,left,right,left,right,b,a', function() {
+        $('#rock-lobster').modal('show');
+        window.setTimeout(function() {
+          $('#rock-lobster').modal('hide');
+        }, 5000);
+      }).listen();
     });
   </script>
 </body>
