@@ -46,11 +46,17 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-body">
-          <h4 class="text-center">
+          <h4 class="text-center lang-en">
             Opening Doors To <span class="text-newco">Shanghai</span>'s Finest Companies
           </h4>
-          <p>
+          <h4 class="text-center lang-zh hidden">
+            开启大门，思想交锋。NewCo，一场<span class="text-newco">上海</span>杰出企业的新创派对。
+          </h4>
+          <p class="lang-en">
             NewCo represents a radical departure from the traditional business conference format. Rather than learning in a conventional setting, festival attendees visit companies of their choice throughout the city. They learn about the companies first-hand from leaders and CEOs, right inside the offices.
+          </p>
+          <p class="lang-zh hidden">
+            NewCo是在全球各大城市举行的创新盛宴。在节日当天，参与者将选择感兴趣的杰出企业，通过一系列精心策划的互动环节，与行业领袖、成功创业家面对面结识与交流。
           </p>
         </div>
       </div>
@@ -69,11 +75,43 @@
       </div>
       <div class="collapse navbar-collapse" id="top-nav-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li data-menuanchor="home" class="hidden" id="navbar-home"><a href="#home">HOME</a></li>
-          <li data-menuanchor="tickets"><a href="#tickets">TICKETS</a></li>
-          <li data-menuanchor="ca"><a href="#ca">CHINACCELERATOR</a></li>
-          <li data-menuanchor="hosts"><a href="#hosts">HOSTS</a></li>
-          <li data-menuanchor="sponsors"><a href="#sponsors">SPONSORS</a></li>
+          <li data-menuanchor="home" class="hidden" id="navbar-home">
+            <a href="#home">
+              <span class="lang-en">HOME</span>
+              <span class="lang-zh hidden">首页</span>
+            </a>
+          </li>
+          <li data-menuanchor="tickets">
+            <a href="#tickets">
+              <span class="lang-en">TICKETS</span>
+              <span class="lang-zh hidden">报名购票</span>
+            </a>
+          </li>
+          <li data-menuanchor="ca">
+            <a href="#ca">
+              <span class="lang-en">CHINACCELERATOR</span>
+              <span class="lang-zh hidden">中国加速</span>
+            </a>
+          </li>
+          <li data-menuanchor="hosts">
+            <a href="#hosts">
+              <span class="lang-en">HOSTS</span>
+              <span class="lang-zh hidden">活动企业</span>
+            </a>
+          </li>
+          <li data-menuanchor="sponsors">
+            <a href="#sponsors">
+              <span class="lang-en">SPONSORS</span>
+              <span class="lang-zh hidden">赞助机构</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" id="toggle-translation">
+              <i class="fa fa-lg fa-language" aria-hidden="true"></i>
+              <span class="lang-en">汉</span>
+              <span class="lang-zh hidden">EN</span>
+            </a>
+          </li>
           <li class="dropdown">
             <a href="#intro" class="dropdown-toggle" data-toggle="dropdown">
               <span class="caret"></span>
@@ -93,11 +131,18 @@
       <div class="container">
         <img src="img/newco-logo-shanghai.svg" class="center-block header-logo">
         <div class="text-center">
-          <h5 style="margin-bottom:1.5em;">September 13, 2016</h5>
-          <h5 style="margin-bottom:1.5em;">PRESENTED BY</h5>
-          <h4 style="margin-bottom:1.5em;">CHINACCELERATOR</h4>
-          <button type="button" class="btn btn-default btn-newco" data-toggle="modal" data-target="#newco-modal">
-            What's NewCo?
+          <h4 style="margin-bottom:1.5em;">
+            <span class="lang-en">September 13, 2016</span>
+            <span class="lang-zh hidden">2016 九月 13</span>
+          </h5>
+          <div class="lang-en">
+            <h5 style="margin-bottom:1.5em;">PRESENTED BY</h5>
+            <h4 style="margin-bottom:1.5em;">CHINACCELERATOR</h4>
+          </div>
+          <h4 class="lang-zh hidden" style="margin-bottom:1.5em;">中国加速 为您呈现</h4>
+          <button type="button" class="btn btn-default btn-newco btn-lg" data-toggle="modal" data-target="#newco-modal">
+            <span class="lang-en">What's NewCo?</span>
+            <span class="lang-zh hidden">NewCo 简介</span>
           </button>
         </div>
       </div>
@@ -108,27 +153,39 @@
           <li>
             <div class="well well-newco">
               <h2 class="text-newco">20</h2>
-              <p>NewCo Event Hosts</p>
+              <p class="lang-en">NewCo Event Hosts</p>
+              <p class="lang-zh hidden">
+                家NewCo活动主办企业
+              </p>
             </div>
           </li>
           <li>
             <div class="well well-newco">
               <h2 class="text-newco">8</h2>
-              <p>Tech Pioneer and VC Speakers</p>
+              <p class="lang-en">Tech Pioneer and VC Speakers</p>
+              <p class="lang-zh hidden">
+                位科技大咖和VC演讲者
+              </p>
             </div>
           </li>
           <li>
             <div class="well well-newco">
               <h2 class="text-newco">300+</h2>
-              <p>NewCo Attendees</p>
+              <p class="lang-en">NewCo Attendees</p>
+              <p class="lang-zh hidden">
+                个NewCo活动参加者
+              </p>
             </div>
           </li>
         </ul>
-        <h3>Get Your Tickets</h3>
+        <h3 class="lang-en">Get Your Tickets</h3>
+        <h3 class="lang-zh hidden">购票</h3>
         <ul class="list-inline">
           <li>
             <a href="https://yoopay.cn/event/NewCoShanghai" class="btn btn-default btn-newco btn-lg" target="_blank">
-              YooPay <i class="fa fa-external-link"></i>
+              <span class="lang-en">YooPay</span>
+              <span class="lang-zh hidden">友付</span>
+              <i class="fa fa-external-link"></i>
             </a>
           </li>
           <li>
@@ -141,18 +198,26 @@
     </section>
     <section class="section" data-anchor="ca">
       <div class="container">
-        <h2 class="text-center">
+        <h2 class="text-center lang-en">
           About <span class="text-newco">Chinaccelerator</span>
         </h2>
-        <p style="margin-left:1em;margin-right:1em;">
+        <h2 class="text-center lang-zh hidden">
+          关于<span>中国加速</span>
+        </h2>
+        <p class="lang-en">
           Chinaccelerator, the first startup accelerator in China and Asia, is a mentorship-driven program helping internet startups from around the world cross borders - from the world into China and from China to the world. It is backed by the venture fund SOSV with $250M AUM operating five accelerator programs around the world.
           <br><br>
           This September, NewCo and Chinaccelerator are coming together to connect the world’s top start-ups, high-growth companies, investors, influencers and entrepreneurs through NewCo Shanghai and Chinaccelerator 8x8, an event where 8 of the tech industries biggest movers and shakers give 8 minute talks about how they have succeeded in building tech companies.
         </p>
+        <p class="lang-zh hidden">
+          中国加速是亚洲第一个以导师为驱动的软件创业加速器，是管理着2.5亿美元的早期创投SOSV基金投资成立的全球加速器之一。它覆盖全球，每年经营两届创业项目，帮助来自全球的初创公司进入中国市场，也帮助中国公司进入国际市场。中国加速主要关注电子商务、金融科技、数据营销以及教育等生活方式类创业项目。它拥有国际化的背景，集合了来自全球的顶级导师、合作伙伴以及投资人，为创业者提供更广泛的视角和更丰富的资源。
+        </p>
         <div class="row">
           <div class="col-md-4 col-sm-12">
             <p>
-              Find out more: <a href="http://chinaccelerator.com/" class="link-newco">www.chinaccelerator.com</a>
+              <span class="lang-en">Find out more:</span>
+              <span class="lang-zh hidden">更多详情：</span>
+              <a href="http://chinaccelerator.com/" class="link-newco">www.chinaccelerator.com</a>
             </p>
           </div>
           <div class="col-md-8 col-sm-12">
@@ -189,12 +254,18 @@
     </section>
     <section class="section" data-anchor="hosts">
       <div class="container">
-        <h2 class="text-center">Coming Soon...</h2>
+        <h2 class="text-center">
+          <span class="lang-en">Coming Soon...</span>
+          <span class="lang-zh hidden">康明孙...</span>
+        </h2>
       </div>
     </section>
     <section class="section fp-auto-height" data-anchor="sponsors">
       <div class="container">
-        <h2>GLOBAL SPONSORS</h2>
+        <h2>
+          <span class="lang-en">GLOBAL SPONSORS</span>
+          <span class="lang-zh hidden">国际赞助机构</span>
+        </h2>
         <ul class="list-inline" style="margin-top:1em;">
           <li>
             <div class="well well-newco">
@@ -227,7 +298,10 @@
             </div>
           </li>
         </ul>
-        <h2>LOCAL SPONSORS</h2>
+        <h2>
+          <span class="lang-en">LOCAL SPONSORS</span>
+          <span class="lang-zh hidden">本地赞助机构</span>
+        </h2>
         <ul class="list-inline">
           <li>
             <div class="well well-newco">
@@ -333,6 +407,41 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.fullPage.min.js"></script>
   <script>
+    var _lang = 'en';
+    var navTrans = {
+      hosts: {
+        en: 'HOSTS',
+        zh: '活动企业'
+      },
+      tickets: {
+        en: 'TICKETS',
+        zh: '报名购票'
+      },
+      sponsors: {
+        en: 'SPONSORS',
+        zh: '赞助机构'
+      },
+      ca: {
+        en: 'CHINACCELERATOR',
+        zh: '中国加速'
+      },
+      home: {
+        en: 'HOME',
+        zh: '首页'
+      }
+    };
+    $('#toggle-translation').click(function(e) {
+      e.preventDefault();
+      if (_lang === 'en') {
+        $('.lang-zh').removeClass('hidden');
+        $('.lang-en').addClass('hidden');
+        _lang = 'zh';
+      } else {
+        $('.lang-zh').addClass('hidden');
+        $('.lang-en').removeClass('hidden');
+        _lang = 'en';
+      }
+    });
     $('#full-page').fullpage({
       menu: '#top-nav',
       autoScrolling: false,
@@ -343,16 +452,6 @@
         $('#top-nav')[index > 1 ? 'addClass' : 'removeClass']('inverse');
       }
     });
-    // $('.modal').on('shown.bs.modal', function() {
-    //   $(this).css({
-    //     'margin-top': function () { //vertical centering
-    //       return -($(this).height() / 2);
-    //     },
-    //     'margin-left': function () { //Horizontal centering
-    //       return -($(this).width() / 2);
-    //     }
-    //   });
-    // });
   </script>
 </body>
 </html>
