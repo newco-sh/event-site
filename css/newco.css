@@ -119,9 +119,12 @@ footer.section[data-anchor=about] {
 .navbar-newco .navbar-nav>.active>a:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.navbar-brand.tiny {
+.navbar-brand {
   margin: 0;
   padding: 0;
+}
+.navbar-brand img {
+  height: 200%;
 }
 .navbar-brand.tiny img {
   max-height: 100%;
