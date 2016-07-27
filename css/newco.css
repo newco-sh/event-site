@@ -65,7 +65,7 @@ header.section[data-anchor=home] {
   -o-background-size: cover;
   background-size: cover;
 }*/
-.section[data-anchor=ca] {
+/*.section[data-anchor=ca] {
   background:
     linear-gradient(rgba(251, 251, 251, 0.9), rgba(251, 251, 251, 0.9)),
     url('../img/chinaccelerator-logo.png');
@@ -76,7 +76,7 @@ header.section[data-anchor=home] {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-}
+}*/
 .section[data-anchor=sponsors] {
   background:
     linear-gradient(rgba(251, 251, 251, 0.7), rgba(251, 251, 251, 0.7)),
