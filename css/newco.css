@@ -178,11 +178,17 @@ footer.section[data-anchor=about] {
 }
 /* responsiveness */
 @media (max-width: 480px) {
+  .navbar-brand img {
+     height: 100%;
+  }
   .img-sponsor {
     height: 24px;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
+  .navbar-brand img {
+     height: 100%;
+  }
   .img-sponsor {
     height: 28px;
   }
