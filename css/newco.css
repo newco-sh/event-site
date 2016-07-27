@@ -93,8 +93,11 @@ footer.section[data-anchor=about] {
   background-color: rgb(17, 17, 17);
   color: #eee !important;
 }
+.modal-newco {
+  top: 30% !important;
+}
 .modal-newco .modal-content {
-  background-color: rgb(251, 251, 251);
+  background-color: rgba(245, 245, 245, 0.9);
 }
 .list-group-item.item-newco {
   background-color: rgba(255, 255, 255, 0.1);
