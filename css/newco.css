@@ -1,6 +1,6 @@
 body {
   font-family: 'Josefin Sans', sans-serif !important;
-  color: #eee;
+  color: #ddd;
   font-size: 16px;
 }
 h5,
@@ -11,8 +11,9 @@ p {
 h1,
 h2,
 h3,
-h4 {
-  font-family: 'PT Sans', sans-serif;
+h4,
+a {
+  font-family: 'PT Sans', sans-serif !important;
 }
 .row {
   margin-left: 0;
@@ -105,7 +106,9 @@ h4 {
   background-color: #1A1918;
 }
 .navbar-newco .navbar-nav>li>a {
-  color: #fff;
+  font-weight: 400;
+  font-size: 90%;
+  color: #ddd;
 }
 .navbar-newco .navbar-nav>li>a:focus,
 .navbar-newco .navbar-nav>li>a:hover,
@@ -114,17 +117,20 @@ h4 {
 .navbar-newco .navbar-nav>.active>a:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.navbar-brand {
+.navbar-brand.tiny {
   margin: 0;
   padding: 0;
 }
-.navbar-brand img {
+.navbar-brand.tiny img {
   max-height: 100%;
+}
+.navbar-brand>.brand-date {
+  color: #ddd;
 }
 .navbar-newco .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
-  color: #fff;
+  color: #ddd;
   background-color: #334A75;
   border-width: 0;
   box-shadow: none;
@@ -135,7 +141,7 @@ h4 {
   background-color: #1A1918;
 }
 .dropdown:hover .dropdown-menu a {
-  color: #fff;
+  color: #ddd;
 }
 .dropdown:hover .dropdown-menu a:focus,
 .dropdown:hover .dropdown-menu a:hover {
@@ -158,7 +164,7 @@ h4 {
 }
 .well-newco small,
 .well-newco .small {
-  color: #fff;
+  color: #ddd;
   font-size: 48%;
 }
 .well-newco h1,
@@ -174,41 +180,26 @@ h4 {
 }
 /* responsiveness */
 @media (max-width: 480px) {
-  .header-logo {
-    width: 50%;
-  }
   .img-sponsor {
     height: 24px;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  .header-logo {
-    width: 40%;
-  }
   .img-sponsor {
     height: 28px;
   }
 }
 @media (min-width: 769px) and (max-width: 1023px) {
-  .header-logo {
-    width: 30%;
-  }
   .img-sponsor {
     height: 36px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1199px) {
-  .header-logo {
-    width: 25%;
-  }
   .img-sponsor {
     height: 38px;
   }
 }
 @media (min-width: 1200px) {
-  .header-logo {
-    width: 20%;
-  }
   .img-sponsor {
     height: 42px;
   }
