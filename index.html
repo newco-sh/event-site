@@ -137,6 +137,20 @@
               <span class="lang-zh hidden">活动企业</span>
             </a>
           </li>
+          <li class="navbar-about-sub hidden">
+            <a href="#about/companies">
+              <i class="fa fa-briefcase"></i>
+              <small class="lang-en">COMPANIES</small>
+              <small class="lang-zh hidden">公司</small>
+            </a>
+          </li>
+          <li class="navbar-about-sub hidden">
+            <a href="#about/presenters">
+              <i class="fa fa-users"></i>
+              <small class="lang-en">PRESENTERS</small>
+              <small class="lang-zh hidden">演讲人</small>
+            </a>
+          </li>
           <li data-menuanchor="tickets">
             <a href="#tickets">
               <i class="fa fa-ticket"></i>
@@ -515,6 +529,7 @@
         $('#top-nav .navbar-brand>.brand-date')[index === 1 ? 'removeClass' : 'addClass']('hidden');
         $('#top-nav #navbar-home')[index === 1 ? 'addClass' : 'removeClass']('hidden');
         $('#top-nav')[index > 1 ? 'addClass' : 'removeClass']('inverse');
+        $('#top-nav .navbar-about-sub')[anchorLink.indexOf('about') > -1 ? 'removeClass' : 'addClass']('hidden');
       }
     });
     $(function() {
