@@ -68,6 +68,13 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title">
             NewCo - Shanghai
+            <small>
+              <a href="#" class="toggle-translation link-newco">
+                <i class="fa fa-lg fa-language" aria-hidden="true"></i>
+                <span class="lang-en">汉</span>
+                <span class="lang-zh hidden">EN</span>
+              </a>
+            </small>
           </h4>
         </div>
         <div class="modal-body">
@@ -181,7 +188,7 @@
             </a>
           </li>
           <li>
-            <a href="#" id="toggle-translation">
+            <a href="#" class="toggle-translation">
               <i class="fa fa-lg fa-language" aria-hidden="true"></i>
               <span class="lang-en">汉</span>
               <span class="lang-zh hidden">EN</span>
@@ -583,7 +590,7 @@
   <script src="js/egg.min.js"></script>
   <script>
     var _lang = 'en';
-    $('#toggle-translation').click(function(e) {
+    $('.toggle-translation').click(function(e) {
       e.preventDefault();
       if (_lang === 'en') {
         $('.lang-zh').removeClass('hidden');
