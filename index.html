@@ -281,9 +281,10 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-md-4 col-sm-12">
-            <div class="panel panel-default">
+            <div class="panel panel-info">
               <div class="panel-heading">
                 <h3 class="panel-title">
+                  <i class="fa fa-ticket"></i>
                   <span class="lang-en">Regular Pass</span>
                   <span class="lang-zh hidden">普通票</span>
                 </h3>
@@ -303,6 +304,7 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h3 class="panel-title">
+                  <i class="fa fa-ticket"></i>
                   <span class="lang-en">Silver Pass</span>
                   <span class="lang-zh hidden">白银票</span>
                 </h3>
@@ -586,7 +588,7 @@
       autoScrolling: false,
       fitToSection: false,
       controlArrows: false,
-      // scrollOverflow: true,
+      scrollOverflow: true,
       afterLoad: function(anchorLink, index) {
         $('#top-nav .navbar-brand')[index === 1 ? 'removeClass' : 'addClass']('tiny');
         $('#top-nav .navbar-brand>.brand-date')[index === 1 ? 'removeClass' : 'addClass']('hidden');
