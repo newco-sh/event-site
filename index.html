@@ -352,12 +352,12 @@
           </div>
           <h5 class="lang-en">**you will not be able to register for more than one session per timeslot</h5>
           <h5 class="lang-zh hidden">**同一时间段只能选择一项</h5>
-          <a href="https://yoopay.cn/event/NewCoShanghai" class="btn btn-default btn-newco btn-lg" target="_blank">
+          <a href="https://yoopay.cn/event/NewCoShanghai" class="btn btn-default btn-newco btn-lg" target="_blank" style="margin-top:0.5em;">
             <i class="fa fa-ticket"></i>
             <span class="lang-en">Union Pay, WeChat Pay, Alipay</span>
             <span class="lang-zh hidden">银联、微信支付、支付宝</span>
           </a>
-          <a href="javascript:void(0)" class="btn btn-default btn-newco btn-lg" target="_blank">
+          <a href="javascript:void(0)" class="btn btn-default btn-newco btn-lg" target="_blank" style="margin-top:0.5em;">
             <i class="fa fa-ticket"></i>
             <span class="lang-en">Master, Visa, Paypal</span>
             <span class="lang-zh hidden">万事达、VISA、贝宝</span>
@@ -587,8 +587,6 @@
       menu: '#top-nav',
       autoScrolling: false,
       fitToSection: false,
-      controlArrows: false,
-      // scrollOverflow: true,
       afterLoad: function(anchorLink, index) {
         $('#top-nav .navbar-brand')[index === 1 ? 'removeClass' : 'addClass']('tiny');
         $('#top-nav .navbar-brand>.brand-date')[index === 1 ? 'removeClass' : 'addClass']('hidden');
