@@ -322,9 +322,10 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-12">
-            <div class="panel panel-default">
+            <div class="panel panel-warning">
               <div class="panel-heading">
-                <h3 class="panel-title">
+                <h3 class="panel-title text-newco">
+                  <i class="fa fa-ticket"></i>
                   <span class="lang-en">Gold Pass</span>
                   <span class="lang-zh hidden">黄金票</span>
                 </h3>
@@ -585,7 +586,7 @@
       autoScrolling: false,
       fitToSection: false,
       controlArrows: false,
-      scrollOverflow: true,
+      // scrollOverflow: true,
       afterLoad: function(anchorLink, index) {
         $('#top-nav .navbar-brand')[index === 1 ? 'removeClass' : 'addClass']('tiny');
         $('#top-nav .navbar-brand>.brand-date')[index === 1 ? 'removeClass' : 'addClass']('hidden');
