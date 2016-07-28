@@ -65,18 +65,6 @@ header.section[data-anchor=home] {
   -o-background-size: cover;
   background-size: cover;
 }
-/*.section[data-anchor=ca] {
-  background:
-    linear-gradient(rgba(251, 251, 251, 0.9), rgba(251, 251, 251, 0.9)),
-    url('../img/chinaccelerator-logo.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-}*/
 .section[data-anchor=sponsors] {
   background:
     linear-gradient(rgba(251, 251, 251, 0.7), rgba(251, 251, 251, 0.7)),
@@ -89,15 +77,24 @@ header.section[data-anchor=home] {
   -o-background-size: cover;
   background-size: cover;
 }
-footer.section[data-anchor=about] {
+footer.section[data-anchor=newco] {
   background-color: rgb(17, 17, 17);
   color: #eee !important;
 }
 .modal-newco {
-  top: 30% !important;
+  text-align: center;
 }
 .modal-newco .modal-content {
   background-color: rgba(245, 245, 245, 0.9);
+}
+.modal-newco .modal-dialog {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  margin: 0 auto;
+}
+.modal-newco .link-newco {
+  color: #76602C;
 }
 .list-group-item.item-newco {
   background-color: rgba(255, 255, 255, 0.1);
@@ -177,6 +174,14 @@ footer.section[data-anchor=about] {
   border-width: 0;
 }
 /* responsiveness */
+@media screen and (min-width: 768px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
 @media (max-width: 480px) {
   .navbar-brand img {
      height: 100%;
