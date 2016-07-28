@@ -279,31 +279,87 @@
     </section>
     <section class="section" data-anchor="tickets">
       <div class="container text-center">
-        <h3 class="lang-en">Get Your Tickets</h3>
-        <h3 class="lang-zh hidden">购票</h3>
-        <ul class="list-inline">
-          <li style="margin: 0 1em;">
-            <a href="https://yoopay.cn/event/NewCoShanghai" class="btn btn-default btn-newco btn-lg" target="_blank">
-              <i class="fa fa-ticket"></i>
-              <span class="lang-en">YooPay</span>
-              <span class="lang-zh hidden">友付</span>
-            </a>
-            <p>
-              <small class="lang-en">(Union Pay, WeChat Pay, Alipay)</small>
-              <small class="lang-zh hidden">（银联、微信支付、支付宝）</small>
-            </p>
-          </li>
-          <li style="margin: 0 1em;">
-            <a href="#" class="btn btn-default btn-newco btn-lg">
-              <i class="fa fa-ticket"></i>
-              Eventbrite
-            </a>
-            <p>
-              <small class="lang-en">(Master, Visa, Paypal)</small>
-              <small class="lang-zh hidden">（万事达、VISA、贝宝）</small>
-            </p>
-          </li>
-        </ul>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <span class="lang-en">Regular Pass</span>
+                  <span class="lang-zh hidden">普通票</span>
+                </h3>
+              </div>
+              <div class="panel-body">
+                <h3>RMB ￥188</h3>
+                <hr>
+                <h3 class="lang-en">5 NewCo Sessions**</h3>
+                <h3 class="lang-zh hidden">5项NewCo活动**</h3>
+                <hr>
+                <h3 class="lang-en">8x8 Speaking Event</h3>
+                <h3 class="lang-zh hidden">8x8企业家分享</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <span class="lang-en">Silver Pass</span>
+                  <span class="lang-zh hidden">白银票</span>
+                </h3>
+              </div>
+              <div class="panel-body">
+                <h3>RMB ￥388</h3>
+                <hr>
+                <h3 class="lang-en">5 NewCo Sessions**</h3>
+                <h3 class="lang-zh hidden">5项NewCo活动**</h3>
+                <hr>
+                <h3 class="lang-en">8x8 Speaking Event</h3>
+                <h3 class="lang-zh hidden">8x8企业家分享</h3>
+                <hr>
+                <h3 class="text-newco lang-en">VIP Dinner</h3>
+                <h3 class="text-newco lang-zh hidden">VIP 晚宴</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <span class="lang-en">Gold Pass</span>
+                  <span class="lang-zh hidden">黄金票</span>
+                </h3>
+              </div>
+              <div class="panel-body">
+                <h3>RMB ￥488</h3>
+                <hr>
+                <h3 class="lang-en">
+                  <strong class="text-newco">Unlimited</strong> NewCo Sessions
+                </h3>
+                <h3 class="lang-zh hidden">
+                  <strong class="text-newco">任意选择</strong>NewCo活动数量
+                </h3>
+                <hr>
+                <h3 class="lang-en">8x8 Speaking Event</h3>
+                <h3 class="lang-zh hidden">8x8企业家分享</h3>
+                <hr>
+                <h3 class="text-newco lang-en">VIP Dinner</h3>
+                <h3 class="text-newco lang-zh hidden">VIP 晚宴</h3>
+              </div>
+            </div>
+          </div>
+          <h5 class="lang-en">**you will not be able to register for more than one session per timeslot</h5>
+          <h5 class="lang-zh hidden">**同一时间段只能选择一项</h5>
+          <a href="https://yoopay.cn/event/NewCoShanghai" class="btn btn-default btn-newco btn-lg" target="_blank">
+            <i class="fa fa-ticket"></i>
+            <span class="lang-en">Union Pay, WeChat Pay, Alipay</span>
+            <span class="lang-zh hidden">银联、微信支付、支付宝</span>
+          </a>
+          <a href="javascript:void(0)" class="btn btn-default btn-newco btn-lg" target="_blank">
+            <i class="fa fa-ticket"></i>
+            <span class="lang-en">Master, Visa, Paypal</span>
+            <span class="lang-zh hidden">万事达、VISA、贝宝</span>
+          </a>
+        </div>
       </div>
     </section>
     <section class="section fp-auto-height" data-anchor="sponsors">
@@ -504,6 +560,7 @@
   <script src="js/jquery-2.2.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.fullPage.min.js"></script>
+  <script src="js/scrolloverflow.min.js"></script>
   <script src="js/egg.min.js"></script>
   <script>
     var _lang = 'en';
@@ -528,6 +585,7 @@
       autoScrolling: false,
       fitToSection: false,
       controlArrows: false,
+      scrollOverflow: true,
       afterLoad: function(anchorLink, index) {
         $('#top-nav .navbar-brand')[index === 1 ? 'removeClass' : 'addClass']('tiny');
         $('#top-nav .navbar-brand>.brand-date')[index === 1 ? 'removeClass' : 'addClass']('hidden');
