@@ -12,19 +12,26 @@ h6,
 p {
   font-family: 'Raleway', sans-serif !important;
 }
+.fixed-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0 1em;
+}
 .row {
   margin-left: 0;
   margin-right: 0;
 }
 .link-newco {
-  color: #C2AC78;
+  color: #76602C;
   margin: 0.1em;
   padding: 0.1em;
   text-decoration: underline;
 }
 .link-newco:focus,
 .link-newco:hover {
-  color: #76602C;
+  color: #291300;
 }
 .text-newco {
   color: #C2AC78 !important;
@@ -92,9 +99,6 @@ footer.section[data-anchor=newco] {
   vertical-align: middle;
   text-align: left;
   margin: 0 auto;
-}
-.modal-newco .link-newco {
-  color: #76602C;
 }
 .list-group-item.item-newco {
   background-color: rgba(255, 255, 255, 0.1);

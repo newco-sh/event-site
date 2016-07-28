@@ -89,7 +89,7 @@
               On September 13, more than _ companies in Shanghai will open their doors and eight innovation leaders will share their stories. NewCo is a new kind of event experience: a mashup of an open studio tour and a business conference, with the vibe of a music festival.
             </p>
             <p>
-              During the day, you get to attend <a href="#about" class="link-newco close-modal" data-target="#newco-modal">sessions</a> given by local innovative companies. In the evening, NewCo Shanghai Presenter <a href="http://chinaccelerator.com" target="_blank" class="link-newco">Chinaccelerator</a> is bringing its famous 8x8 speaking event to NewCo attendees, during which eight entrepreneurial <a href="#about" class="link-newco close-modal" data-target="#newco-modal">heroes</a> will speak for eight minutes.
+              During the day, you get to attend <a href="#about/summary" class="link-newco close-modal" data-target="#newco-modal">sessions</a> given by local innovative companies. In the evening, NewCo Shanghai Presenter <a href="http://chinaccelerator.com" target="_blank" class="link-newco">Chinaccelerator</a> is bringing its famous 8x8 speaking event to NewCo attendees, during which eight entrepreneurial <a href="#about/presenters" class="link-newco close-modal" data-target="#newco-modal">heroes</a> will speak for eight minutes.
             </p>
             <p>
               NewCos believe in open collaboration with customers, suppliers, employees, and their community. NewCos also believe in transparent communication, they are open minded, and they are nimble.
@@ -132,7 +132,7 @@
             </a>
           </li>
           <li data-menuanchor="about">
-            <a href="#about">
+            <a href="#about/summary">
               <span class="lang-en">ABOUT</span>
               <span class="lang-zh hidden">活动企业</span>
             </a>
@@ -189,28 +189,75 @@
           <span class="lang-zh hidden">NewCo 简介</span>
         </button>
       </div>
-      <div class="static-bottom" style="position:absolute;bottom:0;right:0;margin:0 auto;padding:0 1em;">
+      <div class="fixed-bottom-right">
         <img src="img/chinaccelerator-logo-white.png" class="center-block" style="height:72px;">
         <h6 class="text-center lang-en">PRESENTS</h6>
         <h6 class="text-center lang-zh hidden">为您呈现</h6>
       </div>
     </header>
     <section class="section" data-anchor="about">
-      <div class="container">
-        <h2 class="text-center">
-          GET INSIDE SHANGHAI'S MOST INTRIGUING COMPANIES TO LEARN, CONNECT, AND CELEBRATE.
-          <a href="#" class="link-newco">See All</a>
-        </h2>
-        <!-- <ul class="list-inline text-center">
-          <li>
-
-          </li>
-        </ul> -->
-        <h2 class="text-center">
-          <span class="lang-en">Coming Soon...</span>
-          <span class="lang-zh hidden">康明孙...</span>
-        </h2>
-      </div>
+        <div class="slide" data-anchor="summary">
+          <div class="container text-center">
+            <h2>NewCo Sessions</h2>
+            <h4>GET INSIDE SHANGHAI'S MOST INTRIGUING COMPANIES TO LEARN, CONNECT, AND CELEBRATE.</h4>
+            <h4><a href="#about/companies" class="link-newco">See all host companies</a></h4>
+            <ul class="list-inline text-center">
+              <li>
+                <img src="http://fakeimg.pl/160x180/111/eee/?text=MomCorp&font=lobster" class="img-thumbnail">
+              </li>
+              <li>
+                <img src="http://fakeimg.pl/160x180/111/eee/?text=Umbrella&font=lobster" class="img-thumbnail">
+              </li>
+              <li>
+                <img src="http://fakeimg.pl/160x180/111/eee/?text=Shin-Ra&font=lobster" class="img-thumbnail">
+              </li>
+              <li>
+                <img src="http://fakeimg.pl/160x180/111/eee/?text=Stark&font=lobster" class="img-thumbnail">
+              </li>
+              <li>
+                <img src="http://fakeimg.pl/160x180/111/eee/?text=Wayne&font=lobster" class="img-thumbnail">
+              </li>
+            </ul>
+            <h2>8x8 - 8 Heroes for 8 Minutes</h2>
+            <h4>THE CHINACCELERATOR 8X8 EVENT CONNECTS YOU WITH A WIDE SPECTRUM OF FOUNDERS AND THOUGHT LEADERS IN CHINA.</h4>
+            <h4><a href="#about/presenters" class="link-newco">See all presenters</a></h4>
+            <ul class="list-inline text-center">
+              <li>
+                <img src="http://fakeimg.pl/160x180/111/eee/?text=Rick&font=lobster" class="img-thumbnail">
+              </li>
+              <li>
+                <img src="http://fakeimg.pl/160x180/111/eee/?text=Morty&font=lobster" class="img-thumbnail">
+              </li>
+              <li>
+                <img src="http://fakeimg.pl/160x180/111/eee/?text=Beth&font=lobster" class="img-thumbnail">
+              </li>
+              <li>
+                <img src="http://fakeimg.pl/160x180/111/eee/?text=Jerry&font=lobster" class="img-thumbnail">
+              </li>
+              <li>
+                <img src="http://fakeimg.pl/160x180/111/eee/?text=Summer&font=lobster" class="img-thumbnail">
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="slide" data-anchor="companies">
+          <div class="container text-center">
+            <h2>Companies</h2>
+            <p>Coming Soon...</p>
+            <a href="#about/summary" class="link-newco">
+              <i class="fa fa-2x fa-arrow-circle-left"></i>
+            </a>
+          </div>
+        </div>
+        <div class="slide" data-anchor="presenters">
+          <div class="container text-center">
+            <h2>Presenters</h2>
+            <p>Coming Soon...</p>
+            <a href="#about/summary" class="link-newco">
+              <i class="fa fa-2x fa-arrow-circle-left"></i>
+            </a>
+          </div>
+        </div>
     </section>
     <section class="section" data-anchor="tickets">
       <div class="container text-center">
@@ -462,6 +509,7 @@
       menu: '#top-nav',
       autoScrolling: false,
       fitToSection: false,
+      controlArrows: false,
       afterLoad: function(anchorLink, index) {
         $('#top-nav .navbar-brand')[index === 1 ? 'removeClass' : 'addClass']('tiny');
         $('#top-nav .navbar-brand>.brand-date')[index === 1 ? 'removeClass' : 'addClass']('hidden');
