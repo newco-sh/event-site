@@ -17,7 +17,8 @@ body {
 .btn,
 .panel,
 .well,
-.img-host {
+.img-host,
+.img-sponsor {
   box-shadow:
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -208,7 +209,7 @@ footer.section[data-anchor=newco] .link-newco:hover {
      height: 100%;
   }
   .img-sponsor {
-    height: 16px;
+    height: 18px;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -216,21 +217,21 @@ footer.section[data-anchor=newco] .link-newco:hover {
      height: 100%;
   }
   .img-sponsor {
-    height: 18px;
+    height: 22px;
   }
 }
 @media (min-width: 769px) and (max-width: 1023px) {
   .img-sponsor {
-    height: 24px;
+    height: 28px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1199px) {
   .img-sponsor {
-    height: 28px;
+    height: 32px;
   }
 }
 @media (min-width: 1200px) {
   .img-sponsor {
-    height: 32px;
+    height: 36px;
   }
 }
