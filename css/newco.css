@@ -1,6 +1,6 @@
 body {
   font-family: 'Raleway', sans-serif !important;
-  color: rgb(17, 17, 17);
+  color: rgb(96, 96, 96);
   font-size: 16px;
 }
 .fixed-bottom-right {
@@ -9,6 +9,20 @@ body {
   right: 0;
   margin: 0 auto;
   padding: 0 1em;
+}
+.btn,
+.panel,
+.well,
+.img-thumbnail {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .row {
   margin-left: 0;
@@ -190,7 +204,7 @@ footer.section[data-anchor=newco] .link-newco:hover {
      height: 100%;
   }
   .img-sponsor {
-    height: 24px;
+    height: 16px;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -198,21 +212,21 @@ footer.section[data-anchor=newco] .link-newco:hover {
      height: 100%;
   }
   .img-sponsor {
-    height: 28px;
+    height: 18px;
   }
 }
 @media (min-width: 769px) and (max-width: 1023px) {
   .img-sponsor {
-    height: 36px;
+    height: 24px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1199px) {
   .img-sponsor {
-    height: 38px;
+    height: 28px;
   }
 }
 @media (min-width: 1200px) {
   .img-sponsor {
-    height: 42px;
+    height: 32px;
   }
 }
