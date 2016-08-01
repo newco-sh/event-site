@@ -79,8 +79,10 @@ header.section[data-anchor=home] {
   -o-background-size: cover;
   background-size: cover;
 }*/
+.section[data-anchor=tickets] {
+  min-height: 100vh;
+}
 .section[data-anchor=tickets],
-/*.section[data-anchor=about],*/
 .section[data-anchor=sponsors],
 .section[data-anchor=ca] {
   background:
@@ -130,6 +132,9 @@ footer.section[data-anchor=newco] .link-newco:hover {
 }
 .navbar-newco.inverse {
   background-color: rgb(17, 17, 17);
+}
+.navbar-newco .navbar-toggle {
+  color: rgb(251, 251, 251);
 }
 .navbar-newco .navbar-nav>li>a {
   font-weight: 400;
