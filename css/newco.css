@@ -15,8 +15,7 @@ body {
    max-width: 96px;
 }
 .btn,
-.panel,
-.well {
+.panel {
   box-shadow:
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -80,10 +79,13 @@ header.section[data-anchor=home] {
   -o-background-size: cover;
   background-size: cover;
 }*/
-.section[data-anchor=sponsors] {
+.section[data-anchor=tickets],
+/*.section[data-anchor=about],*/
+.section[data-anchor=sponsors],
+.section[data-anchor=ca] {
   background:
-    linear-gradient(rgba(251, 251, 251, 1), rgba(251, 251, 251, 0)),
-    url('../img/section-sponsors-banner.png');
+    linear-gradient(rgba(251, 251, 251, 0.7), rgba(251, 251, 251, 0.7)),
+    url('../img/section-banner.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
