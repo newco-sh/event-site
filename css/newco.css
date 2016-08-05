@@ -6,8 +6,8 @@ body {
 .section-title {
   color: rgb(51, 74, 117);
   border-bottom: 2px solid rgba(51, 74, 117, 0.3);
-  margin-top: 1.5em;
-  margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 .fixed-bottom-right {
   position: absolute;
@@ -206,6 +206,9 @@ footer.section[data-anchor=newco] .link-newco:hover {
   background-color: rgba(245, 245, 245, 0.7);
   border-width: 0;
 }
+.img-sponsor.silver {
+  height: 54px;
+}
 /* responsiveness */
 @media screen and (min-width: 768px) {
   .modal:before {
@@ -219,30 +222,9 @@ footer.section[data-anchor=newco] .link-newco:hover {
   .navbar-brand img {
      height: 100%;
   }
-  .img-sponsor {
-    height: 18px;
-  }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   .navbar-brand img {
      height: 100%;
-  }
-  .img-sponsor {
-    height: 22px;
-  }
-}
-@media (min-width: 769px) and (max-width: 1023px) {
-  .img-sponsor {
-    height: 28px;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1199px) {
-  .img-sponsor {
-    height: 32px;
-  }
-}
-@media (min-width: 1200px) {
-  .img-sponsor {
-    height: 36px;
   }
 }
