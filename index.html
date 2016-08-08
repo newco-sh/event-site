@@ -527,20 +527,10 @@
             </a>
           </h5>
           <ul class="list-inline text-center">
-            <li>
-              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/ChinaNetCloud.png" class="img-host">
-            </li>
-            <li>
-              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/FotoPlace足记.png" class="img-host">
-            </li>
-            <li>
-              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/italki.png" class="img-host">
-            </li>
-            <li>
-              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/Robin8.png" class="img-host">
-            </li>
-            <li>
-              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/Teambition.png" class="img-host">
+            <li v-for="(key, host) in hosts">
+              <a href="#about/companies">
+                <img v-bind:src="host.logo" class="img-host">
+              </a>
             </li>
           </ul>
           <div class="well well-newco">
@@ -561,9 +551,6 @@
               <span v-else>查看所有演讲者</span>
             </a>
           </h5>
-          <!-- <ul class="list-inline text-center">
-
-          </ul> -->
           <div class="well well-newco">
             <h5>
               <span v-if="en">Coming soon - stay tuned.</span>
@@ -582,32 +569,18 @@
             <i class="fa fa-2x fa-arrow-circle-left"></i>
           </a>
           <ul class="list-inline text-center">
-            <li>
-              <a href="#" v-on:click="triggerHost('ChinaNetCloud', $event)">
-                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/ChinaNetCloud.png" class="img-host">
-              </a>
-            </li>
-            <li>
-              <a href="#" v-on:click="triggerHost('FotoPlace', $event)">
-                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/FotoPlace足记.png" class="img-host">
-              </a>
-            </li>
-            <li>
-              <a href="#" v-on:click="triggerHost('Italki', $event)">
-                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/italki.png" class="img-host">
-              </a>
-            </li>
-            <li>
-              <a href="#" v-on:click="triggerHost('Robin8', $event)">
-                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/Robin8.png" class="img-host">
-              </a>
-            </li>
-            <li>
-              <a href="#" v-on:click="triggerHost('Teambition', $event)">
-                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/Teambition.png" class="img-host">
+            <li v-for="(key, host) in hosts">
+              <a href="#" v-on:click="triggerHost(key, $event)">
+                <img v-bind:src="host.logo" class="img-host">
               </a>
             </li>
           </ul>
+          <div class="well well-newco">
+            <h5>
+              <span v-if="en">More host companies will be announced - stay tuned</span>
+              <span v-else>参与企业名单将不断更新，敬请期待。</span>
+            </h5>
+          </div>
         </div>
       </div>
       <div class="slide" data-anchor="presenters">
