@@ -17,8 +17,8 @@ body {
   padding: 0 1em;
 }
 .img-host {
-   max-height: 96px;
-   max-width: 96px;
+  padding: 0.5em 1em;
+  height: 64px;
 }
 .btn, .panel {
   box-shadow:
@@ -54,7 +54,7 @@ body {
   padding-bottom: 1em;
 }
 .section {
-  background-color: rgb(251, 251, 251);
+  background-color: rgb(251, 251, 255);
 }
 .section:first-child {
   background-color: #334A75;
@@ -70,10 +70,11 @@ header.section[data-anchor=home] {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: rgb(251, 251, 251) !important;
+  color: rgb(251, 251, 255) !important;
 }
 .section[data-anchor=intro],
-.section[data-anchor=tickets] {
+.section[data-anchor=tickets],
+.section[data-anchor=about] {
   min-height: 100vh;
 }
 .section:nth-child(even) {
@@ -90,14 +91,14 @@ header.section[data-anchor=home] {
 }
 footer.section[data-anchor=newco] {
   background-color: rgb(17, 17, 17);
-  color: rgb(251, 251, 251) !important;
+  color: rgb(251, 251, 255) !important;
 }
 footer.section[data-anchor=newco] .link-newco {
   color: #C2AC78;
 }
 footer.section[data-anchor=newco] .link-newco:focus,
 footer.section[data-anchor=newco] .link-newco:hover {
-  color: rgb(251, 251, 251);
+  color: rgb(251, 251, 255);
 }
 .modal-newco {
   text-align: center;
@@ -112,8 +113,8 @@ footer.section[data-anchor=newco] .link-newco:hover {
   margin: 0 auto;
 }
 .list-group-item.item-newco {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(251, 251, 255, 0.7);
+  border-color: rgba(251, 251, 255, 1);
 }
 .navbar-newco {
   transition: background-color 0.2s;
@@ -126,19 +127,19 @@ footer.section[data-anchor=newco] .link-newco:hover {
   background-color: rgb(17, 17, 17);
 }
 .navbar-newco .navbar-toggle {
-  color: rgb(251, 251, 251);
+  color: rgb(251, 251, 255);
 }
 .navbar-newco .navbar-nav>li>a {
   font-weight: 400;
   font-size: 90%;
-  color: rgb(251, 251, 251);
+  color: rgb(251, 251, 255);
 }
 .navbar-newco .navbar-nav>li>a:focus,
 .navbar-newco .navbar-nav>li>a:hover,
 .navbar-newco .navbar-nav>.active>a,
 .navbar-newco .navbar-nav>.active>a:focus,
 .navbar-newco .navbar-nav>.active>a:hover {
-  background-color: rgb(251, 251, 251);
+  background-color: rgb(251, 251, 255);
   color: rgb(17, 17, 17);
 }
 .navbar-brand {
@@ -155,7 +156,7 @@ footer.section[data-anchor=newco] .link-newco:hover {
   height: 100%;
 }
 .navbar-brand>.brand-date {
-  color: rgb(251, 251, 251);
+  color: rgb(251, 251, 255);
 }
 .navbar-newco .dropdown:hover .dropdown-menu {
   display: block;
@@ -171,11 +172,11 @@ footer.section[data-anchor=newco] .link-newco:hover {
   background-color: rgb(17, 17, 17);
 }
 .dropdown:hover .dropdown-menu a {
-  color: rgb(251, 251, 251);
+  color: rgb(251, 251, 255);
 }
 .dropdown:hover .dropdown-menu a:focus,
 .dropdown:hover .dropdown-menu a:hover {
-  background-color: rgba(251, 251, 251, 0.1);
+  background-color: rgba(251, 251, 255, 0.1);
 }
 .btn-newco {
   border-width: 0;
