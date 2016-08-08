@@ -76,9 +76,7 @@ header.section[data-anchor=home] {
 .section[data-anchor=tickets] {
   min-height: 100vh;
 }
-.section[data-anchor=tickets],
-.section[data-anchor=sponsors],
-.section[data-anchor=ca] {
+.section:nth-child(even) {
   background:
     linear-gradient(rgba(251, 251, 251, 0.8), rgba(251, 251, 251, 0.8)),
     url('../img/shanghai2_80.jpg');
