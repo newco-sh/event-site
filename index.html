@@ -69,10 +69,10 @@
           <h4 class="modal-title">
             NewCo - Shanghai
             <small>
-              <a href="#" class="toggle-translation link-newco">
+              <a href="#" class="link-newco" v-on:click="toggleLang">
                 <i class="fa fa-lg fa-language" aria-hidden="true"></i>
-                <span class="lang-en">汉</span>
-                <span class="lang-zh hidden">EN</span>
+                <span v-if="en">汉</span>
+                <span v-else>EN</span>
               </a>
             </small>
           </h4>
@@ -82,8 +82,8 @@
             <li>
               <div class="well well-newco">
                 <h1 class="text-newco">20</h1>
-                <p class="lang-en">NewCo Event Hosts</p>
-                <p class="lang-zh hidden">
+                <p v-if="en">NewCo Event Hosts</p>
+                <p v-else>
                   家NewCo活动主办企业
                 </p>
               </div>
@@ -91,8 +91,8 @@
             <li>
               <div class="well well-newco">
                 <h1 class="text-newco">8</h1>
-                <p class="lang-en">Tech Pioneer and VC Speakers</p>
-                <p class="lang-zh hidden">
+                <p v-if="en">Tech Pioneer and VC Speakers</p>
+                <p v-else>
                   位科技大咖和VC演讲者
                 </p>
               </div>
@@ -100,14 +100,14 @@
             <li>
               <div class="well well-newco">
                 <h1 class="text-newco">300+</h1>
-                <p class="lang-en">NewCo Attendees</p>
-                <p class="lang-zh hidden">
+                <p v-if="en">NewCo Attendees</p>
+                <p v-else>
                   个NewCo活动参加者
                 </p>
               </div>
             </li>
           </ul>
-          <div class="lang-en">
+          <div v-if="en">
             <p>
               On September 13th, twenty-five leading companies in Shanghai will open their doors and eight innovation leaders will share their stories with NewCo attendees. NewCo is a new kind of event experience: a mashup of an open studio tour and a business conference, with the vibe of a music festival.
             </p>
@@ -118,7 +118,7 @@
               NewCos believe in open collaboration with customers, suppliers, employees, and their community. Openness brings new opportunities to light, and we invite you to embrace it together on September 13th.
             </p>
           </div>
-          <div class="lang-zh hidden">
+          <div v-else>
             <p>
               9月13日，25家上海标杆公司将会为NewCo节敞开大门，8位国内创新先锋将与NewCo观众面对面分互动分享。NewCo不同于您以往参加过的行业活动——它既保留了商务会议的专业性，又拥有音乐节般的热情和艺术工作室似的天马行空。
             </p>
@@ -131,9 +131,32 @@
           </div>
           <a href="#tickets" class="btn btn-default btn-newco btn-block close-modal" data-target="#newco-modal">
             <i class="fa fa-ticket"></i>
-            <span class="lang-en">Get Your Ticket</span>
-            <span class="lang-zh hidden">购票</span>
+            <span v-if="en">Get Your Ticket</span>
+            <span v-else>购票</span>
           </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- host companies modal -->
+  <div class="modal modal-newco fade" id="host-modal" tabindex="-1" role="dialog" aria-labelledby="host-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="host-label">
+            <span id="host-name"></span>
+            <small>
+              <a href="#" class="link-newco" v-on:click="toggleLang">
+                <i class="fa fa-lg fa-language" aria-hidden="true"></i>
+                <span v-if="en">汉</span>
+                <span v-else>EN</span>
+              </a>
+            </small>
+          </h4>
+        </div>
+        <div class="modal-body">
+          <img src="">
         </div>
       </div>
     </div>
@@ -144,18 +167,18 @@
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav-collapse">
           <span class="sr-only">
-            <span class="lang-en">Toggle navigation</span>
-            <span class="lang-zh hidden">切换导航</span>
+            <span v-if="en">Toggle navigation</span>
+            <span v-else>切换导航</span>
           </span>
-          <span class="lang-en">Menu</span>
-          <span class="lang-zh hidden">菜单</span>
+          <span v-if="en">Menu</span>
+          <span v-else>菜单</span>
           <i class="fa fa-bars"></i>
         </button>
         <a class="navbar-brand" href="#home">
           <img alt="NewCo - Shanghai" src="img/newco-logo-shanghai.svg">
           <div class="text-right brand-date">
-            <small class="text-right lang-en">September 13, 2016</small>
-            <small class="text-right lang-zh hidden">2016年9月13日</small>
+            <small class="text-right" v-if="en">September 13, 2016</small>
+            <small class="text-right" v-else>2016年9月13日</small>
           </div>
         </a>
       </div>
@@ -163,54 +186,54 @@
         <ul class="nav navbar-nav navbar-right">
           <li data-menuanchor="home" class="hidden" id="navbar-home">
             <a href="#home">
-              <span class="lang-en">HOME</span>
-              <span class="lang-zh hidden">首页</span>
+              <span v-if="en">HOME</span>
+              <span v-else>首页</span>
             </a>
           </li>
           <li data-menuanchor="intro">
             <a href="#intro">
-              <span class="lang-en">INTRO</span>
-              <span class="lang-zh hidden">节日介绍</span>
+              <span v-if="en">INTRO</span>
+              <span v-else>节日介绍</span>
             </a>
           </li>
           <li data-menuanchor="tickets">
             <a href="#tickets">
               <i class="fa fa-ticket"></i>
-              <span class="lang-en">TICKETS</span>
-              <span class="lang-zh hidden">报名购票</span>
+              <span v-if="en">TICKETS</span>
+              <span v-else>报名购票</span>
             </a>
           </li>
           <li data-menuanchor="about">
             <a href="#about/summary">
-              <span class="lang-en">ABOUT</span>
-              <span class="lang-zh hidden">活动企业</span>
+              <span v-if="en">ABOUT</span>
+              <span v-else>活动企业</span>
             </a>
           </li>
           <li class="navbar-about-sub hidden">
             <a href="#about/companies">
               <i class="fa fa-briefcase"></i>
-              <span class="lang-en">COMPANIES</span>
-              <span class="lang-zh hidden">公司</span>
+              <span v-if="en">COMPANIES</span>
+              <span v-else>公司</span>
             </a>
           </li>
           <li class="navbar-about-sub hidden">
             <a href="#about/presenters">
               <i class="fa fa-users"></i>
-              <span class="lang-en">PRESENTERS</span>
-              <span class="lang-zh hidden">演讲人</span>
+              <span v-if="en">PRESENTERS</span>
+              <span v-else>演讲人</span>
             </a>
           </li>
           <li data-menuanchor="sponsors">
             <a href="#sponsors">
-              <span class="lang-en">SPONSORS</span>
-              <span class="lang-zh hidden">赞助机构</span>
+              <span v-if="en">SPONSORS</span>
+              <span v-else>赞助机构</span>
             </a>
           </li>
           <li>
-            <a href="#" class="toggle-translation">
+            <a href="#" v-on:click="toggleLang">
               <i class="fa fa-lg fa-language" aria-hidden="true"></i>
-              <span class="lang-en">汉</span>
-              <span class="lang-zh hidden">EN</span>
+              <span v-if="en">汉</span>
+              <span v-else>EN</span>
             </a>
           </li>
           <li class="dropdown">
@@ -220,8 +243,8 @@
             <ul class="dropdown-menu">
               <li>
                 <a href="#ca">
-                  <span class="lang-en">CHINACCELERATOR</span>
-                  <span class="lang-zh hidden">中国加速</span>
+                  <span v-if="en">CHINACCELERATOR</span>
+                  <span v-else>中国加速</span>
                 </a>
               </li>
               <li><a href="#newco">NewCo Shift</a></li>
@@ -236,61 +259,55 @@
   <div id=full-page>
     <header class="section" data-anchor="home">
       <div class="container text-center">
-        <div class="lang-en">
+        <div v-if="en">
           <h1>Opening Doors To Shanghai's</h1>
           <h1>Finest Companies</h1>
         </div>
-        <div class="lang-zh hidden">
+        <div v-else>
           <h1>开启大门，思想交锋</h1>
           <h1>NewCo，一场上海杰出企业的创新派对</h1>
         </div>
         <a href="#intro" class="btn btn-default btn-newco btn-lg" style="margin-top:1em;">
-          <span class="lang-en">LEARN MORE</span>
-          <span class="lang-zh hidden">NewCo 简介</span>
+          <span v-if="en">LEARN MORE</span>
+          <span v-else>NewCo 简介</span>
         </a>
       </div>
       <div class="fixed-bottom-right">
         <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/chinaccelerator-logo-white.png" class="center-block" style="height:72px;">
-        <h6 class="text-center lang-en">PRESENTS</h6>
-        <h6 class="text-center lang-zh hidden">为您呈现</h6>
+        <h6 class="text-center" v-if="en">PRESENTS</h6>
+        <h6 class="text-center" v-else>为您呈现</h6>
       </div>
     </header>
     <section class="section fp-auto-height" data-anchor="intro">
       <div class="container">
         <h3 class="section-title">
-          <span class="lang-en">INTRO</span>
-          <span class="lang-zh hidden">节日介绍</span>
+          <span v-if="en">INTRO</span>
+          <span v-else>节日介绍</span>
         </h3>
         <ul class="list-inline text-center">
           <li>
             <div class="well well-newco">
               <h1 class="text-newco">20</h1>
-              <p class="lang-en">NewCo Event Hosts</p>
-              <p class="lang-zh hidden">
-                家NewCo活动主办企业
-              </p>
+              <p v-if="en">NewCo Event Hosts</p>
+              <p v-else>家NewCo活动主办企业</p>
             </div>
           </li>
           <li>
             <div class="well well-newco">
               <h1 class="text-newco">8</h1>
-              <p class="lang-en">Tech Pioneer and VC Speakers</p>
-              <p class="lang-zh hidden">
-                位科技大咖和VC演讲者
-              </p>
+              <p v-if="en">Tech Pioneer and VC Speakers</p>
+              <p v-else>位科技大咖和VC演讲者</p>
             </div>
           </li>
           <li>
             <div class="well well-newco">
               <h1 class="text-newco">300+</h1>
-              <p class="lang-en">NewCo Attendees</p>
-              <p class="lang-zh hidden">
-                个NewCo活动参加者
-              </p>
+              <p v-if="en">NewCo Attendees</p>
+              <p v-else>个NewCo活动参加者</p>
             </div>
           </li>
         </ul>
-        <div class="lang-en">
+        <div v-if="en">
           <p>
             On September 13th, twenty-five leading companies in Shanghai will open their doors and eight innovation leaders will share their stories with NewCo attendees. NewCo is a new kind of event experience: a mashup of an open studio tour and a business conference, with the vibe of a music festival.
           </p>
@@ -301,7 +318,7 @@
             NewCos believe in open collaboration with customers, suppliers, employees, and their community. Openness brings new opportunities to light, and we invite you to embrace it together on September 13th.
           </p>
         </div>
-        <div class="lang-zh hidden">
+        <div v-else>
           <p>
             9月13日，25家上海标杆公司将会为NewCo节敞开大门，8位国内创新先锋将与NewCo观众面对面分互动分享。NewCo不同于您以往参加过的行业活动——它既保留了商务会议的专业性，又拥有音乐节般的热情和艺术工作室似的天马行空。
           </p>
@@ -317,8 +334,8 @@
     <section class="section fp-auto-height" data-anchor="tickets">
       <div class="container text-center">
         <h3 class="section-title text-left">
-          <span class="lang-en">TICKETS</span>
-          <span class="lang-zh hidden">购票</span>
+          <span v-if="en">TICKETS</span>
+          <span v-else>购票</span>
         </h3>
         <div class="row">
           <div class="col-md-3 col-sm-12">
@@ -326,30 +343,30 @@
               <div class="panel-heading">
                 <h5 class="panel-title text-newco">
                   <i class="fa fa-ticket"></i>
-                  <span class="lang-en">Gold Pass</span>
-                  <span class="lang-zh hidden">金卡</span>
+                  <span v-if="en">Gold Pass</span>
+                  <span v-else>金卡</span>
                 </h5>
               </div>
               <div class="panel-body">
                 <h5>RMB ￥488</h5>
                 <hr>
                 <h5>
-                  <span class="lang-en">VIP Kickoff Dinner</span>
-                  <span class="lang-zh hidden">VIP 启动晚宴</span>
+                  <span v-if="en">VIP Kickoff Dinner</span>
+                  <span v-else>VIP 启动晚宴</span>
                 </h5>
                 <hr>
-                <h5 class="lang-en">
+                <h5 v-if="en">
                   <strong class="text-newco">Unlimited</strong> NewCo Sessions
                 </h5>
-                <h5 class="lang-zh hidden">
+                <h5 v-else>
                   <strong class="text-newco">任意选择</strong>NewCo活动数量
                 </h5>
                 <hr>
-                <h5 class="lang-en">8x8 Speaking Event</h5>
-                <h5 class="lang-zh hidden">8x8企业家分享</h5>
+                <h5 v-if="en">8x8 Speaking Event</h5>
+                <h5 v-else>8x8企业家分享</h5>
                 <hr>
-                <h5 class="text-newco lang-en">VIP Dinner</h5>
-                <h5 class="text-newco lang-zh hidden">VIP 晚宴</h5>
+                <h5 class="text-newco" v-if="en">VIP Dinner</h5>
+                <h5 class="text-newco" v-else>VIP 晚宴</h5>
                 <hr>
                 <h5>After Party</h5>
               </div>
@@ -360,26 +377,26 @@
               <div class="panel-heading">
                 <h5 class="panel-title">
                   <i class="fa fa-ticket"></i>
-                  <span class="lang-en">Silver Pass</span>
-                  <span class="lang-zh hidden">银卡</span>
+                  <span v-if="en">Silver Pass</span>
+                  <span v-else>银卡</span>
                 </h5>
               </div>
               <div class="panel-body">
                 <h5>RMB ￥388</h5>
                 <hr>
                 <h5>
-                  <span class="lang-en">VIP Kickoff Dinner</span>
-                  <span class="lang-zh hidden">VIP 启动晚宴</span>
+                  <span v-if="en">VIP Kickoff Dinner</span>
+                  <span v-else>VIP 启动晚宴</span>
                 </h5>
                 <hr>
-                <h5 class="lang-en">5 NewCo Sessions**</h5>
-                <h5 class="lang-zh hidden">5项NewCo活动**</h5>
+                <h5 v-if="en">5 NewCo Sessions**</h5>
+                <h5 v-else>5项NewCo活动**</h5>
                 <hr>
-                <h5 class="lang-en">8x8 Speaking Event</h5>
-                <h5 class="lang-zh hidden">8x8企业家分享</h5>
+                <h5 v-if="en">8x8 Speaking Event</h5>
+                <h5 v-else>8x8企业家分享</h5>
                 <hr>
-                <h5 class="text-newco lang-en">VIP Dinner</h5>
-                <h5 class="text-newco lang-zh hidden">VIP 晚宴</h5>
+                <h5 class="text-newco" v-if="en">VIP Dinner</h5>
+                <h5 class="text-newco" v-else>VIP 晚宴</h5>
                 <hr>
                 <h5>After Party</h5>
               </div>
@@ -390,18 +407,18 @@
               <div class="panel-heading">
                 <h5 class="panel-title">
                   <i class="fa fa-ticket"></i>
-                  <span class="lang-en">NewCo Pass</span>
-                  <span class="lang-zh hidden">NewCo 票</span>
+                  <span v-if="en">NewCo Pass</span>
+                  <span v-else>NewCo 票</span>
                 </h5>
               </div>
               <div class="panel-body">
                 <h5>RMB ￥188</h5>
                 <hr>
-                <h5 class="lang-en">5 NewCo Sessions**</h5>
-                <h5 class="lang-zh hidden">5项NewCo活动**</h5>
+                <h5 v-if="en">5 NewCo Sessions**</h5>
+                <h5 v-else>5项NewCo活动**</h5>
                 <hr>
-                <h5 class="lang-en">8x8 Speaking Event</h5>
-                <h5 class="lang-zh hidden">8x8企业家分享</h5>
+                <h5 v-if="en">8x8 Speaking Event</h5>
+                <h5 v-else>8x8企业家分享</h5>
                 <hr>
                 <h5>After Party</h5>
               </div>
@@ -412,44 +429,44 @@
               <div class="panel-heading">
                 <h5 class="panel-title">
                   <i class="fa fa-ticket"></i>
-                  <span class="lang-en">8x8 Pass</span>
-                  <span class="lang-zh hidden">8x8 票</span>
+                  <span v-if="en">8x8 Pass</span>
+                  <span v-else>8x8 票</span>
                 </h5>
               </div>
               <div class="panel-body">
                 <h5>RMB ￥0</h5>
                 <hr>
-                <h5 class="lang-en">8x8 Speaking Event</h5>
-                <h5 class="lang-zh hidden">8x8企业家分享</h5>
+                <h5 v-if="en">8x8 Speaking Event</h5>
+                <h5 v-else>8x8企业家分享</h5>
                 <hr>
                 <h5>After Party</h5>
               </div>
             </div>
           </div>
         </div>
-        <h5 class="lang-en">**you will not be able to register for more than one session per timeslot</h5>
-        <h5 class="lang-zh hidden">**同一时间段只能选择一项</h5>
+        <h5 v-if="en">**you will not be able to register for more than one session per timeslot</h5>
+        <h5 v-else>**同一时间段只能选择一项</h5>
         <div class="btn-group">
           <button type="button" class="btn btn-default btn-newco btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-ticket"></i>
-            <span class="lang-en">PURCHASE</span>
-            <span class="lang-zh hidden">购票</span>
+            <span v-if="en">PURCHASE</span>
+            <span v-else>购票</span>
             <span class="caret"></span>
           </button>
           <ul class="dropdown-menu">
             <li>
               <a href="https://yoopay.cn/event/NewCoShanghai" target="_blank" style="color:rgb(255, 80, 80);">
                 <i class="fa fa-rmb"></i>
-                <span class="lang-en">Union Pay, WeChat Pay, Alipay</span>
-                <span class="lang-zh hidden">银联、微信支付、支付宝</span>
+                <span v-if="en">Union Pay, WeChat Pay, Alipay</span>
+                <span v-else>银联、微信支付、支付宝</span>
               </a>
             </li>
             <li role="separator" class="divider"></li>
             <li>
               <a href="https://www.eventbrite.com/e/newco-shanghai-tickets-26798078775" target="_blank" style="color:rgb(0, 153, 0);">
                 <i class="fa fa-usd"></i>
-                <span class="lang-en">Master, Visa, Paypal</span>
-                <span class="lang-zh hidden">万事达、VISA、贝宝</span>
+                <span v-if="en">Master, Visa, Paypal</span>
+                <span v-else>万事达、VISA、贝宝</span>
               </a>
             </li>
           </ul>
@@ -460,52 +477,61 @@
       <div class="slide" data-anchor="summary">
         <div class="container">
           <h3 class="section-title">
-            <span class="lang-en">Featured Events</span>
-            <span class="lang-zh hidden">特色活动</span>
+            <span v-if="en">Featured Events</span>
+            <span v-else>特色活动</span>
           </h3>
           <h5>
-            <span class="lang-en">GET INSIDE SHANGHAI'S MOST INTRIGUING COMPANIES TO LEARN, CONNECT, AND CELEBRATE.</span>
-            <span class="lang-zh hidden">NewCo带您走进上海最受瞩目的企业参观学习、拓展人脉，共度为创新灵魂庆祝的一天。</span>
+            <span v-if="en">GET INSIDE SHANGHAI'S MOST INTRIGUING COMPANIES TO LEARN, CONNECT, AND CELEBRATE.</span>
+            <span v-else>NewCo带您走进上海最受瞩目的企业参观学习、拓展人脉，共度为创新灵魂庆祝的一天。</span>
             <a href="#about/companies" class="link-newco">
-              <span class="lang-en">SEE ALL HOST COMPANIES</span>
-              <span class="lang-zh hidden">查看所有参与企业</span>
+              <span v-if="en">SEE ALL HOST COMPANIES</span>
+              <span v-else>查看所有参与企业</span>
             </a>
           </h5>
           <ul class="list-inline text-center">
             <li>
-              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/robin8.png" class="img-host">
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/ChinaNetCloud.png" class="img-host">
             </li>
             <li>
-              <div class="well well-newco">
-                <h5 style="line-height:39px;">
-                  <span class="lang-en">More host companies will be announced - stay tuned</span>
-                  <span class="lang-zh hidden">参与企业名单将不断更新，敬请期待。</span>
-                </h5>
-              </div>
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/FotoPlace足记.png" class="img-host">
+            </li>
+            <li>
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/italki.png" class="img-host">
+            </li>
+            <li>
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/Robin8.png" class="img-host">
+            </li>
+            <li>
+              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/Teambition.png" class="img-host">
             </li>
           </ul>
+          <div class="well well-newco">
+            <h5>
+              <span v-if="en">More host companies will be announced - stay tuned</span>
+              <span v-else>参与企业名单将不断更新，敬请期待。</span>
+            </h5>
+          </div>
           <h3 class="section-title">
-            <span class="lang-en">8x8 - 8 Heroes for 8 Minutes</span>
-            <span class="lang-zh hidden">八位英雄与你的八分钟</span>
+            <span v-if="en">8x8 - 8 Heroes for 8 Minutes</span>
+            <span v-else>八位英雄与你的八分钟</span>
           </h3>
           <h5>
-            <span class="lang-en">THE CHINACCELERATOR 8X8 EVENT CONNECTS YOU WITH A WIDE SPECTRUM OF FOUNDERS AND THOUGHT LEADERS IN CHINA.</span>
-            <span class="lang-zh hidden">中国加速8X8活动将国内行业先锋和资深创业家带到您跟前，与您分享心得和互动交流。</span>
+            <span v-if="en">THE CHINACCELERATOR 8X8 EVENT CONNECTS YOU WITH A WIDE SPECTRUM OF FOUNDERS AND THOUGHT LEADERS IN CHINA.</span>
+            <span v-else>中国加速8X8活动将国内行业先锋和资深创业家带到您跟前，与您分享心得和互动交流。</span>
             <a href="#about/presenters" class="link-newco">
-              <span class="lang-en">SEE ALL PRESENTERS</span>
-              <span class="lang-zh hidden">查看所有演讲者</span>
+              <span v-if="en">SEE ALL PRESENTERS</span>
+              <span v-else>查看所有演讲者</span>
             </a>
           </h5>
-          <ul class="list-inline text-center">
-            <li>
-              <div class="well well-newco">
-                <h5 style="line-height:39px;">
-                  <span class="lang-en">Coming soon - stay tuned.</span>
-                  <span class="lang-zh hidden">敬请期待</span>
-                </h5>
-              </div>
-            </li>
-          </ul>
+          <!-- <ul class="list-inline text-center">
+
+          </ul> -->
+          <div class="well well-newco">
+            <h5>
+              <span v-if="en">Coming soon - stay tuned.</span>
+              <span v-else>敬请期待</span>
+            </h5>
+          </div>
         </div>
       </div>
       <div class="slide" data-anchor="companies">
@@ -517,6 +543,33 @@
           <a href="#about/summary" class="link-newco">
             <i class="fa fa-2x fa-arrow-circle-left"></i>
           </a>
+          <ul class="list-inline text-center">
+            <li>
+              <a href="#" class="host-trigger" data-host="ChinaNetCloud">
+                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/ChinaNetCloud.png" class="img-host">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="host-trigger" data-host="FotoPlace">
+                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/FotoPlace足记.png" class="img-host">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="host-trigger" data-host="Italki">
+                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/italki.png" class="img-host">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="host-trigger" data-host="Robin8">
+                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/Robin8.png" class="img-host">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="host-trigger" data-host="Teambition">
+                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/Teambition.png" class="img-host">
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="slide" data-anchor="presenters">
@@ -534,8 +587,8 @@
     <section class="section fp-auto-height" data-anchor="sponsors">
       <div class="container">
         <h3 class="section-title">
-          <span class="lang-en">GLOBAL SPONSORS</span>
-          <span class="lang-zh hidden">国际赞助机构</span>
+          <span v-if="en">GLOBAL SPONSORS</span>
+          <span v-else>国际赞助机构</span>
         </h3>
         <ul class="list-inline">
           <li>
@@ -552,8 +605,8 @@
           </li>
         </ul>
         <h3 class="section-title">
-          <span class="lang-en">LOCAL SPONSORS</span>
-          <span class="lang-zh hidden">本地赞助机构</span>
+          <span v-if="en">LOCAL SPONSORS</span>
+          <span v-else>本地赞助机构</span>
         </h3>
         <ul class="list-inline">
           <li>
@@ -564,10 +617,10 @@
           </li>
         </ul>
         <div class="well well-newco">
-          <span class="lang-en">
+          <span v-if="en">
             By sponsoring NewCo you will be able to connect with mission-driven host companies and highly engaged attendees. Contact us:
           </span>
-          <span class="lang-zh hidden">
+          <span v-else>
             通过赞助NewCo，您将接触到雄心勃勃的优秀企业以及一群高度活跃的用户。联系我们，获取详情：
           </span>
           <a href="mail:cateam@chinaccelerator.com" class="link-newco">cateam@chinaccelerator.com</a>
@@ -577,16 +630,16 @@
     <section class="section fp-auto-height" data-anchor="ca">
       <div class="container">
         <h3 class="section-title">
-          <span class="lang-en">ABOUT CHINACCELERATOR</span>
-          <span class="lang-zh hidden">关于中国加速</span>
+          <span v-if="en">ABOUT CHINACCELERATOR</span>
+          <span v-else>关于中国加速</span>
         </h3>
         <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/chinaccelerator-logo.png" style="height:72px;display:inline-block;float:right;margin:0 0.5em;">
-        <p class="lang-en">
+        <p v-if="en">
           <a href="http://chinaccelerator.com" class="link-newco" target="_blank">Chinaccelerator</a>, the first startup accelerator in China and Asia, is a mentorship-driven program helping internet startups from around the world cross borders - from the world into China and from China to the world. It is backed by the venture fund SOSV with $250M AUM operating five accelerator programs around the world.
           <br><br>
           This September, NewCo and Chinaccelerator are coming together to connect the world’s top start-ups, high-growth companies, investors, influencers and entrepreneurs through NewCo Shanghai and Chinaccelerator 8x8, an event where 8 of the tech industries biggest movers and shakers give 8 minute talks about how they have succeeded in building tech companies.
         </p>
-        <p class="lang-zh hidden">
+        <p v-else>
           <a href="http://chinaccelerator.com" class="link-newco">中国加速</a>是亚洲第一个以导师为驱动的软件创业加速器，是管理着2.5亿美元的早期创投SOSV基金投资成立的全球加速器之一。它覆盖全球，每年经营两届创业项目，帮助来自全球的初创公司进入中国市场，也帮助中国公司进入国际市场。中国加速主要关注电子商务、金融科技、数据营销以及教育等生活方式类创业项目。它拥有国际化的背景，集合了来自全球的顶级导师、合作伙伴以及投资人，为创业者提供更广泛的视角和更丰富的资源。
         </p>
         <ul class="list-inline text-center">
@@ -690,6 +743,7 @@
   <script src="js/jquery.fullPage.min.js"></script>
   <script src="js/scrolloverflow.min.js"></script>
   <script src="js/egg.min.js"></script>
+  <script src="js/vue.min.js"></script>
   <script src="js/newco.js"></script>
 </body>
 </html>
