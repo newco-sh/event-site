@@ -140,12 +140,12 @@
   </div>
   <!-- host companies modal -->
   <div class="modal modal-newco fade" id="host-modal" tabindex="-1" role="dialog" aria-labelledby="host-label">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="host-label">
-            <span id="host-name"></span>
+            <span v-text="host.name"></span>
             <small>
               <a href="#" class="link-newco" v-on:click="toggleLang">
                 <i class="fa fa-lg fa-language" aria-hidden="true"></i>
@@ -156,7 +156,45 @@
           </h4>
         </div>
         <div class="modal-body">
-          <img src="">
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <img v-bind:src="host.logo" class="img-responsive center-block" style="max-height:120px;">
+              <h4>
+                <span v-if="en">INDUSTRY:</span>
+                <span v-else>行业：</span>
+                <span v-text="host.industry" class="text-newco"></span>
+              </h4>
+            </div>
+            <div class="col-md-8 col-sm-12">
+              <div v-if="en" v-html="host.intro.en"></div>
+              <div v-else v-html="host.intro.zh"></div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-8 col-sm-12">
+              <div v-if="en" v-html="host.p_intro.en"></div>
+              <div v-else v-html="host.p_intro.zh"></div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <img v-bind:src="host.avatar" class="img-responsive center-block" style="max-height:300px;">
+              <h4>
+                <span v-if="en">PRESENTER:</span>
+                <span v-else>演讲人：</span>
+                <span v-text="host.presenter" class="text-newco"></span>
+              </h4>
+              <h4>
+                <span v-if="en">POSITION:</span>
+                <span v-else>职务：</span>
+                <span v-text="host.position" class="text-newco"></span>
+              </h4>
+              <h4>
+                <span v-if="en">LANGUAGE:</span>
+                <span v-else>语言：</span>
+                <span v-text="host.lang" class="text-newco"></span>
+              </h4>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -545,27 +583,27 @@
           </a>
           <ul class="list-inline text-center">
             <li>
-              <a href="#" class="host-trigger" data-host="ChinaNetCloud">
+              <a href="#" v-on:click="triggerHost('ChinaNetCloud', $event)">
                 <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/ChinaNetCloud.png" class="img-host">
               </a>
             </li>
             <li>
-              <a href="#" class="host-trigger" data-host="FotoPlace">
+              <a href="#" v-on:click="triggerHost('FotoPlace', $event)">
                 <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/FotoPlace足记.png" class="img-host">
               </a>
             </li>
             <li>
-              <a href="#" class="host-trigger" data-host="Italki">
+              <a href="#" v-on:click="triggerHost('Italki', $event)">
                 <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/italki.png" class="img-host">
               </a>
             </li>
             <li>
-              <a href="#" class="host-trigger" data-host="Robin8">
+              <a href="#" v-on:click="triggerHost('Robin8', $event)">
                 <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/Robin8.png" class="img-host">
               </a>
             </li>
             <li>
-              <a href="#" class="host-trigger" data-host="Teambition">
+              <a href="#" v-on:click="triggerHost('Teambition', $event)">
                 <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/hosts/Teambition.png" class="img-host">
               </a>
             </li>
