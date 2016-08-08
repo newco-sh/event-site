@@ -78,7 +78,7 @@ header.section[data-anchor=home] {
 }
 .section:nth-child(even) {
   background:
-    linear-gradient(rgba(251, 251, 251, 0.8), rgba(251, 251, 251, 0.8)),
+    linear-gradient(rgba(251, 251, 255, 0.9), rgba(251, 251, 255, 0.9)),
     url('../img/shanghai2_80.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
