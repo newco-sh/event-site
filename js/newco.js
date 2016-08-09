@@ -18,7 +18,7 @@ var _hosts = {
   },
   'Italki': {
     name: 'Italki',
-    logo: 'img/hosts/italki.png',
+    logo: 'img/hosts/italki.gif',
     presenter: 'Kevin Chen',
     avatar: 'img/hosts/italki_Kevin Chen.jpeg',
     lang: 'EN',
