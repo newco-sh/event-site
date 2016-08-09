@@ -60,84 +60,6 @@
       </div>
     </div>
   </div>
-  <!-- newco intro modal -->
-  <div class="modal modal-newco fade" id="newco-modal" tabindex="-1" role="dialog" aria-labelledby="newco-label">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title">
-            NewCo - Shanghai
-            <small>
-              <a href="#" class="link-newco" v-on:click="toggleLang">
-                <i class="fa fa-lg fa-language" aria-hidden="true"></i>
-                <span v-if="en">汉</span>
-                <span v-else>EN</span>
-              </a>
-            </small>
-          </h4>
-        </div>
-        <div class="modal-body">
-          <ul class="list-inline text-center">
-            <li>
-              <div class="well well-newco">
-                <h1 class="text-newco">20</h1>
-                <p v-if="en">NewCo Event Hosts</p>
-                <p v-else>
-                  家NewCo活动主办企业
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="well well-newco">
-                <h1 class="text-newco">8</h1>
-                <p v-if="en">Tech Pioneer and VC Speakers</p>
-                <p v-else>
-                  位科技大咖和VC演讲者
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="well well-newco">
-                <h1 class="text-newco">300+</h1>
-                <p v-if="en">NewCo Attendees</p>
-                <p v-else>
-                  个NewCo活动参加者
-                </p>
-              </div>
-            </li>
-          </ul>
-          <div v-if="en">
-            <p>
-              On September 13th, twenty-five leading companies in Shanghai will open their doors and eight innovation leaders will share their stories with NewCo attendees. NewCo is a new kind of event experience: a mashup of an open studio tour and a business conference, with the vibe of a music festival.
-            </p>
-            <p>
-              During the day, you get to choose NewCo Sessions given by an array of local innovative companies. In the evening, NewCo Shanghai Presenter Chinaccelerator is bringing its famous 8x8 speaking event to NewCo attendees, during which eight entrepreneurial heroes will speak for eight minutes.
-            </p>
-            <p>
-              NewCos believe in open collaboration with customers, suppliers, employees, and their community. Openness brings new opportunities to light, and we invite you to embrace it together on September 13th.
-            </p>
-          </div>
-          <div v-else>
-            <p>
-              9月13日，25家上海标杆公司将会为NewCo节敞开大门，8位国内创新先锋将与NewCo观众面对面分互动分享。NewCo不同于您以往参加过的行业活动——它既保留了商务会议的专业性，又拥有音乐节般的热情和艺术工作室似的天马行空。
-            </p>
-            <p>
-              活动当天，一系列NewCo企业将呈现精心策划的活动，供您挑选。晚上，NewCo上海主办方中国加速将带来其享负盛名的8x8企业家分享环节。届时，8位资深创业人将用8分钟与您分享他们的创新历程和心得。
-            </p>
-            <p>
-              NewCo主张与客户、员工、供应商、社区建立诚信公开的合作关系。开放意味着机遇，9月13日，我们诚邀您共同见证。
-            </p>
-          </div>
-          <a href="#tickets" class="btn btn-default btn-newco btn-block close-modal" data-target="#newco-modal">
-            <i class="fa fa-ticket"></i>
-            <span v-if="en">Get Your Ticket</span>
-            <span v-else>购票</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- host companies modal -->
   <div class="modal modal-newco fade" id="host-modal" tabindex="-1" role="dialog" aria-labelledby="host-label">
     <div class="modal-dialog modal-lg" role="document">
@@ -245,6 +167,12 @@
             <a href="#about/summary">
               <span v-if="en">ABOUT</span>
               <span v-else>活动企业</span>
+            </a>
+          </li>
+          <li data-menuanchor="agenda">
+            <a href="#agenda">
+              <span v-if="en">AGENDA</span>
+              <span v-else>日程</span>
             </a>
           </li>
           <li class="navbar-about-sub hidden">
@@ -595,6 +523,44 @@
         </div>
       </div>
     </section>
+    <section class="section fp-auto-height" data-anchor="agenda">
+      <div class="container">
+        <h3 class="section-title">
+          <span v-if="en">AGENDA</span>
+          <span v-else>日程</span>
+        </h3>
+        <div v-for="schedule in agenda">
+          <h4>
+            <i class="fa fa-calendar"></i>
+            <span v-text="schedule.date"></span>
+          </h4>
+          <ul class="list-group">
+            <li class="list-group-item" v-for="slot in schedule.slots">
+              <div class="row">
+                <div class="col-md-2 col-sm-12" style="font-family:monospace;">
+                  <h4>
+                    <span class="label label-light">
+                      <i class="fa fa-clock-o"></i>
+                      <span v-text="slot.start"></span>
+                      -
+                      <span v-text="slot.end"></span>
+                    </span>
+                  </h4>
+                </div>
+                <div class="col-md-10 col-sm-12">
+                  <h4 v-for="event in slot.events" style="display:inline-block">
+                    <span class="label label-default label-newco">
+                      <span v-if="en" v-text="event.en"></span>
+                      <span v-else v-text="event.zh"></span>
+                    </span>
+                  </h4>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
     <section class="section fp-auto-height" data-anchor="sponsors">
       <div class="container">
         <h3 class="section-title">
@@ -755,6 +721,7 @@
   <script src="js/scrolloverflow.min.js"></script>
   <script src="js/egg.min.js"></script>
   <script src="js/vue.min.js"></script>
+  <!-- page script -->
   <script src="js/newco.js"></script>
 </body>
 </html>

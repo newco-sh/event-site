@@ -1,3 +1,4 @@
+/* DATA */
 var _hosts = {
   'Robin8': {
     name: 'Robin8',
@@ -85,24 +86,113 @@ var _hosts = {
     }
   }
 };
-$('.close-modal').click(function(e) {
-  $($(this).attr('data-target')).modal('hide');
-});
-$('#full-page').fullpage({
-  menu: '#top-nav',
-  autoScrolling: false,
-  fitToSection: false,
-  controlArrows: false,
-  touchSensitivity: 30,
-  afterLoad: function(anchorLink, index) {
-    $('#top-nav .navbar-brand')[index === 1 ? 'removeClass' : 'addClass']('tiny');
-    $('#top-nav .navbar-brand>.brand-date')[index === 1 ? 'removeClass' : 'addClass']('hidden');
-    $('#top-nav #navbar-home')[index === 1 ? 'addClass' : 'removeClass']('hidden');
-    $('#top-nav')[index > 1 ? 'addClass' : 'removeClass']('inverse');
-    $('#top-nav .navbar-about-sub')[anchorLink.indexOf('about') > -1 ? 'removeClass' : 'addClass']('hidden');
-  }
-});
+var _agenda = [{
+  date: '2016-09-12',
+  slots: [{
+    start: '19:00',
+    end: '22:00',
+    events: [{
+      en: 'VIP Dinner',
+      zh: 'VIP 启动晚宴'
+    }]
+  }]
+}, {
+  date: '2016-09-13',
+  slots: [{
+    start: '09:00',
+    end: '10:00',
+    events: [{
+      en: 'TBD',
+      zh: '待定'
+    }]
+  }, {
+    start: '10:00',
+    end: '11:00',
+    events: [{
+      en: 'TBD',
+      zh: '待定'
+    }]
+  }, {
+    start: '11:00',
+    end: '12:00',
+    events: [{
+      en: 'TBD',
+      zh: '待定'
+    }]
+  }, {
+    start: '12:00',
+    end: '13:30',
+    events: [{
+      en: 'Lunch Break',
+      zh: '午休'
+    }]
+  }, {
+    start: '13:30',
+    end: '14:30',
+    events: [{
+      en: 'TBD',
+      zh: '待定'
+    }]
+  }, {
+    start: '14:30',
+    end: '15:30',
+    events: [{
+      en: 'TBD',
+      zh: '待定'
+    }]
+  }, {
+    start: '15:30',
+    end: '16:30',
+    events: [{
+      en: 'TBD',
+      zh: '待定'
+    }]
+  }, {
+    start: '16:30',
+    end: '17:30',
+    events: [{
+      en: 'TBD',
+      zh: '待定'
+    }]
+  }, {
+    start: '17:30',
+    end: '19:00',
+    events: [{
+      en: 'Dinner Break',
+      zh: '晚休'
+    }]
+  }, {
+    start: '19:00',
+    end: '21:00',
+    events: [{
+      en: '8x8 Speaking Event',
+      zh: '8x8企业家分享'
+    }]
+  }, {
+    start: '21:00',
+    end: '',
+    events: [{
+      en: 'After Party',
+      zh: 'After Party'
+    }]
+  }]
+}];
+/* don't boil me */
 $(function() {
+  $('#full-page').fullpage({
+    menu: '#top-nav',
+    autoScrolling: false,
+    fitToSection: false,
+    controlArrows: false,
+    touchSensitivity: 30,
+    afterLoad: function(anchorLink, index) {
+      $('#top-nav .navbar-brand')[index === 1 ? 'removeClass' : 'addClass']('tiny');
+      $('#top-nav .navbar-brand>.brand-date')[index === 1 ? 'removeClass' : 'addClass']('hidden');
+      $('#top-nav #navbar-home')[index === 1 ? 'addClass' : 'removeClass']('hidden');
+      $('#top-nav')[index > 1 ? 'addClass' : 'removeClass']('inverse');
+      $('#top-nav .navbar-about-sub')[anchorLink.indexOf('about') > -1 ? 'removeClass' : 'addClass']('hidden');
+    }
+  });
   setTimeout(function deferImg() {
     var imgDefer = document.getElementsByTagName('img');
     for (var i = 0; i < imgDefer.length; i++) {
@@ -122,6 +212,7 @@ $(function() {
     data: {
       selected_host: 'Robin8',
       hosts: _hosts,
+      agenda: _agenda,
       en: true
     },
     computed: {

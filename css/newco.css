@@ -74,6 +74,7 @@ header.section[data-anchor=home] {
 }
 .section[data-anchor=intro],
 .section[data-anchor=tickets],
+.section[data-anchor=agenda],
 .section[data-anchor=about] {
   min-height: 100vh;
 }
@@ -89,15 +90,16 @@ header.section[data-anchor=home] {
   -o-background-size: cover;
   background-size: cover;
 }
-footer.section[data-anchor=newco] {
-  background-color: rgb(17, 17, 17);
+footer {
+  background-color: rgb(17, 17, 17) !important;
+  background-image: none !important;
   color: rgb(251, 251, 255) !important;
 }
-footer.section[data-anchor=newco] .link-newco {
+footer .link-newco {
   color: #C2AC78;
 }
-footer.section[data-anchor=newco] .link-newco:focus,
-footer.section[data-anchor=newco] .link-newco:hover {
+footer .link-newco:focus,
+footer .link-newco:hover {
   color: rgb(251, 251, 255);
 }
 .modal-newco {
@@ -192,6 +194,15 @@ footer.section[data-anchor=newco] .link-newco:hover {
 .well-newco {
   background-color: rgba(245, 245, 245, 0.7);
   border-width: 0;
+}
+.label-light {
+  color: rgb(96, 96, 96);
+}
+.label-newco:nth-child(odd) {
+  background-color: rgb(51, 74, 117);
+}
+.label-newco:nth-child(even) {
+  background-color: rgb(194, 172, 120);
 }
 .img-sponsor.silver {
   height: 54px;
