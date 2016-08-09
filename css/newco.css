@@ -173,6 +173,10 @@ footer .link-newco:hover {
 .navbar-newco.inverse .dropdown:hover .dropdown-menu {
   background-color: rgb(17, 17, 17);
 }
+.navbar-about-sub {
+  font-size: 0.9em;
+  text-decoration: underline;
+}
 .dropdown:hover .dropdown-menu a {
   color: rgb(251, 251, 255);
 }
@@ -204,7 +208,7 @@ footer .link-newco:hover {
 .label-newco:nth-child(even) {
   background-color: rgb(194, 172, 120);
 }
-.img-sponsor.silver {
+.img-partner.silver {
   height: 54px;
 }
 /* responsiveness */

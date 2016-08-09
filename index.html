@@ -158,7 +158,6 @@
           </li>
           <li data-menuanchor="tickets">
             <a href="#tickets">
-              <i class="fa fa-ticket"></i>
               <span v-if="en">TICKETS</span>
               <span v-else>报名购票</span>
             </a>
@@ -166,39 +165,35 @@
           <li data-menuanchor="about">
             <a href="#about/summary">
               <span v-if="en">ABOUT</span>
-              <span v-else>活动企业</span>
-            </a>
-          </li>
-          <li data-menuanchor="agenda">
-            <a href="#agenda">
-              <i class="fa fa-calendar"></i>
-              <span v-if="en">AGENDA</span>
-              <span v-else>日程</span>
+              <span v-else>主题企业</span>
             </a>
           </li>
           <li class="navbar-about-sub hidden">
             <a href="#about/companies">
-              <i class="fa fa-briefcase"></i>
-              <span v-if="en">COMPANIES</span>
+              <span v-if="en">companies</span>
               <span v-else>公司</span>
             </a>
           </li>
           <li class="navbar-about-sub hidden">
             <a href="#about/presenters">
-              <i class="fa fa-users"></i>
-              <span v-if="en">PRESENTERS</span>
+              <span v-if="en">presenters</span>
               <span v-else>演讲人</span>
             </a>
           </li>
-          <li data-menuanchor="sponsors">
-            <a href="#sponsors">
-              <span v-if="en">SPONSORS</span>
-              <span v-else>赞助机构</span>
+          <li data-menuanchor="agenda">
+            <a href="#agenda">
+              <span v-if="en">AGENDA</span>
+              <span v-else>日程</span>
+            </a>
+          </li>
+          <li data-menuanchor="partners">
+            <a href="#partners">
+              <span v-if="en">PARTNERS</span>
+              <span v-else>合作伙伴</span>
             </a>
           </li>
           <li>
             <a href="#" v-on:click="toggleLang">
-              <i class="fa fa-lg fa-language" aria-hidden="true"></i>
               <span v-if="en">汉</span>
               <span v-else>EN</span>
             </a>
@@ -562,36 +557,36 @@
         </div>
       </div>
     </section>
-    <section class="section fp-auto-height" data-anchor="sponsors">
+    <section class="section fp-auto-height" data-anchor="partners">
       <div class="container">
         <h3 class="section-title">
-          <span v-if="en">GLOBAL SPONSORS</span>
-          <span v-else>国际赞助机构</span>
+          <span v-if="en">GLOBAL PARTNERS</span>
+          <span v-else>国际合作伙伴</span>
         </h3>
         <ul class="list-inline">
           <li>
-            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/global/adobe.jpg" class="img-sponsor silver">
+            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/global/adobe.jpg" class="img-partner silver">
           </li>
           <li>
-            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/global/perkins-coie.jpg" class="img-sponsor silver">
+            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/global/perkins-coie.jpg" class="img-partner silver">
           </li>
           <li>
-            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/global/publicis-sapient.png" class="img-sponsor silver">
+            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/global/publicis-sapient.png" class="img-partner silver">
           </li>
           <li>
-            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/global/twitter.png" class="img-sponsor silver">
+            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/global/twitter.png" class="img-partner silver">
           </li>
         </ul>
         <h3 class="section-title">
-          <span v-if="en">LOCAL SPONSORS</span>
-          <span v-else>本地赞助机构</span>
+          <span v-if="en">LOCAL PARTNERS</span>
+          <span v-else>本地合作伙伴</span>
         </h3>
         <ul class="list-inline">
           <li>
-            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/local/google.png" class="img-sponsor silver">
+            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/local/google.png" class="img-partner silver">
           </li>
           <li>
-            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/local/wework.png" class="img-sponsor silver">
+            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/local/wework.png" class="img-partner silver">
           </li>
         </ul>
         <div class="well well-newco">
