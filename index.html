@@ -281,7 +281,7 @@
             On September 13th, twenty-five leading companies in Shanghai will open their doors and eight innovation leaders will share their stories with NewCo attendees. NewCo is a new kind of event experience: a mashup of an open studio tour and a business conference, with the vibe of a music festival.
           </p>
           <p>
-            During the day, you get to choose NewCo Sessions given by an array of local innovative companies. In the evening, NewCo Shanghai Presenter Chinaccelerator is bringing its famous 8x8 speaking event to NewCo attendees, during which eight entrepreneurial heroes will speak for eight minutes.
+            During the day, you get to choose NewCo Sessions given by an array of <a href="#about/companies">local innovative companies</a>. In the evening, NewCo Shanghai Presenter <a href="http://chinaccelerator.com" target="_blank">Chinaccelerator</a> is bringing its famous 8x8 speaking event to NewCo attendees, during which eight <a href="#about/presenters">entrepreneurial heroes</a> will speak for eight minutes.
           </p>
           <p>
             NewCos believe in open collaboration with customers, suppliers, employees, and their community. Openness brings new opportunities to light, and we invite you to embrace it together on September 13th.
@@ -292,7 +292,7 @@
             9月13日，25家上海标杆公司将会为NewCo节敞开大门，8位国内创新先锋将与NewCo观众面对面分互动分享。NewCo不同于您以往参加过的行业活动——它既保留了商务会议的专业性，又拥有音乐节般的热情和艺术工作室似的天马行空。
           </p>
           <p>
-            活动当天，一系列NewCo企业将呈现精心策划的活动，供您挑选。晚上，NewCo上海主办方中国加速将带来其享负盛名的8x8企业家分享环节。届时，8位资深创业人将用8分钟与您分享他们的创新历程和心得。
+            活动当天，一系列<a href="#about/companies">NewCo企业</a>将呈现精心策划的活动，供您挑选。晚上，NewCo上海主办方<a href="http://chinaccelerator.com" target="_blank">中国加速</a>将带来其享负盛名的8x8企业家分享环节。届时，8位<a href="#about/presenters">资深创业人</a>将用8分钟与您分享他们的创新历程和心得。
           </p>
           <p>
             NewCo主张与客户、员工、供应商、社区建立诚信公开的合作关系。开放意味着机遇，9月13日，我们诚邀您共同见证。
@@ -358,8 +358,10 @@
                   <span v-else>VIP 启动晚宴</span>
                 </h5>
                 <hr>
-                <h5 v-if="en">5 NewCo Sessions**</h5>
-                <h5 v-else>5项NewCo活动**</h5>
+                <h5 v-if="en">5 NewCo Sessions
+                </h5>
+                <h5 v-else>5项NewCo活动
+                </h5>
                 <hr>
                 <h5 v-if="en">8x8 Speaking Event</h5>
                 <h5 v-else>8x8企业家分享</h5>
@@ -383,8 +385,10 @@
               <div class="panel-body">
                 <h5>RMB ￥188</h5>
                 <hr>
-                <h5 v-if="en">5 NewCo Sessions**</h5>
-                <h5 v-else>5项NewCo活动**</h5>
+                <h5 v-if="en">5 NewCo Sessions
+                </h5>
+                <h5 v-else>5项NewCo活动
+                </h5>
                 <hr>
                 <h5 v-if="en">8x8 Speaking Event</h5>
                 <h5 v-else>8x8企业家分享</h5>
@@ -413,8 +417,6 @@
             </div>
           </div>
         </div>
-        <h5 v-if="en">**you will not be able to register for more than one session per timeslot</h5>
-        <h5 v-else>**同一时间段只能选择一项</h5>
         <div class="btn-group">
           <button type="button" class="btn btn-default btn-newco btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-ticket"></i>
@@ -492,7 +494,9 @@
       </div>
       <div class="slide" data-anchor="companies">
         <div class="container text-center">
-          <h3>Host Companies</h3>
+          <h3 class="section-title text-left">
+            Host Companies
+          </h3>
           <p>
             Connect to Shanghai's tech industry like never before. Festival participants pick the companies they want to explore and tour Shanghai, meeting founders and senior leadership inside their home office.
           </p>
@@ -516,13 +520,21 @@
       </div>
       <div class="slide" data-anchor="presenters">
         <div class="container text-center">
-          <h3>8x8 - 8 Heroes for 8 Minutes</h3>
+          <h3 class="section-title text-left">
+            8x8 - 8 Heroes for 8 Minutes
+          </h3>
           <p>
             Chinaccelerator's famous 8x8 speaking event is bringing you 8 tech pioneers and top VC's from the startup ecosystem in China. Each of them will take you on a 8-minute tour of their trials and tribulations. This is an amazing opportunity for you to have a peek at the first startup accelerator program in China, meet interesting people and listen to amazing speakers.
           </p>
           <a href="#about/summary" class="link-newco">
             <i class="fa fa-2x fa-arrow-circle-left"></i>
           </a>
+          <div class="well well-newco">
+            <h5>
+              <span v-if="en">Coming soon - stay tuned.</span>
+              <span v-else>敬请期待</span>
+            </h5>
+          </div>
         </div>
       </div>
     </section>
