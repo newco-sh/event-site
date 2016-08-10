@@ -279,24 +279,27 @@
         </ul>
         <div v-if="en">
           <p>
-            On September 13th, twenty-five leading companies in Shanghai will open their doors and eight innovation leaders will share their stories with NewCo attendees. NewCo is a new kind of event experience: a mashup of an open studio tour and a business conference, with the vibe of a music festival.
+            On September 13th, NewCo comes to Asia for the first time, planting its feet in Shanghai. <a href="http://newco.co/" target="_blank">NewCo</a> is a new kind of event experience: a mashup of an open studio tour and a business conference, with the vibe of a music festival. There are now 17 cities globally who host the NewCo festival, and over 2500 companies around the world have opened their doors for the event.
           </p>
           <p>
-            During the day, you get to choose NewCo Sessions given by an array of <a href="#about/companies">local innovative companies</a>. In the evening, NewCo Shanghai Presenter <a href="http://chinaccelerator.com" target="_blank">Chinaccelerator</a> is bringing its famous 8x8 speaking event to NewCo attendees, during which eight <a href="#about/presenters">entrepreneurial heroes</a> will speak for eight minutes.
+            "Nothing like NewCo existed in China before, where you get to gather inside the offices of the world’s leading internet companies," says William Bao Bean, Managing Director of <a href="http://chinaccelerator.com" target="_blank">Chinaccelerator</a>. "We are very happy to launch Shanghai as the 17th city in the world hosting a NewCo festival."
           </p>
           <p>
-            NewCos believe in open collaboration with customers, suppliers, employees, and their community. Openness brings new opportunities to light, and we invite you to embrace it together on September 13th.
+            NewCo’s mission is to identify and celebrate new kinds of companies driving the transition to a sustainable, positive-impact business ecosystem. This is exactly the energy that Chinaccelerator is exuding. The fund behind Chinaccelerator, <a href="https://sosv.com/" target="_blank">SOSV</a>, is committed to accelerator founders’ big ideas for positive change, and build communities that provide lasting connections. We cordially invite you to celebrate innovation together on September 13th, 2016.
           </p>
         </div>
         <div v-else>
           <p>
-            9月13日，25家上海标杆公司将会为NewCo节敞开大门，8位国内创新先锋将与NewCo观众面对面分互动分享。NewCo不同于您以往参加过的行业活动——它既保留了商务会议的专业性，又拥有音乐节般的热情和艺术工作室似的天马行空。
+            NewCo是一个<a href="http://newco.co/" target="_blank">国际性创新节日</a>，已在全球16座城市举办，累计参与企业超过2500家。它和一般的商务会议或科技大会不同，它更像一个音乐节，好玩、轻松，但有干货，有收获。节日当天，参与者将跟随NewCo拜访城市中的优秀企业，从拓展业务、寻求合作、招揽贤才、结识人脉到交流学习，参与者各取所需，享乐其中。
           </p>
           <p>
-            活动当天，一系列<a href="#about/companies">NewCo企业</a>将呈现精心策划的活动，供您挑选。晚上，NewCo上海主办方<a href="http://chinaccelerator.com" target="_blank">中国加速</a>将带来其享负盛名的8x8企业家分享环节。届时，8位<a href="#about/presenters">资深创业人</a>将用8分钟与您分享他们的创新历程和心得。
+            这是NewCo第一次进军亚洲，<a href="http://chinaccelerator.com" target="_blank">中国加速</a>荣幸地担任其主办方，于9月13日在上海举行。
           </p>
           <p>
-            NewCo主张与客户、员工、供应商、社区建立诚信公开的合作关系。开放意味着机遇，9月13日，我们诚邀您共同见证。
+            往期NewCo参与者基本是30-40岁的优秀创业者、管理者及行业先驱。此次NewCo将邀请20家上海优秀企业，这些公司大多是A-D轮，现已确认参加的公司包括网红搜索引擎——Robin8，引爆朋友圈的修图APP——足记，全球最大的互联网服务器管理公司——云络科技，获得沪江投资的语言教学平台——italki，国内领先的团队协作工具——Teambition，等等。
+          </p>
+          <p>
+            NewCo的愿景是寻找并支持那些对社会有积极影响力、注重持续发展的企业。中国加速和其背后的基金<a href="https://sosv.com/" target="_blank">SOSV</a>也秉承同样的信念：投资、加速那些创造正面价值的公司，帮助它们长期发展。在此，我们诚挚邀请您参加NewCo，广交好友，为创新精神开一场狂欢派对。
           </p>
         </div>
       </div>
@@ -456,9 +459,12 @@
           <span v-else>NewCo带您走进上海最受瞩目的企业参观学习、拓展人脉，共度为创新灵魂庆祝的一天。</span>
         </h5>
         <ul class="list-inline text-center">
-          <li v-for="(key, host) in hosts">
-            <a href="#" v-on:click="triggerHost(key, $event)">
-              <img v-bind:src="host.logo" class="img-host">
+          <li v-for="h in hosts">
+            <a href="#" v-on:click="triggerHost(h.k, $event)" style="text-decoration:none;">
+              <img v-bind:src="h.logo" class="img-host">
+              <p class="text-muted">
+                <small v-text="h.name"></small>
+              </p>
             </a>
           </li>
         </ul>
