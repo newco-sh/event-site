@@ -16,11 +16,14 @@ body {
   margin: 0 auto;
   padding: 0 1em;
 }
-.img-host {
-  padding: 0.5em 1em;
-  height: 96px;
+.item-event {
+  margin: 0.3em;
 }
-.btn, .panel {
+.item-event img {
+  height: 86px;
+}
+.btn, .panel,
+.item-event:hover {
   box-shadow:
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -224,6 +227,19 @@ footer .link-newco:hover {
   height: 54px;
 }
 /* responsiveness */
+@media screen and (max-width: 768px) {
+  .item-event {
+    box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
 @media screen and (min-width: 768px) {
   .modal:before {
     display: inline-block;
