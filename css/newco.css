@@ -59,6 +59,18 @@ body {
 .section:first-child {
   background-color: #334A75;
 }
+.section:nth-child(even) {
+  background:
+    linear-gradient(rgba(251, 251, 255, 0.9), rgba(251, 251, 255, 0.9)),
+    url('../img/shanghai2_80.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 header.section[data-anchor=home] {
   background:
     linear-gradient(rgba(51, 74, 117, 1), rgba(17, 17, 17, 0.6)),
@@ -72,16 +84,10 @@ header.section[data-anchor=home] {
   background-size: cover;
   color: rgb(251, 251, 255) !important;
 }
-.section[data-anchor=intro],
-.section[data-anchor=tickets],
-.section[data-anchor=agenda],
-.section[data-anchor=about] {
-  min-height: 100vh;
-}
-.section:nth-child(even) {
+.section[data-anchor=tickets] {
   background:
-    linear-gradient(rgba(251, 251, 255, 0.9), rgba(251, 251, 255, 0.9)),
-    url('../img/shanghai2_80.jpg');
+    linear-gradient(rgba(251, 251, 255, 0.9), rgba(251, 251, 255, 0.7)),
+    url('../img/Batch8_DemoDay_mid.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -89,6 +95,12 @@ header.section[data-anchor=home] {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.section[data-anchor=intro],
+.section[data-anchor=tickets],
+.section[data-anchor=agenda],
+.section[data-anchor=about] {
+  min-height: 100vh;
 }
 footer {
   background-color: rgb(17, 17, 17) !important;
