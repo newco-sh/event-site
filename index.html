@@ -205,6 +205,13 @@
             </a>
           </li>
           <li>
+            <a href="http://chinaccelerator.com/news/newco" target="_blank">
+              <span v-if="en">BLOG</span>
+              <span v-else>博客</span>
+              <i class="fa fa-external-link"></i>
+            </a>
+          </li>
+          <li>
             <a href="#" v-on:click="toggleLang">
               <span v-if="en">汉</span>
               <span v-else>EN</span>
@@ -215,13 +222,6 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-              <li>
-                <a href="http://chinaccelerator.com/news/newco" target="_blank">
-                  <span v-if="en">BLOG</span>
-                  <span v-else>博客</span>
-                  <i class="fa fa-external-link"></i>
-                </a>
-              </li>
               <li>
                 <a href="#ca">
                   <span v-if="en">CHINACCELERATOR</span>
