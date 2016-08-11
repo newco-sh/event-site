@@ -17,10 +17,11 @@ body {
   padding: 0 1em;
 }
 .item-event {
-  margin: 0.3em;
+  margin: 0.3em 0.5em;
 }
 .item-event img {
   height: 86px;
+  max-width: 100%;
 }
 .btn, .panel,
 .item-event:hover {
