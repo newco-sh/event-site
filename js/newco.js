@@ -3,12 +3,17 @@ var _hosts = [
   {
     k: 'ChinaNetCloud',
     name: 'ChinaNetCloud云络科技',
+    link: 'https://www.chinanetcloud.com/en/',
     logo: 'img/hosts/ChinaNetCloud.png',
     presenter: 'Steve Mushero',
     avatar: 'img/hosts/ChinaNetCloud_Steve Mushero.jpg',
     lang: 'EN',
     position: 'CEO',
     industry: 'Cloud Services',
+    session: {
+      title: 'TBD',
+      intro: 'TBD'
+    },
     p_intro: {
       en: '<p>Mr. Steve Mushero co-founded ChinaNetCloud in 2008 and serves as its Chief Technology Officer and Chief Executive Officer. Mr. Mushero served as the Chief Technical Officer of Tudou Holdings Limited. He has over 20 years of technology management experience across a wide range of industries and international contexts. </p>',
       zh: '<p>Steve Mushero先生在2008年共同创立了云络科技，担任公司的CTO和CEO。他曾在硅谷担任过各种网络技术创业公司的CTO，后来成为土豆网的第一名外籍CTO。</p>'
@@ -19,14 +24,42 @@ var _hosts = [
     }
   },
   {
+    k: 'ChinaPex',
+    name: 'ChinaPex',
+    link: 'http://www.chinapex.com.cn/',
+    logo: 'img/hosts/ChinaPex_black.png',
+    presenter: 'TBD',
+    avatar: '',
+    lang: 'TBD',
+    position: 'TBD',
+    industry: 'TBD',
+    session: {
+      title: 'TBD',
+      intro: 'TBD'
+    },
+    p_intro: {
+      en: 'TBD',
+      zh: 'TBD'
+    },
+    intro: {
+      en: "<p>China's first and largest enterprise-level programmatic marketing platform. ChinaPex provides marketers and agencies technology, solutions, and insights helping them unleash the value of big data-driven marketing.</p>",
+      zh: '<p>国内首家及最大的企业级程序化平台。创立于美国硅谷，Chinapex创略旨在运用技术、服务和洞察，为广告主及代理商提供企业级解决方案，帮助他们释放数据驱动营销和程序化购买所带来的价值。</p>'
+    }
+  },
+  {
     k: 'FotoPlace',
     name: 'FotoPlace 足记',
+    link: 'http://www.fotoplace.cc/',
     logo: 'img/hosts/FotoPlace足记.png',
     presenter: '杨柳/Yang Liu',
     avatar: 'img/hosts/FotoPlace_Yang Liu.jpg',
     lang: 'CN',
     position: 'CEO',
     industry: 'Social App',
+    session: {
+      title: 'TBD',
+      intro: 'TBD'
+    },
     p_intro: {
       en: '<p>Yang Liu, born in 1970s, graduated from Shanghai Normal University with a degree in Dramatic Literature. In love with films, her job for over a decade was instead in product management. In 2014, she finally merged her love for films and her experience in product management, leading to the inception of FotoPlace. </p>',
       zh: '<p>杨柳，70后白羊座，风风火火恍恍惚惚。。上海师范大学影视戏剧文学专业毕业。作为一个长期电影中毒者，十几年工龄却没有从事与电影相关的工作。2014年，人到中年，无心插柳意外开始创业。当初喜欢的专业与十来年的工作经历终于殊途同归，可见一切自有妥帖的安排。作为「足记」APP的创始人，也是「足记」最大的“bug”（据旁人追忆，此语出自某次醉生梦死后）。非典型互联网产品汪，女汉砸，记性不好，智商堪忧，懒散，好吃，代谢慢，不运动，胖，不好看，心大，学渣一枚。闪闪发亮的深井冰。一个看起来奔放，但本质上内向的人，尴尬症晚期患者，不擅应对各类冷场。</p>'
@@ -39,12 +72,17 @@ var _hosts = [
   {
     k: 'Italki',
     name: 'Italki',
+    link: 'https://www.italki.com/',
     logo: 'img/hosts/italki.gif',
     presenter: 'Kevin Chen',
     avatar: 'img/hosts/italki_Kevin Chen.jpeg',
     lang: 'EN',
     position: 'CEO',
     industry: 'EduTech',
+    session: {
+      title: 'TBD',
+      intro: 'TBD'
+    },
     p_intro: {
       en: '<p>Kevin Chen is co-founder of italki.com. Previously, he co-founded famento.com, and worked in financial research. He is active in the Shanghai startup community through techyizu.org and xinchejian.com.</p>',
       zh: '<p>Kevin Chen是italki的联合创始人，此前他曾从事金融业。Kevin活跃于上海创业圈，如非营利性极客交流社区techyizu以及创客空间新车间。</p>'
@@ -57,12 +95,17 @@ var _hosts = [
   {
     k: 'Robin8',
     name: 'Robin8',
+    link: 'http://robin8.com/',
     logo: 'img/hosts/Robin8.png',
     presenter: 'Miranda Tan',
     avatar: 'img/hosts/Robin8_Miranda Tan.png',
     lang: 'EN',
     position: 'CEO',
     industry: 'Social App',
+    session: {
+      title: 'TBD',
+      intro: 'TBD'
+    },
     p_intro: {
       en: '<p>Miranda Tan has more than 10 years experience in public relations, marketing, and tech. Miranda has a BS from Cornell University and a JD from St. John’s University School of Law.</p>',
       zh: '<p>Miranda Tan 毕业于康奈尔大学, 在PR、市场营销和公共关系领域有超过15年的经验。</p>'
@@ -73,14 +116,42 @@ var _hosts = [
     }
   },
   {
+    k: 'Weibo',
+    name: 'Sina Weibo',
+    link: 'http://weibo.com/',
+    logo: 'img/hosts/Sina_Weibo.png',
+    presenter: 'Ken Hong/洪力舟',
+    avatar: '',
+    lang: 'TBD',
+    position: 'GM',
+    industry: 'TBD',
+    session: {
+      title: 'TBD',
+      intro: 'TBD'
+    },
+    p_intro: {
+      en: '<p>In April 2012, Ken joined Sina as the GM of Weibo Marketing Strategy, helping Sina develop its popular Weibo platform into a powerful marketing platform for advertisers and agencies. Since then, he has worked with MNCs, large Chinese enterprises and advertising agencies on various social media marketing programs including Social Advertising, Social CRM and Social Commerce.</p>',
+      zh: '<p>Ken于2012年4月加入新浪，担任新浪微博营销策略总经理。他主要负责推动新浪微博平台创造更大的价值。他已帮助多家跨国公司、国内大型企业及广告代理机构制定各种社会化媒体营销方案，包括社交广告、社交客户关系管理以及社交商务等项目。</p>'
+    },
+    intro: {
+      en: "<p>As a leading social media platform for people to create, distribute and discover Chinese-language content, Weibo provides an unprecedented and simple way for people and organizations to publicly express themselves in real time, interact with others on a massive global platform and stay connected with the world.",
+      zh: 'TBD'
+    }
+  },
+  {
     k: 'Teambition',
     name: 'Teambition',
+    link: 'https://www.teambition.com/',
     logo: 'img/hosts/Teambition.png',
     presenter: 'Yaqian Wang/王雅倩',
     avatar: 'img/hosts/Teambition_Yaqian Wang.jpg',
     lang: 'CN/EN',
     position: 'COO',
     industry: 'Corporate services',
+    session: {
+      title: 'TBD',
+      intro: 'TBD'
+    },
     p_intro: {
       en: "<p>Yaqian Wang joined Teambition in 2014 when the company was still a startup with about 20 people. As COO of Teambition, Yaqian is response for HR, finance and the company's daily operations. She also works closely with the CEO and other leaders to make sure every department and team collaborate smoothly. in 2016, Teambition has 120 employees in 7 cities in China.</p><p>Yaqian hold a PhD in Economics from Lund University in Sweden and Master in Organisational Psychology from Shanghai Jiao Tong University. Before joining Teambition, Yaqian was a researcher at Lund Institute of Economic Research and working on a learning partnership between Lund University and SCA Packaging, in which she worked as a consultant for the company on innovation and organisational culture. She also has worked at McKinsey Company in Shanghai and Italy Cement Group in Milan.</p>",
       zh: '<p>上海交通大学管理学学士，应用心理学硕士，瑞典隆德大学管理学博士。博士期间在欧洲最大的包装公司 SCA Packaging 三个欧洲分公司进行组织创新文化的研究，并曾在麦肯锡公司上海分公司，意大利水泥集团米兰总部工作实习。2014年博士毕业回国后加入 Teambition，负责公司内部运营，带领 Teambition 从20多个人成长为100+人。</p>'

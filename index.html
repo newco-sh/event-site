@@ -78,7 +78,7 @@
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="host-label">
-            <span v-text="host.name"></span>
+            <a v-bind:href="host.link" v-text="host.name"></a>
             <small>
               <a href="#" class="link-newco" v-on:click="toggleLang">
                 <i class="fa fa-lg fa-language" aria-hidden="true"></i>
@@ -89,45 +89,38 @@
           </h4>
         </div>
         <div class="modal-body">
+          <h4>
+            Session Title:
+            <span v-text="host.session.title"></span>
+          </h4>
+          <p v-text="host.session.intro"></p>
+          <hr>
+          <h4>Presenter</h4>
           <div class="row">
             <div class="col-md-4 col-sm-12">
-              <img v-bind:src="host.logo" class="img-responsive center-block" style="max-height:120px;">
-              <h4>
-                <span v-if="en">INDUSTRY:</span>
-                <span v-else>行业：</span>
-                <span v-text="host.industry" class="text-newco"></span>
-              </h4>
+              <img v-bind:src="host.avatar" class="img-responsive img-circle center-block" style="max-height:300px;">
             </div>
             <div class="col-md-8 col-sm-12">
+              <h3 v-text="host.presenter" class="text-newco"></h3>
+              <span v-text="host.position"></span>, <span v-text="host.name"></span>
+              <div v-if="en" v-html="host.p_intro.en"></div>
+              <div v-else v-html="host.p_intro.zh"></div>
+            </div>
+          </div>
+          <h4>Host Company</h4>
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <img v-bind:src="host.logo" class="img-responsive img-circle center-block" style="max-height:120px;">
+            </div>
+            <div class="col-md-8 col-sm-12">
+              <h3 v-text="host.name" class="text-newco"></h3>
               <div v-if="en" v-html="host.intro.en"></div>
               <div v-else v-html="host.intro.zh"></div>
             </div>
           </div>
-          <hr>
-          <div class="row">
-            <div class="col-md-8 col-sm-12">
-              <div v-if="en" v-html="host.p_intro.en"></div>
-              <div v-else v-html="host.p_intro.zh"></div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-              <img v-bind:src="host.avatar" class="img-responsive center-block" style="max-height:300px;">
-              <h4>
-                <span v-if="en">PRESENTER:</span>
-                <span v-else>演讲人：</span>
-                <span v-text="host.presenter" class="text-newco"></span>
-              </h4>
-              <h4>
-                <span v-if="en">POSITION:</span>
-                <span v-else>职务：</span>
-                <span v-text="host.position" class="text-newco"></span>
-              </h4>
-              <h4>
-                <span v-if="en">LANGUAGE:</span>
-                <span v-else>语言：</span>
-                <span v-text="host.lang" class="text-newco"></span>
-              </h4>
-            </div>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
       </div>
     </div>
@@ -268,21 +261,21 @@
         <ul class="list-inline text-center">
           <li>
             <div class="well well-newco">
-              <h1 class="text-newco">20</h1>
+              <h1 class="text-newco-gold">20</h1>
               <p v-if="en">NewCo Event Hosts</p>
               <p v-else>家NewCo活动主办企业</p>
             </div>
           </li>
           <li>
             <div class="well well-newco">
-              <h1 class="text-newco">8</h1>
+              <h1 class="text-newco-gold">8</h1>
               <p v-if="en">Tech Pioneer and VC Speakers</p>
               <p v-else>位科技大咖和VC演讲者</p>
             </div>
           </li>
           <li>
             <div class="well well-newco">
-              <h1 class="text-newco">300+</h1>
+              <h1 class="text-newco-gold">300+</h1>
               <p v-if="en">NewCo Attendees</p>
               <p v-else>个NewCo活动参加者</p>
             </div>
@@ -325,7 +318,7 @@
           <div class="col-md-3 col-sm-12">
             <div class="panel panel-warning">
               <div class="panel-heading">
-                <h5 class="panel-title text-newco">
+                <h5 class="panel-title text-newco-gold">
                   <i class="fa fa-ticket"></i>
                   <span v-if="en">Gold Pass</span>
                   <span v-else>金卡</span>
@@ -340,10 +333,10 @@
                 </h5>
                 <hr>
                 <h5 v-if="en">
-                  <strong class="text-newco">Unlimited</strong> NewCo Sessions
+                  <strong class="text-newco-gold">Unlimited</strong> NewCo Sessions
                 </h5>
                 <h5 v-else>
-                  <strong class="text-newco">任意选择</strong>NewCo活动数量
+                  <strong class="text-newco-gold">任意选择</strong>NewCo活动数量
                 </h5>
                 <hr>
                 <h5 v-if="en">8x8 Speaking Event</h5>

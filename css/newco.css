@@ -58,8 +58,11 @@ body {
 .link-newco:hover {
   color: #291300;
 }
-.text-newco {
+.text-newco-gold {
   color: #76602C !important;
+}
+.text-newco {
+  color: rgb(51, 74, 117) !important;
 }
 /* default section toggling background color */
 .section .container {
