@@ -81,7 +81,6 @@
             <a v-bind:href="host.link" v-text="host.name"></a>
             <small>
               <a href="#" class="link-newco" v-on:click="toggleLang">
-                <i class="fa fa-lg fa-language" aria-hidden="true"></i>
                 <span v-if="en">汉</span>
                 <span v-else>EN</span>
               </a>
@@ -378,8 +377,8 @@
               <div class="panel-heading">
                 <h5 class="panel-title">
                   <i class="fa fa-ticket"></i>
-                  <span v-if="en">NewCo Pass</span>
-                  <span v-else>NewCo 票</span>
+                  <span v-if="en">Standard Pass</span>
+                  <span v-else>标准票</span>
                 </h5>
               </div>
               <div class="panel-body">
