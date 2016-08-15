@@ -415,31 +415,11 @@
             </div>
           </div>
         </div>
-        <div class="btn-group">
-          <button type="button" class="btn btn-default btn-newco btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-ticket"></i>
-            <span v-if="en">PURCHASE</span>
-            <span v-else>购票</span>
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu">
-            <li>
-              <a href="https://yoopay.cn/event/NewCoShanghai" target="_blank" style="color:rgb(255, 80, 80);">
-                <i class="fa fa-rmb"></i>
-                <span v-if="en">Union Pay, WeChat Pay, Alipay</span>
-                <span v-else>银联、微信支付、支付宝</span>
-              </a>
-            </li>
-            <li role="separator" class="divider"></li>
-            <li>
-              <a href="https://www.eventbrite.com/e/newco-shanghai-tickets-26798078775" target="_blank" style="color:rgb(0, 153, 0);">
-                <i class="fa fa-usd"></i>
-                <span v-if="en">Master, Visa, Paypal</span>
-                <span v-else>万事达、VISA、贝宝</span>
-              </a>
-            </li>
-          </ul>
-        </div>
+        <a href="https://yoopay.cn/event/NewCoShanghai" class="btn btn-default btn-newco btn-lg" target="_blank">
+          <i class="fa fa-ticket"></i>
+          <span v-if="en">PURCHASE</span>
+          <span v-else>购票</span>
+        </a>
         <h5>
           <span v-if="en">
             If you have any questions, please contact
