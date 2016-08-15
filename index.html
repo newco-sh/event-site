@@ -659,11 +659,10 @@
           <span v-else>本地合作伙伴</span>
         </h3>
         <ul class="list-inline">
-          <li>
-            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/local/google.png" class="img-partner silver">
-          </li>
-          <li>
-            <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/local/wework.png" class="img-partner silver">
+          <li v-for="partner in partners" style="margin:0.5em;">
+            <a v-bind:href="partner.href">
+              <img v-bind:src="partner.img" class="img-partner" v-bind:class="partner.class">
+            </a>
           </li>
         </ul>
         <div class="well well-newco">

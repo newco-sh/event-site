@@ -21,9 +21,7 @@ body {
   margin: 0.5em;
 }
 .item-event .logo-host {
-  /*padding: 0 3px;*/
   display: block;
-  text-decoration: none;
   height: 120px;
   line-height: 120px;
 }

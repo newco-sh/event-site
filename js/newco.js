@@ -199,6 +199,13 @@ var _links = [
   { href: 'http://ny.newco.co', name: 'New York' },
   { href: 'http://tor.newco.co', name: 'Toronto' }
 ];
+var _partners = [
+  { href: 'https://google.com', img: 'img/local/google.png', class: 'silver' },
+  { href: 'http://www.people-squared.com/', img: 'img/local/PeopleSquared.png', class: 'silver' },
+  { href: 'http://www.pillarlegalpc.com/', img: 'img/local/Pillar Legal.jpg', class: 'silver' },
+  { href: 'https://www.wework.com/', img: 'img/local/wework.png', class: 'silver' },
+  { href: 'https://yoopay.cn/', img: 'img/local/yoopay logo.png', class: 'silver' }
+];
 /* don't boil me */
 $(function() {
   $('#full-page').fullpage({
@@ -235,6 +242,7 @@ $(function() {
       selected_host: 'Robin8',
       hosts: _hosts,
       agenda: _agenda,
+      partners: _partners,
       links: _links,
       en: true
     },
