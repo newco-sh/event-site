@@ -471,7 +471,9 @@
         <ul class="list-inline text-center">
           <li class="item-event" v-for="h in hosts">
             <a href="#" v-on:click="triggerHost(h.k, $event)" style="text-decoration:none;">
-              <img v-bind:src="h.logo">
+              <span class="logo-host">
+                <img v-bind:src="h.logo">
+              </span>
               <p class="text-muted">
                 <small v-text="h.name"></small>
               </p>
@@ -742,41 +744,8 @@
               <span style="font-size:32px;vertical-align:text-top;">Cities</span>
             </div>
             <ul class="list-inline">
-              <li>
-                <a href="http://atx.newco.co" class="link-newco">Austin</a>
-              </li>
-              <li>
-                <a href="http://bcn.newco.co" class="link-newco">Barcelona</a>
-              </li>
-              <li>
-                <a href="http://bay.newco.co" class="link-newco">Bay Area</a>
-              </li>
-              <li>
-                <a href="http://bos.newco.co" class="link-newco">Boston</a>
-              </li>
-              <li>
-                <a href="http://bdr.newco.co" class="link-newco">Boulder</a>
-              </li>
-              <li>
-                <a href="http://cin.newco.co" class="link-newco">Cincinnati</a>
-              </li>
-              <li>
-                <a href="http://det.newco.co" class="link-newco">Detroit</a>
-              </li>
-              <li>
-                <a href="http://ist.newco.co" class="link-newco">Istanbul</a>
-              </li>
-              <li>
-                <a href="http://ldn.newco.co" class="link-newco">London</a>
-              </li>
-              <li>
-                <a href="http://cdmx.newco.co" class="link-newco">Mexico City</a>
-              </li>
-              <li>
-                <a href="http://ny.newco.co" class="link-newco">New York</a>
-              </li>
-              <li>
-                <a href="http://tor.newco.co" class="link-newco">Toronto</a>
+              <li v-for="link in links">
+                <a v-bind:href="link.href" v-text="link.name" class="link-newco"></a>
               </li>
             </ul>
           </div>

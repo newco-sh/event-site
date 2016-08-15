@@ -185,6 +185,20 @@ var _agenda = [
     }]
   }
 ];
+var _links = [
+  { href: 'http://atx.newco.co', name: 'Austin' },
+  { href: 'http://bcn.newco.co', name: 'Barcelona' },
+  { href: 'http://bay.newco.co', name: 'Bay Area' },
+  { href: 'http://bos.newco.co', name: 'Boston' },
+  { href: 'http://bdr.newco.co', name: 'Boulder' },
+  { href: 'http://cin.newco.co', name: 'Cincinnati' },
+  { href: 'http://det.newco.co', name: 'Detroit' },
+  { href: 'http://ist.newco.co', name: 'Istanbul' },
+  { href: 'http://ldn.newco.co', name: 'London' },
+  { href: 'http://cdmx.newco.co', name: 'Mexico City' },
+  { href: 'http://ny.newco.co', name: 'New York' },
+  { href: 'http://tor.newco.co', name: 'Toronto' }
+];
 /* don't boil me */
 $(function() {
   $('#full-page').fullpage({
@@ -221,6 +235,7 @@ $(function() {
       selected_host: 'Robin8',
       hosts: _hosts,
       agenda: _agenda,
+      links: _links,
       en: true
     },
     computed: {
