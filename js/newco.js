@@ -169,8 +169,8 @@ var _agenda = [
       start: '19:00',
       end: '22:00',
       events: [{
-        en: 'VIP Dinner',
-        zh: 'VIP 启动晚宴'
+        en: 'VIP Dinner (Sponsored by WeWork)',
+        zh: 'VIP 启动晚宴 (Sponsored by WeWork)'
       }]
     }]
   },
