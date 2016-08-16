@@ -230,6 +230,9 @@ footer .link-newco:hover {
 .label-light {
   color: rgb(96, 96, 96);
 }
+.label-newco {
+  white-space: normal !important;
+}
 .label-newco:nth-child(odd) {
   background-color: rgb(51, 74, 117);
 }
