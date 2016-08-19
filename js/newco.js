@@ -70,8 +70,8 @@ var _hosts = [
     }
   },
   {
-    k: 'Robin88',
-    name: 'Robin888',
+    k: 'Robin8',
+    name: 'Robin8',
     link: 'http://robin8.com/',
     logo: 'img/hosts/Robin8.png',
     presenter: 'Miranda Tan',
