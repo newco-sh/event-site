@@ -24,29 +24,6 @@ var _hosts = [
     }
   },
   {
-    k: 'ChinaPex',
-    name: 'ChinaPex',
-    link: 'http://www.chinapex.com.cn/',
-    logo: 'img/hosts/ChinaPex_black.png',
-    presenter: 'TBD',
-    avatar: '',
-    lang: 'TBD',
-    position: 'TBD',
-    industry: 'TBD',
-    session: {
-      title: 'TBD',
-      intro: 'TBD'
-    },
-    p_intro: {
-      en: 'TBD',
-      zh: 'TBD'
-    },
-    intro: {
-      en: "<p>China's first and largest enterprise-level programmatic marketing platform. ChinaPex provides marketers and agencies technology, solutions, and insights helping them unleash the value of big data-driven marketing.</p>",
-      zh: '<p>国内首家及最大的企业级程序化平台。创立于美国硅谷，Chinapex创略旨在运用技术、服务和洞察，为广告主及代理商提供企业级解决方案，帮助他们释放数据驱动营销和程序化购买所带来的价值。</p>'
-    }
-  },
-  {
     k: 'FotoPlace',
     name: 'FotoPlace 足记',
     link: 'http://www.fotoplace.cc/',
