@@ -263,6 +263,12 @@
         <h6 class="text-center" v-if="en">PRESENTS</h6>
         <h6 class="text-center" v-else>为您呈现</h6>
       </div>
+      <div class="fixed-bottom-left hidden-lg hidden-md hidden-sm">
+        <button class="btn btn-default" v-on:click="toggleLang" style="margin-bottom:0.8em;">
+          <span v-if="en">汉</span>
+          <span v-else>EN</span>
+        </button>
+      </div>
     </header>
     <section class="section fp-auto-height" data-anchor="intro">
       <div class="container">
