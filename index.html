@@ -389,14 +389,9 @@
     </section>
     <section class="section fp-auto-height" data-anchor="about">
       <div class="container">
-        <h3 class="section-title">
-          <span v-if="en">Host Companies</span>
-          <span v-else>主题企业</span>
-        </h3>
-        <h5 style="font-weight:900;">
-          <span v-if="en">CHOOSE FROM SHANGHAI'S MOST CUTTING-EDGE INTERNET COMPANIES TO LEARN, NETWORK, AND HAVE FUN.</span>
-          <span v-else>挑选您感兴趣的企业，和一群志同道合的精英伙伴一起参加企业精心打造的主题活动吧！</span>
-        </h5>
+        <img src="img/8X8_BANNER.jpg" class="img-responsive">
+        <h3 class="text-center">Choose the Companies You Want to Visit</h3>
+        <h5 class="text-center">Navigating China’s tech industry is tough. That’s why NewCo is bringing you inside China’s most cutting-edge tech companies to learn, network, and be inspired.</h5>
         <ul class="list-inline text-center">
           <li class="item-event" v-for="h in hosts">
             <a href="#" v-on:click="triggerHost(h.k, $event)" style="text-decoration:none;">
