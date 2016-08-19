@@ -170,12 +170,6 @@
               <span v-else>首页</span>
             </a>
           </li>
-          <li data-menuanchor="intro">
-            <a href="#intro">
-              <span v-if="en">INTRO</span>
-              <span v-else>节日介绍</span>
-            </a>
-          </li>
           <li data-menuanchor="tickets">
             <a href="#tickets">
               <span v-if="en">TICKETS</span>
@@ -227,7 +221,7 @@
             </a>
           </li>
           <li class="dropdown">
-            <a href="#intro" class="dropdown-toggle" data-toggle="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
@@ -257,10 +251,6 @@
           <h1>NewCo带你</h1>
           <h1>玩转最酷互联网公司</h1>
         </div>
-        <a href="#intro" class="btn btn-default btn-newco btn-lg" style="margin-top:1em;">
-          <span v-if="en">LEARN MORE</span>
-          <span v-else>NewCo 简介</span>
-        </a>
       </div>
       <div class="fixed-bottom-right">
         <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/chinaccelerator-logo-white.png" class="center-block" style="height:72px;">
@@ -274,68 +264,6 @@
         </button>
       </div>
     </header>
-    <section class="section fp-auto-height" data-anchor="intro">
-      <div class="container">
-        <h3 class="section-title">
-          <span v-if="en">INTRO</span>
-          <span v-else>节日介绍</span>
-        </h3>
-        <ul class="list-inline text-center">
-          <li>
-            <div class="well well-newco">
-              <h1 class="text-newco-gold">20</h1>
-              <p v-if="en">NewCo Event Hosts</p>
-              <p v-else>家NewCo活动主办企业</p>
-            </div>
-          </li>
-          <li>
-            <div class="well well-newco">
-              <h1 class="text-newco-gold">8</h1>
-              <p v-if="en">Tech Pioneer and VC Speakers</p>
-              <p v-else>位科技大咖和VC演讲者</p>
-            </div>
-          </li>
-          <li>
-            <div class="well well-newco">
-              <h1 class="text-newco-gold">300+</h1>
-              <p v-if="en">NewCo Attendees</p>
-              <p v-else>个NewCo活动参加者</p>
-            </div>
-          </li>
-        </ul>
-        <div v-if="en">
-          <p>
-            On September 13th, <a href="http://newco.co/" target="_blank">NewCo</a> comes to Asia for the first time, planting its feet in Shanghai. “We look forward to the opportunity for our international audience to get an in-depth look at business on a mission in China, and we're thrilled to partner with <a href="http://chinaccelerator.com" target="_blank">Chinaccelerator</a> to bring NewCo to Shanghai this year,” says John Battelle, CEO of NewCo.
-          </p>
-          <p>
-            NewCo is a new kind of event experience: a mashup of an open studio tour and a business conference, with the vibe of a music festival. The global festival will showcase the latest trends in Shanghai’s fastest growing industries, such as big data, machine learning, AI, ad-tech, education, and cloud computing. “Nothing like this existed in China before, where you get to gather inside the offices of the world’s leading internet companies,” says William Bao Bean, Managing Director of Chinaccelerator. “We are very happy to launch Shanghai as the 17th city in the world hosting a NewCo festival.”
-          </p>
-          <p>
-            NewCo’s mission is to identify and celebrate new kinds of companies driving the transition to a sustainable, positive-impact business ecosystem. This is exactly the energy that Chinaccelerator is exuding. The fund behind Chinaccelerator, <a href="https://sosv.com/" target="_blank">SOSV</a>, is committed to accelerating founders’ big ideas for positive change, and building communities that provide lasting connections.
-          </p>
-          <p>
-            Google, Pillar Legal, Slush and WeWork have already joined as NewCo Shanghai’s local partners. Join more than 200 of local and global visitors exploring innovative organizations throughout Shanghai on September 13th, 2016!
-          </p>
-        </div>
-        <div v-else>
-          <p>
-            NewCo，“New Company”，新企业之缩写，是一种新的商务会议模式。准确地说它更像一场音乐节，把城市中最酷的几十家企业变成舞台，上演主题节目，让参加者入内观看，互动，狂欢。
-          </p>
-          <p>
-            <a href="http://newco.co/" target="_blank">NewCo</a>最早在美国兴起，已在全球16座城市举办过，超过2500家前沿公司为NewCo拉开帷幕。很多人都厌倦了千篇一律的商务大会，听演讲时刷手机，社交环节机械地交换名片。于是，2016年，NewCo来到亚洲，选择落地上海，将举办权交给亚洲第一家创业加速器<a href="http://chinaccelerator.com" target="_blank">“中国加速”</a>。如中国加速董事总经理宾威廉所说：“国内从未有过这样形式的创新大会，让你可以走进这些很牛的互联网公司，深入参观。”
-          </p>
-          <p>
-            据统计，往期NewCo吸引的大多是30-40岁的优秀人才，他们有的希望从开放企业中获得灵感，有的来寻找志同道合的共同创始人，有的招揽贤才，有的是寻找投资项目，也有的来找商业伙伴。。。自170年前开埠以来，上海就是国内开放城市的标杆。NewCo是上海的一次试验，也是国内商务会议的革新尝试。
-          </p>
-          <p>
-            NewCo的愿景是寻找并支持那些对社会有积极影响力、注重持续发展的企业。中国加速和其背后的基金<a href="https://sosv.com/" target="_blank">SOSV</a>也秉承同样的信念：投资、加速那些创造正面价值的公司，帮助它们长期发展。即将为NewCo开启大门的上海优秀企业包括新浪微博，网红搜索引擎——Robin8，引爆朋友圈的修图APP——足记，全球最大的互联网服务器管理公司——云络科技，获得沪江投资的语言教学平台——italki，国内领先的团队协作工具——Teambition等等。
-          </p>
-          <p>
-            谷歌、Pillar Legal律师事务所、创新盛会Slush、联合办公空间WeWork等标杆公司都已成为NewCo上海的合作伙伴。您还在等什么？9月13日，和200多名优秀人才一起见证NewCo在亚洲的第一次亮相吧！
-          </p>
-        </div>
-      </div>
-    </section>
     <section class="section fp-auto-height" data-anchor="tickets">
       <div class="container text-center">
         <h3 class="section-title text-left">
@@ -476,7 +404,8 @@
                 <img v-bind:src="h.logo">
               </span>
               <p class="text-muted">
-                <small v-text="h.name"></small>
+                <small v-if="en" v-text="h.session.en.title"></small>
+                <small v-else v-text="h.session.zh.title"></small>
               </p>
             </a>
           </li>
@@ -502,100 +431,6 @@
           </h5>
         </div>
       </div>
-      <!-- <div class="slide" data-anchor="summary">
-        <div class="container text-center">
-          <h3 class="section-title text-left">
-            <span v-if="en">Host Companies</span>
-            <span v-else>主题企业</span>
-          </h3>
-          <h5>
-            <span v-if="en">GET INSIDE SHANGHAI'S MOST INTRIGUING COMPANIES TO LEARN, CONNECT, AND CELEBRATE.</span>
-            <span v-else>NewCo带您走进上海最受瞩目的企业参观学习、拓展人脉，共度为创新灵魂庆祝的一天。</span>
-            <a href="#about/companies">
-              <span v-if="en">SEE ALL HOST COMPANIES</span>
-              <span v-else>查看所有参与企业</span>
-            </a>
-          </h5>
-          <ul class="list-inline">
-            <li v-for="(key, host) in hosts">
-              <a href="#about/companies">
-                <img v-bind:src="host.logo" class="img-event">
-              </a>
-            </li>
-          </ul>
-          <div class="well well-newco">
-            <h5>
-              <span v-if="en">More host companies will be announced - stay tuned</span>
-              <span v-else>参与企业名单将不断更新，敬请期待。</span>
-            </h5>
-          </div>
-          <h3 class="section-title text-left">
-            <span v-if="en">8x8 - 8 Heroes for 8 Minutes</span>
-            <span v-else>八分之约</span>
-          </h3>
-          <h5>
-            <span v-if="en">THE CHINACCELERATOR 8X8 EVENT CONNECTS YOU WITH A WIDE SPECTRUM OF FOUNDERS AND THOUGHT LEADERS IN CHINA.</span>
-            <span v-else>中国加速8X8活动将国内行业先锋和资深创业家带到您跟前，与您分享心得和互动交流。</span>
-            <a href="#about/presenters">
-              <span v-if="en">SEE ALL PRESENTERS</span>
-              <span v-else>查看所有演讲者</span>
-            </a>
-          </h5>
-          <div class="well well-newco">
-            <h5>
-              <span v-if="en">Coming soon - stay tuned.</span>
-              <span v-else>敬请期待</span>
-            </h5>
-          </div>
-        </div>
-      </div>
-      <div class="slide" data-anchor="companies">
-        <div class="container text-center">
-          <h3 class="section-title text-left">
-            <span v-if="en">Host Companies</span>
-            <span v-else>主题企业</span>
-          </h3>
-          <p>
-            Connect to Shanghai's tech industry like never before. Festival participants pick the companies they want to explore and tour Shanghai, meeting founders and senior leadership inside their home office.
-          </p>
-          <a href="#about/summary">
-            <i class="fa fa-2x fa-arrow-circle-left"></i>
-          </a>
-          <ul class="list-inline text-center">
-            <li v-for="(key, host) in hosts">
-              <a href="#" v-on:click="triggerHost(key, $event)">
-                <img v-bind:src="host.logo" class="img-event">
-              </a>
-            </li>
-          </ul>
-          <div class="well well-newco">
-            <h5>
-              <span v-if="en">More host companies will be announced - stay tuned</span>
-              <span v-else>参与企业名单将不断更新，敬请期待。</span>
-            </h5>
-          </div>
-        </div>
-      </div>
-      <div class="slide" data-anchor="presenters">
-        <div class="container text-center">
-          <h3 class="section-title text-left">
-            <span v-if="en">8x8 - 8 Heroes for 8 Minutes</span>
-            <span v-else>八分之约</span>
-          </h3>
-          <p>
-            Chinaccelerator's famous 8x8 speaking event is bringing you 8 tech pioneers and top VC's from the startup ecosystem in China. Each of them will take you on a 8-minute tour of their trials and tribulations. This is an amazing opportunity for you to have a peek at the first startup accelerator program in China, meet interesting people and listen to amazing speakers.
-          </p>
-          <a href="#about/summary">
-            <i class="fa fa-2x fa-arrow-circle-left"></i>
-          </a>
-          <div class="well well-newco">
-            <h5>
-              <span v-if="en">Coming soon - stay tuned.</span>
-              <span v-else>敬请期待</span>
-            </h5>
-          </div>
-        </div>
-      </div> -->
     </section>
     <section class="section fp-auto-height" data-anchor="agenda">
       <div class="container">
