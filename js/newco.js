@@ -11,8 +11,8 @@ var _hosts = [
     position: 'CEO',
     industry: 'Cloud Services',
     session: {
-      title: 'TBD',
-      intro: 'TBD'
+      title: "The Journey to Become Tudou's First Foreign CTO",
+      intro: "In the past two decades, Chinese companies have gone global through a variety of routes: listing on overseas stock markets, subsidiaries outside China, M&As, and so on. But not many Chinese companies have foreign executives at their top. As the first non-Chinese CTO at Tudou, what did it feel like to Mr. Mushero? Find out at ChinaNetCloud's host session!"
     },
     p_intro: {
       en: '<p>Mr. Steve Mushero co-founded ChinaNetCloud in 2008 and serves as its Chief Technology Officer and Chief Executive Officer. Mr. Mushero served as the Chief Technical Officer of Tudou Holdings Limited. He has over 20 years of technology management experience across a wide range of industries and international contexts. </p>',
@@ -34,7 +34,7 @@ var _hosts = [
     position: 'CEO',
     industry: 'Social App',
     session: {
-      title: 'TBD',
+      title: 'The Overnight Success of a Photo-sharing App',
       intro: 'TBD'
     },
     p_intro: {
@@ -57,7 +57,7 @@ var _hosts = [
     position: 'CEO',
     industry: 'EduTech',
     session: {
-      title: 'TBD',
+      title: 'On Being an Foreign Entrepreneur in China',
       intro: 'TBD'
     },
     p_intro: {
@@ -67,6 +67,52 @@ var _hosts = [
     intro: {
       en: '<p>On italki you can find the best online language teachers from around the world. italki is the world leader in online language education with over 1.2 million students and 1500+ teachers of 100 languages.</p>',
       zh: '<p>italki是全球知名的一对一在线外教平台，拥有三千多名活跃的注册教师，每天教授数以千计的在线付费课程。</p>'
+    }
+  },
+  {
+    k: 'Platform88',
+    name: 'Platform88',
+    link: 'https://www.Platform88.com/',
+    logo: 'img/hosts/Platform88.png',
+    presenter: 'TBD',
+    avatar: '',
+    lang: 'EN',
+    position: '',
+    industry: 'Startup Services',
+    session: {
+      title: "",
+      intro: ""
+    },
+    p_intro: {
+      en: '<p></p>',
+      zh: '<p></p>'
+    },
+    intro: {
+      en: '<p>We help innovators and startup teams from around the world build and scale their products. Vetted Factories, Industry Experts, Merchandising Hubs.</p>',
+      zh: '<p></p>'
+    }
+  },
+  {
+    k: 'Qiniu七牛',
+    name: 'Qiniu七牛',
+    link: 'https://www.qiniu.com/',
+    logo: 'img/hosts/Qiniu.png',
+    presenter: 'Jianghua Du',
+    avatar: '',
+    lang: 'CN',
+    position: 'VP',
+    industry: 'Cloud Computing',
+    session: {
+      title: "What's Next for Cloud Computing?",
+      intro: "Learn about cloud computing's current ecosystem in China and its future through Qiniu's case studies."
+    },
+    p_intro: {
+      en: '<p></p>',
+      zh: '<p></p>'
+    },
+    intro: {
+      en: '<p>Leading enterprise-level cloud services provider in China, backed by Telstra</p>',
+      zh: '<p>中国领先的企业级云服务商</p>'
     }
   },
   {
@@ -80,8 +126,8 @@ var _hosts = [
     position: 'CEO',
     industry: 'Social App',
     session: {
-      title: 'TBD',
-      intro: 'TBD'
+      title: 'The Internet of Everyone and the New Wang Hong Economy',
+      intro: "What is wanghong? Who can be a wanghong? What is the new wanghong economy? Who can you leverage wanghong to help you promote, sell and create content for you? Miranda will tackle these questions for you."
     },
     p_intro: {
       en: '<p>Miranda Tan has more than 10 years experience in public relations, marketing, and tech. Miranda has a BS from Cornell University and a JD from St. John’s University School of Law.</p>',
@@ -103,7 +149,7 @@ var _hosts = [
     position: 'GM',
     industry: 'TBD',
     session: {
-      title: 'TBD',
+      title: 'WeChat Might Be King, but Weibo is Not Dead',
       intro: 'TBD'
     },
     p_intro: {
@@ -126,7 +172,7 @@ var _hosts = [
     position: 'COO',
     industry: 'Corporate services',
     session: {
-      title: 'TBD',
+      title: 'Why Teamwork is Essential to Your Startup',
       intro: 'TBD'
     },
     p_intro: {
