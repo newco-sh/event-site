@@ -103,9 +103,13 @@
         <div class="modal-body">
           <h4>
             Session Title:
-            <span v-text="host.session.title"></span>
+            <span v-if="en" v-text="host.session.en.title"></span>
+            <span v-else v-text="host.session.zh.title"></span>
           </h4>
-          <p v-text="host.session.intro"></p>
+          <p>
+            <span v-if="en" v-text="host.session.en.intro"></span>
+            <span v-else v-text="host.session.zh.intro"></span>
+          </p>
           <hr>
           <h4>Presenter</h4>
           <div class="row">

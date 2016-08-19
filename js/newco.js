@@ -11,8 +11,14 @@ var _hosts = [
     position: 'CEO',
     industry: 'Cloud Services',
     session: {
-      title: "The Journey to Become Tudou's First Foreign CTO",
-      intro: "In the past two decades, Chinese companies have gone global through a variety of routes: listing on overseas stock markets, subsidiaries outside China, M&As, and so on. But not many Chinese companies have foreign executives at their top. As the first non-Chinese CTO at Tudou, what did it feel like to Mr. Mushero? Find out at ChinaNetCloud's host session!"
+      en: {
+        title: "The Journey to Become Tudou's First Foreign CTO",
+        intro: "In the past two decades, Chinese companies have gone global through a variety of routes: listing on overseas stock markets, subsidiaries outside China, M&As, and so on. But not many Chinese companies have foreign executives at their top. As the first non-Chinese CTO at Tudou, what did it feel like to Mr. Mushero? Find out at ChinaNetCloud's host session!"
+      },
+      zh: {
+        title: 'TBD',
+        intro: 'TBD'
+      }
     },
     p_intro: {
       en: '<p>Mr. Steve Mushero co-founded ChinaNetCloud in 2008 and serves as its Chief Technology Officer and Chief Executive Officer. Mr. Mushero served as the Chief Technical Officer of Tudou Holdings Limited. He has over 20 years of technology management experience across a wide range of industries and international contexts. </p>',
@@ -34,8 +40,14 @@ var _hosts = [
     position: 'CEO',
     industry: 'Social App',
     session: {
-      title: 'The Overnight Success of a Photo-sharing App',
-      intro: 'TBD'
+      en: {
+        title: 'The Overnight Success of a Photo-sharing App',
+        intro: 'TBD'
+      },
+      zh: {
+        title: 'TBD',
+        intro: 'TBD'
+      }
     },
     p_intro: {
       en: '<p>Yang Liu, born in 1970s, graduated from Shanghai Normal University with a degree in Dramatic Literature. In love with films, her job for over a decade was instead in product management. In 2014, she finally merged her love for films and her experience in product management, leading to the inception of FotoPlace. </p>',
@@ -57,8 +69,14 @@ var _hosts = [
     position: 'CEO',
     industry: 'EduTech',
     session: {
-      title: 'On Being an Foreign Entrepreneur in China',
-      intro: 'TBD'
+      en: {
+        title: 'On Being an Foreign Entrepreneur in China',
+        intro: 'TBD'
+      },
+      zh: {
+        title: 'TBD',
+        intro: 'TBD'
+      }
     },
     p_intro: {
       en: '<p>Kevin Chen is co-founder of italki.com. Previously, he co-founded famento.com, and worked in financial research. He is active in the Shanghai startup community through techyizu.org and xinchejian.com.</p>',
@@ -80,8 +98,14 @@ var _hosts = [
     position: '',
     industry: 'Startup Services',
     session: {
-      title: "",
-      intro: ""
+      en: {
+        title: 'TBD',
+        intro: 'TBD'
+      },
+      zh: {
+        title: 'TBD',
+        intro: 'TBD'
+      }
     },
     p_intro: {
       en: '<p></p>',
@@ -94,7 +118,7 @@ var _hosts = [
   },
   {
     k: 'Qiniu七牛',
-    name: 'Qiniu七牛',
+    name: 'Qiniu七牛',
     link: 'https://www.qiniu.com/',
     logo: 'img/hosts/Qiniu.png',
     presenter: 'Jianghua Du',
@@ -103,8 +127,14 @@ var _hosts = [
     position: 'VP',
     industry: 'Cloud Computing',
     session: {
-      title: "What's Next for Cloud Computing?",
-      intro: "Learn about cloud computing's current ecosystem in China and its future through Qiniu's case studies."
+      en: {
+        title: "What's Next for Cloud Computing?",
+        intro: "Learn about cloud computing's current ecosystem in China and its future through Qiniu's case studies."
+      },
+      zh: {
+        title: 'TBD',
+        intro: 'TBD'
+      }
     },
     p_intro: {
       en: '<p></p>',
@@ -112,7 +142,7 @@ var _hosts = [
     },
     intro: {
       en: '<p>Leading enterprise-level cloud services provider in China, backed by Telstra</p>',
-      zh: '<p>中国领先的企业级云服务商</p>'
+      zh: '<p>中国领先的企业级云服务商</p>'
     }
   },
   {
@@ -126,8 +156,14 @@ var _hosts = [
     position: 'CEO',
     industry: 'Social App',
     session: {
-      title: 'The Internet of Everyone and the New Wang Hong Economy',
-      intro: "What is wanghong? Who can be a wanghong? What is the new wanghong economy? Who can you leverage wanghong to help you promote, sell and create content for you? Miranda will tackle these questions for you."
+      en: {
+        title: 'The Internet of Everyone and the New Wang Hong Economy',
+        intro: "What is wanghong? Who can be a wanghong? What is the new wanghong economy? Who can you leverage wanghong to help you promote, sell and create content for you? Miranda will tackle these questions for you."
+      },
+      zh: {
+        title: 'TBD',
+        intro: 'TBD'
+      }
     },
     p_intro: {
       en: '<p>Miranda Tan has more than 10 years experience in public relations, marketing, and tech. Miranda has a BS from Cornell University and a JD from St. John’s University School of Law.</p>',
@@ -149,8 +185,14 @@ var _hosts = [
     position: 'GM',
     industry: 'TBD',
     session: {
-      title: 'WeChat Might Be King, but Weibo is Not Dead',
-      intro: 'TBD'
+      en: {
+        title: 'WeChat Might Be King, but Weibo is Not Dead',
+        intro: 'TBD'
+      },
+      zh: {
+        title: 'TBD',
+        intro: 'TBD'
+      }
     },
     p_intro: {
       en: '<p>In April 2012, Ken joined Sina as the GM of Weibo Marketing Strategy, helping Sina develop its popular Weibo platform into a powerful marketing platform for advertisers and agencies. Since then, he has worked with MNCs, large Chinese enterprises and advertising agencies on various social media marketing programs including Social Advertising, Social CRM and Social Commerce.</p>',
@@ -172,8 +214,14 @@ var _hosts = [
     position: 'COO',
     industry: 'Corporate services',
     session: {
-      title: 'Why Teamwork is Essential to Your Startup',
-      intro: 'TBD'
+      en: {
+        title: 'Why Teamwork is Essential to Your Startup',
+        intro: 'TBD'
+      },
+      zh: {
+        title: 'TBD',
+        intro: 'TBD'
+      }
     },
     p_intro: {
       en: "<p>Yaqian Wang joined Teambition in 2014 when the company was still a startup with about 20 people. As COO of Teambition, Yaqian is response for HR, finance and the company's daily operations. She also works closely with the CEO and other leaders to make sure every department and team collaborate smoothly. in 2016, Teambition has 120 employees in 7 cities in China.</p><p>Yaqian hold a PhD in Economics from Lund University in Sweden and Master in Organisational Psychology from Shanghai Jiao Tong University. Before joining Teambition, Yaqian was a researcher at Lund Institute of Economic Research and working on a learning partnership between Lund University and SCA Packaging, in which she worked as a consultant for the company on innovation and organisational culture. She also has worked at McKinsey Company in Shanghai and Italy Cement Group in Milan.</p>",
