@@ -16,8 +16,8 @@ var _hosts = [
         intro: "In the past two decades, Chinese companies have gone global through a variety of routes: listing on overseas stock markets, subsidiaries outside China, M&As, and so on. But not many Chinese companies have foreign executives at their top. As the first non-Chinese CTO at Tudou, what did it feel like to Mr. Mushero? Find out at ChinaNetCloud's host session!"
       },
       zh: {
-        title: 'TBD',
-        intro: 'TBD'
+        title: '作为土豆第一位外籍CTO，我有什么想说',
+        intro: ''
       }
     },
     p_intro: {
@@ -45,7 +45,7 @@ var _hosts = [
         intro: 'TBD'
       },
       zh: {
-        title: 'TBD',
+        title: '那些年一夜爆红的图片APP，现在还好吗？',
         intro: 'TBD'
       }
     },
@@ -70,11 +70,11 @@ var _hosts = [
     industry: 'EduTech',
     session: {
       en: {
-        title: 'On Being an Foreign Entrepreneur in China',
+        title: 'Perseverance: A Foreign Entrepreneur in China',
         intro: 'TBD'
       },
       zh: {
-        title: 'TBD',
+        title: '老外在中国的创业经：坚持不懈',
         intro: 'TBD'
       }
     },
@@ -92,19 +92,19 @@ var _hosts = [
     name: 'Platform88',
     link: 'https://www.Platform88.com/',
     logo: 'img/hosts/Platform88.png',
-    presenter: 'TBD',
+    presenter: '',
     avatar: '',
     lang: 'EN',
     position: '',
     industry: 'Startup Services',
     session: {
       en: {
-        title: 'TBD',
-        intro: 'TBD'
+        title: 'Born to Scale: From Ideas to Product',
+        intro: ''
       },
       zh: {
-        title: 'TBD',
-        intro: 'TBD'
+        title: '从idea到产品，你要绕开哪些槛？',
+        intro: ''
       }
     },
     p_intro: {
@@ -113,7 +113,7 @@ var _hosts = [
     },
     intro: {
       en: '<p>We help innovators and startup teams from around the world build and scale their products. Vetted Factories, Industry Experts, Merchandising Hubs.</p>',
-      zh: '<p></p>'
+      zh: '<p>Platform88是一家创意设计公司。它像一座桥梁，给国外的工厂介绍国内靠谱的产品，投入生产，也帮助国内的工厂开拓国外的市场。</p>'
     }
   },
   {
@@ -124,16 +124,16 @@ var _hosts = [
     presenter: 'Jianghua Du',
     avatar: '',
     lang: 'CN',
-    position: 'VP',
+    position: 'VP副总裁',
     industry: 'Cloud Computing',
     session: {
       en: {
-        title: "What's Next for Cloud Computing?",
-        intro: "Learn about cloud computing's current ecosystem in China and its future through Qiniu's case studies."
+        title: "Why Companies Using the Cloud Are So Happy",
+        intro: "What is driving corporate cloud use? Qiniu will tell you why their enterprise clients - Eleme, Meitu, Hujiang, iPanda live streaming, and many more, are using the cloud."
       },
       zh: {
-        title: 'TBD',
-        intro: 'TBD'
+        title: '他们都在用云：美图，饿了么，沪江，熊猫直播',
+        intro: '云服务已经成为互联网最热话题之一，其便利和优势不必多说。通过真实案例分析，七牛副总裁带来的绝对是干货：饿了么，美图，熊猫直播，沪江，知乎，果壳，美柚，汽车之家。。。尽在七牛的主题活动。'
       }
     },
     p_intro: {
@@ -141,8 +141,8 @@ var _hosts = [
       zh: '<p></p>'
     },
     intro: {
-      en: '<p>Leading enterprise-level cloud services provider in China, backed by Telstra</p>',
-      zh: '<p>中国领先的企业级云服务商</p>'
+      en: '<p>Founded in 2011, Qiniu has become one of the leading enterprise-level cloud service providers in China.</p>',
+      zh: '<p>七牛于2011年创立，致力于提供最适合开发者的数据在线托管、传输加速以及云端处理等服务。区别于国内外其他云存储，七牛自行研发的全分布式架构解决了其他云存储单一数据中心架构可能存在的风险，同时首创双向加速特性对数据上传下载均加速，使得数据访问速度较传统方案平均提升 50%以上。</p>'
     }
   },
   {
@@ -158,11 +158,11 @@ var _hosts = [
     session: {
       en: {
         title: 'The Internet of Everyone and the New Wang Hong Economy',
-        intro: "What is wanghong? Who can be a wanghong? What is the new wanghong economy? Who can you leverage wanghong to help you promote, sell and create content for you? Miranda will tackle these questions for you."
+        intro: "What is wanghong? Who can be a wanghong? What is the new wanghong economy? Who can you leverage wanghong to help you promote, sell and create content for you? Miranda will answer all of these, and more."
       },
       zh: {
-        title: 'TBD',
-        intro: 'TBD'
+        title: '路人甲也可以成为赚钱的网红',
+        intro: '谁才能成为网红？网红经济是什么？谁能从网红经济中获利？这些超越papi酱的问题，Miranda将逐一为大家解答。'
       }
     },
     p_intro: {
@@ -170,8 +170,8 @@ var _hosts = [
       zh: '<p>Miranda Tan 毕业于康奈尔大学, 在PR、市场营销和公共关系领域有超过15年的经验。</p>'
     },
     intro: {
-      en: "<p>ROBIN8 makes reaching out to reporters and influencers effortless and effective. We're changing the face of PR with technology that's been years in the making.</p>",
-      zh: '<p>Robin8是基于大数据的网红和新媒体广告平台。Robin8的NLP系统可以帮助品牌找到最合适的网红和新媒体。ROBIN8的投资人包括线性资本，Pre Angel，SOSV, 华睿互联，凯洲资本及365投资等 。Robin8目前在纽约、柏林、上海均设有办公室。</p>'
+      en: "<p>A data driven KOL marketplace that matches brands with the best KOLs, ROBIN8 makes reaching out to reporters and influencers effortless and effective. Robin8 is changing the face of PR with technology that's been years in the making.</p>",
+      zh: '<p>Robin8是基于大数据的网红和新媒体广告平台，来自美国纽约，2015年3月进入中国。Robin8是一个双向平台，广告主在上面发布各种类型的广告，网红则可以在Robin8上进行注册并接单，通过转发广告获取利益。广告主可以选择一次性进行支付或按点击量支付。Robin8会通过大数据分析，以影响力为准为网红打分，影响力越高证明人气越旺。Robin8目前已有6万网红注册。ROBIN8的投资人包括线性资本，Pre Angel，SOSV, 华睿互联，凯洲资本及365投资等 。</p>'
     }
   },
   {
@@ -182,16 +182,16 @@ var _hosts = [
     presenter: 'Ken Hong/洪力舟',
     avatar: '',
     lang: 'TBD',
-    position: 'GM',
+    position: 'GM of Weibo Marketing Strategy',
     industry: 'TBD',
     session: {
       en: {
         title: 'WeChat Might Be King, but Weibo is Not Dead',
-        intro: 'TBD'
+        intro: 'Many of you have probably asked this question many times. Come hear what GM of Weibo Marketing has to say.'
       },
       zh: {
-        title: 'TBD',
-        intro: 'TBD'
+        title: '微信时代，微博已死了吗？',
+        intro: '相信大多数人都有这个疑问。来听听新浪微博营销策略总经理怎么说。'
       }
     },
     p_intro: {
@@ -200,7 +200,7 @@ var _hosts = [
     },
     intro: {
       en: "<p>As a leading social media platform for people to create, distribute and discover Chinese-language content, Weibo provides an unprecedented and simple way for people and organizations to publicly express themselves in real time, interact with others on a massive global platform and stay connected with the world.",
-      zh: 'TBD'
+      zh: ''
     }
   },
   {
@@ -216,11 +216,11 @@ var _hosts = [
     session: {
       en: {
         title: 'Why Teamwork is Essential to Your Startup',
-        intro: 'TBD'
+        intro: 'Teamwork - easy to say; hard to do. Come hear how Teambition has released the power of teamwork, helping it to grow from a team of 10 to more than 130 in the past three years.'
       },
       zh: {
-        title: 'TBD',
-        intro: 'TBD'
+        title: '简单难懂的道理：创业团队的合作精神',
+        intro: '“协作，是一群人在一起完成一些事情。” Teambition 在三年的时间内，迅速从10+ 人发展到130多人，团队遍布7个城市，用户数过百万，已服务上千家企业。Teambition COO 王雅倩将与你分享：从一个初创团队发展为一家专注于“协作”的成长型公司，在成长及规模化过程中那些两难的决策，以及“协作”所发挥的作用。'
       }
     },
     p_intro: {
@@ -235,7 +235,7 @@ var _hosts = [
 ];
 var _agenda = [
   {
-    date: '2016-09-12',
+    date: '2016-09-12 (MON)',
     slots: [{
       start: '19:00',
       end: '22:00',
@@ -246,76 +246,41 @@ var _agenda = [
     }]
   },
   {
-    date: '2016-09-13',
+    date: '2016-09-13 (TUE)',
     slots: [{
       start: '09:00',
-      end: '10:00',
-      events: [{
-        en: 'TBD',
-        zh: '待定'
-      }]
-    }, {
-      start: '10:00',
-      end: '11:00',
-      events: [{
-        en: 'TBD',
-        zh: '待定'
-      }]
-    }, {
-      start: '11:00',
       end: '12:00',
       events: [{
-        en: 'TBD',
-        zh: '待定'
+        en: 'Host Company Sessions',
+        zh: '主题企业活动'
       }]
     }, {
       start: '12:00',
       end: '13:30',
       events: [{
-        en: 'Lunch Break',
-        zh: '午休'
+        en: 'Lunch (provided by NewCo)',
+        zh: '午餐（NewCo提供）'
       }]
     }, {
       start: '13:30',
-      end: '14:30',
-      events: [{
-        en: 'TBD',
-        zh: '待定'
-      }]
-    }, {
-      start: '14:30',
-      end: '15:30',
-      events: [{
-        en: 'TBD',
-        zh: '待定'
-      }]
-    }, {
-      start: '15:30',
-      end: '16:30',
-      events: [{
-        en: 'TBD',
-        zh: '待定'
-      }]
-    }, {
-      start: '16:30',
       end: '17:30',
       events: [{
-        en: 'TBD',
-        zh: '待定'
+        en: 'Host Company Sessions',
+        zh: '主题企业活动'
       }]
     }, {
       start: '17:30',
       end: '19:00',
       events: [{
-        en: 'Dinner Break',
-        zh: '晚休'
+        en: 'Break',
+        zh: '休息'
       }]
     }, {
       start: '19:00',
       end: '21:00',
       events: [{
-        en: '8x8 Speaking Event',
-        zh: '8x8企业家分享'
+        en: 'Chinaccelerator 8x8 Speaker Event (FREE)',
+        zh: '中国加速八分之约企业家分享（含在普通和VIP票内）'
       }]
     }, {
       start: '21:00',
@@ -345,6 +310,7 @@ var _partners = [
   { href: 'https://google.com', img: 'img/local/google.png', class: 'silver' },
   { href: 'http://www.people-squared.com/', img: 'img/local/PeopleSquared.png', class: 'silver' },
   { href: 'http://www.pillarlegalpc.com/', img: 'img/local/Pillar Legal.jpg', class: 'silver' },
+  { href: 'http://www.slush.org/', img: 'img/local/slush.png', class: 'silver' },
   { href: 'https://www.wework.com/', img: 'img/local/wework.png', class: 'silver' },
   { href: 'https://yoopay.cn/', img: 'img/local/yoopay logo.png', class: 'silver' }
 ];

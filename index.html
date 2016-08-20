@@ -284,8 +284,8 @@
     <header class="section" data-anchor="home">
       <div class="container text-center">
         <div v-if="en">
-          <h1>Insider's Guide to China's</h1>
-          <h1>Tech Industry</h1>
+          <h1>Connecting With China's</h1>
+          <h1>Cutting-Edge Tech Companies</h1>
         </div>
         <div v-else>
           <h1>NewCo带你</h1>
@@ -338,8 +338,12 @@
                 </h5>
                 <hr>
                 <h5>
-                  <span v-if="en">8x8 Speaker Event</span>
-                  <span v-else>八分之约创业家分享会</span>
+                  <span v-if="en">
+                    <strong class="text-newco-gold">Bonus</strong>: 8x8 Speaker Event
+                  </span>
+                  <span v-else>
+                  <strong class="text-newco-gold">赠送</strong>：八分之约创业家分享会
+                </span>
                 </h5>
                 <hr>
                 <h5>After Party</h5>
@@ -372,8 +376,12 @@
                 </h5>
                 <hr>
                 <h5>
-                  <span v-if="en">8x8 Speaker Event</span>
-                  <span v-else>八分之约创业家分享会</span>
+                  <span v-if="en">
+                    <strong class="text-newco-gold">Bonus</strong>: 8x8 Speaker Event
+                  </span>
+                  <span v-else>
+                  <strong class="text-newco-gold">赠送</strong>：八分之约创业家分享会
+                </span>
                 </h5>
                 <hr>
                 <h5>After Party</h5>
@@ -396,9 +404,14 @@
     </section>
     <section class="section fp-auto-height" data-anchor="about">
       <div class="container">
-        <img src="img/8X8_BANNER_1920_80.jpg" class="img-responsive">
-        <h3 class="text-center">Choose the Companies You Want to Visit</h3>
-        <h5 class="text-center">Navigating China’s tech industry is tough. That’s why NewCo is bringing you inside China’s most cutting-edge tech companies to learn, network, and be inspired.</h5>
+        <h3 class="text-center">
+          <span v-if="en">Whose Innovation Stories Do You Want to Know?</span>
+          <span v-else>关于科技创新，你想听谁的故事？</span>
+        </h3>
+        <h5 class="text-center">
+          <span v-if="en">Navigating China's tech industry is tough. That's why NewCo brings you inside the most seasoned tech companies to learn, network, and be inspired.</span>
+          <span v-else>创新者往往孤军作战。这次，NewCo请你到最前沿的科技公司里，结识志同道合的朋友，和科技大咖聊一聊。</span>
+        </h5>
         <ul class="list-inline text-center">
           <li class="item-event" v-for="h in hosts">
             <a href="#" v-on:click="triggerHost(h.k, $event)" style="text-decoration:none;">
@@ -414,7 +427,7 @@
         </ul>
         <div class="well well-newco text-center">
           <h5>
-            <span v-if="en">More host companies will be announced - stay tuned</span>
+            <span v-if="en">Stay tuned for more host company announcement!</span>
             <span v-else>参与企业名单将不断更新，敬请期待。</span>
           </h5>
         </div>
@@ -423,8 +436,8 @@
           <span v-else>八分之约</span>
         </h3>
         <h5 style="font-weight:900;">
-          <span v-if="en">THE CHINACCELERATOR 8X8 EVENT CONNECTS YOU WITH A WIDE SPECTRUM OF FOUNDERS AND THOUGHT LEADERS IN CHINA.</span>
-          <span v-else>中国加速8X8活动将国内行业先锋和资深创业家带到您跟前，与您分享心得和互动交流。</span>
+          <span v-if="en">The 8X8 Speaker Event is held by Chinaccelerator each year in Shanghai and Beijing. 8 heroes will each speak for 8 minutes on everything they've learned from being an entrepreneur. This time, it will capstone NewCo Shanghai and all NewCo attendees are invited.</span>
+          <span v-else>中国加速八分之约企业家分享会每年在北京、上海举行。此次，八分之约将把NewCo节日推向高潮，NewCo所有参与者都能参加。届时，8位成功企业家将用8分钟分享他们创业途中坎坷和成功的心得，旨在将宝贵的创业经验带给更多在创业途中的朋友。</span>
         </h5>
         <div class="well well-newco text-center">
           <h5>
@@ -517,18 +530,23 @@
     <section class="section fp-auto-height" data-anchor="ca">
       <div class="container">
         <h3 class="section-title">
-          <span v-if="en">ABOUT CHINACCELERATOR</span>
-          <span v-else>关于中国加速</span>
+          <span v-if="en">ABOUT</span>
+          <span v-else>关于我们</span>
         </h3>
         <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/chinaccelerator-logo.png" style="height:72px;display:inline-block;float:right;margin:0 0.5em;">
         <p v-if="en">
-          <a href="http://chinaccelerator.com" target="_blank">Chinaccelerator</a>, the first startup accelerator in China and Asia, is a mentorship-driven program helping internet startups from around the world cross borders - from the world into China and from China to the world. It is backed by the venture fund SOSV with $250M AUM operating five accelerator programs around the world.
+          On September 13th, NewCo comes to Asia for the first time, planting its feet in Shanghai. It is a new kind of event experience: a mashup of an open studio tour and a business conference, with the vibe of a music festival.
+        </p>
+        <p v-if="en">
+          NewCo Shanghai host - <a href="http://chinaccelerator.com" target="_blank">Chinaccelerator</a>, the first startup accelerator in China and Asia, is a mentorship-driven program helping internet startups from around the world cross borders - from the world into China and from China to the world. It is backed by the venture fund SOSV with $250M AUM operating nine accelerator programs around the world.
           <br><br>
           This September, NewCo and Chinaccelerator are coming together to connect the world’s top start-ups, high-growth companies, investors, influencers and entrepreneurs through NewCo Shanghai and Chinaccelerator 8x8, an event where 8 of the tech industries biggest movers and shakers give 8 minute talks about how they have succeeded in building tech companies.
         </p>
-        <p v-else>
-          <a href="http://chinaccelerator.com">中国加速</a>是亚洲第一个以导师为驱动的软件创业加速器，是管理着2.5亿美元的早期创投SOSV基金投资成立的全球加速器之一。它覆盖全球，每年经营两届创业项目，帮助来自全球的初创公司进入中国市场，也帮助中国公司进入国际市场。中国加速主要关注电子商务、金融科技、数据营销以及教育等生活方式类创业项目。它拥有国际化的背景，集合了来自全球的顶级导师、合作伙伴以及投资人，为创业者提供更广泛的视角和更丰富的资源。
-        </p>
+        <p v-else>NewCo，“New Company”，新企业之缩写，是一种新的商务会议模式。准确地说它更像一场音乐节，把城市中最酷的几十家企业变成舞台，上演主题节目，让参加者入内观看，互动，狂欢。NewCo最早在美国兴起，已在全球16座城市举办过，超过2500家前沿公司为NewCo拉开帷幕。很多人都厌倦了千篇一律的商务大会，听演讲时刷手机，社交环节机械地交换名片。于是，2016年，NewCo来到亚洲，选择落地上海，将举办权交给了亚洲第一家创业加速器“中国加速”。
+          <br><br>
+          NewCo上海主办方——<a href="http://chinaccelerator.com">中国加速</a>是亚洲第一个以导师为驱动的软件创业加速器，是管理着2.5亿美元的早期创投SOSV基金投资成立的全球加速器之一。它覆盖全球，每年经营两届创业项目，帮助来自全球的初创公司进入中国市场，也帮助中国公司进入国际市场。中国加速主要关注电子商务、金融科技、数据营销以及教育等生活方式类创业项目。它拥有国际化的背景，集合了来自全球的顶级导师、合作伙伴以及投资人，为创业者提供更广泛的视角和更丰富的资源。
+        </p v-else>
+
         <ul class="list-inline text-center">
           <li>
             <a href="https://www.facebook.com/China.Axlr8r/" class="link-newco">
