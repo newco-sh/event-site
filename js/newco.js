@@ -348,6 +348,78 @@ var _partners = [
   { href: 'https://www.wework.com/', img: 'img/local/wework.png', class: 'silver' },
   { href: 'https://yoopay.cn/', img: 'img/local/yoopay logo.png', class: 'silver' }
 ];
+var _faq = [
+  {
+    q: {
+      en: 'What is a "Host Company Session"?',
+      zh: '什么是“主题企业活动”？'
+    },
+    a: {
+      en: '<p>We invite Shanghai‘s most cutting-edge internet companies to host “sessions” and share their unique success stories right inside their home offices. As NewCo attendees, you get to pick which sessions you would like to see and which companies you’d like to visit.<p>',
+      zh: '<p>NewCo将请来国内最前沿的互联网公司，与您分享专属它们的创新经历。您将从这20家企业中挑选感兴趣的，前往拜访、交流。</p>'
+    }
+  },
+  {
+    q: {
+      en: 'After I’ve registered, how do I pick which host company sessions I will attend?',
+      zh: '报名付费后，如何挑选我要参加的主题企业活动？'
+    },
+    a: {
+      en: '<p>Prior to the event, you will receive an email instruction to sign up for host company sessions.</p><p>*Please note that there will be more than one sessions happening per timeslot.</p><p>A VIP Pass gives you access to an unlimited number of host company sessions. A Standard Pass gives you access to 5 host company sessions, but you will NOT be able to register for more than one session per timeslot.</p>',
+      zh: '<p>成功报名的观众将在临近活动时收到一封报名主题活动的邮件指引。</p><p>*请注意，每个时间段会有多项主题活动同时进行。</p><p>VIP票持有者可随意选择主题企业活动数量。标准票持有者可选择5项企业活动，但同一时间段只能选择一项。</p>'
+    }
+  },
+  {
+    q: {
+      en: 'Are there any mixing events or other get togethers?',
+      zh: '会有和其他NewCo观众认识、交流的机会吗？'
+    },
+    a: {
+      en: '<p>Yes! We will have a VIP Kickoff Dinner from 7pm-10pm on Monday, September 12, and an After Party (woo-hoo!) at the end of the festival on Tuesday, September 13.</p>',
+      zh: '<p>必须！9月12日（周一）晚7pm-10pm将有一个VIP启动晚宴。9月13日（周二）活动结束当晚也会有一个After Party。</p>'
+    }
+  },
+  {
+    q: {
+      en: "What's the 8X8 Speaker Event？",
+      zh: 'TBD'
+    },
+    a: {
+      en: "<p>The 8X8 Speaker Event is held by Chinaccelerator each year in Shanghai and Beijing. 8 heroes will each speak for 8 minutes on everything they've learned from being an entrepreneur. This time, it will capstone NewCo Shanghai and all NewCo attendees are invited.</p>",
+      zh: 'TBD'
+    }
+  },
+  {
+    q: {
+      en: 'Will there be food?',
+      zh: 'NewCo会提供餐饮吗？'
+    },
+    a: {
+      en: '<p>Yes! Lunch is included in both VIP and Standard passes.</p>',
+      zh: '<p>有的！VIP和普通票都含午餐。</p>'
+    }
+  },
+  {
+    q: {
+      en: 'I assume the host company sessions are at different locations. How will I navigate Shanghai traffic?',
+      zh: '这些主题企业都在不同地点，我要怎么过去？'
+    },
+    a: {
+      en: '<p>We got it! There will be cool NewCo buses taking you to the host companies you sign up for.</p>',
+      zh: '<p>不用担心！NewCo到时会提供巴士带大家前往。</p>'
+    }
+  },
+  {
+    q: {
+      en: 'What if my question isn’t answered above?',
+      zh: '我还有问题，怎么办？'
+    },
+    a: {
+      en: '<p>You can always contact us at: <a href="mailto:cateam@chinaccelerator.com">cateam@chinaccelerator.com</a> We will get back to you ASAP.</p>',
+      zh: '<p>请随时联系我们：<a href="mailto:cateam@chinaccelerator.com">cateam@chinaccelerator.com</a> 我们会尽快给予您答复。</p>'
+    }
+  }
+];
 /* don't boil me */
 $(function() {
   $('#full-page').fullpage({
@@ -386,6 +458,7 @@ $(function() {
       agenda: _agenda,
       partners: _partners,
       links: _links,
+      faq: _faq,
       en: true
     },
     computed: {

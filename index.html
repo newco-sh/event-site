@@ -84,6 +84,40 @@
       </div>
     </div>
   </div>
+  <!-- tickets faq modal -->
+  <div class="modal modal-newco fade" id="faq-modal" tabindex="-1" role="dialog" aria-labelledby="faq-label">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">
+            <span v-if="en">FAQ</span>
+            <span v-else>报名须知</span>
+            <small>
+              <a href="#" class="link-newco" v-on:click="toggleLang">
+                <span v-if="en">汉</span>
+                <span v-else>EN</span>
+              </a>
+            </small>
+          </h4>
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item" v-for="qa in faq">
+            <h4>
+              Q:
+              <span v-if="en" v-text="qa.q.en"></span>
+              <span v-else v-text="qa.q.zh"></span>
+            </h4>
+            <div v-if="en" v-html="qa.a.en"></div>
+            <div v-else v-html="qa.a.zh"></div>
+          </li>
+        </ul>
+        <div class="modal-footer">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- host companies modal -->
   <div class="modal modal-newco fade" id="host-modal" tabindex="-1" role="dialog" aria-labelledby="host-label">
     <div class="modal-dialog modal-lg" role="document">
@@ -271,13 +305,13 @@
           <span v-else>购票</span>
         </h3>
         <div class="row">
-          <div class="col-md-3 col-sm-12">
+          <div class="col-md-6 col-sm-12">
             <div class="panel panel-warning">
               <div class="panel-heading">
                 <h5 class="panel-title text-newco-gold">
                   <i class="fa fa-ticket"></i>
-                  <span v-if="en">Gold Pass</span>
-                  <span v-else>金卡</span>
+                  <span v-if="en">VIP Pass</span>
+                  <span v-else>VIP 票</span>
                 </h5>
               </div>
               <div class="panel-body">
@@ -288,49 +322,26 @@
                   <span v-else>VIP 启动晚宴</span>
                 </h5>
                 <hr>
-                <h5 v-if="en">
-                  <strong class="text-newco-gold">Unlimited</strong> Host Company Sessions
+                <h5>
+                  <span v-if="en">
+                    <strong class="text-newco-gold">Unlimited</strong> Host Company Sessions
+                  </span>
+                  <span v-else>
+                    <strong class="text-newco-gold">任意选择</strong>主题企业活动数量
+                  </span>
                 </h5>
-                <h5 v-else>
-                  <strong class="text-newco-gold">任意选择</strong>主题企业活动数量
-                </h5>
-                <hr>
-                <h5 v-if="en">8x8 Speaking Event</h5>
-                <h5 v-else>8x8企业家分享</h5>
-                <hr>
-                <h5>After Party</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-12">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h5 class="panel-title">
-                  <i class="fa fa-ticket"></i>
-                  <span v-if="en">Silver Pass</span>
-                  <span v-else>银卡</span>
-                </h5>
-              </div>
-              <div class="panel-body">
-                <h5>RMB ￥388</h5>
                 <hr>
                 <h5>
-                  <span v-if="en">VIP Kickoff Dinner</span>
-                  <span v-else>VIP 启动晚宴</span>
+                  <span v-if="en">8x8 Speaker Event</span>
+                  <span v-else>八分之约创业家分享会</span>
                 </h5>
-                <hr>
-                <h5 v-if="en">5 Host Company Sessions</h5>
-                <h5 v-else>5项主题企业活动</h5>
-                <hr>
-                <h5 v-if="en">8x8 Speaking Event</h5>
-                <h5 v-else>8x8企业家分享</h5>
                 <hr>
                 <h5>After Party</h5>
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-12">
-            <div class="panel panel-info">
+          <div class="col-md-6 col-sm-12">
+            <div class="panel panel-default">
               <div class="panel-heading">
                 <h5 class="panel-title">
                   <i class="fa fa-ticket"></i>
@@ -341,30 +352,23 @@
               <div class="panel-body">
                 <h5>RMB ￥188</h5>
                 <hr>
-                <h5 v-if="en">5 Host Company Sessions</h5>
-                <h5 v-else>5项主题企业活动</h5>
-                <hr>
-                <h5 v-if="en">8x8 Speaking Event</h5>
-                <h5 v-else>8x8企业家分享</h5>
-                <hr>
-                <h5>After Party</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-12">
-            <div class="panel panel-success">
-              <div class="panel-heading">
-                <h5 class="panel-title">
-                  <i class="fa fa-ticket"></i>
-                  <span v-if="en">8x8 Pass</span>
-                  <span v-else>8x8 票</span>
+                <h5>
+                  <span v-if="en">5 Host Company Sessions</span>
+                  <span v-else>5项主题企业活动</span>
+                  <small>
+                    <span v-if="en">
+                      *you will not be able to register for more than one session per timeslot
+                    </span>
+                    <span v-else>
+                      *同一时间段只能选择一项
+                    </span>
+                  </small>
                 </h5>
-              </div>
-              <div class="panel-body">
-                <h5>RMB ￥0</h5>
                 <hr>
-                <h5 v-if="en">8x8 Speaking Event</h5>
-                <h5 v-else>8x8企业家分享</h5>
+                <h5>
+                  <span v-if="en">8x8 Speaker Event</span>
+                  <span v-else>八分之约创业家分享会</span>
+                </h5>
                 <hr>
                 <h5>After Party</h5>
               </div>
@@ -376,15 +380,12 @@
           <span v-if="en">PURCHASE</span>
           <span v-else>购票</span>
         </a>
-        <h5>
-          <span v-if="en">
-            If you have any questions, please contact
-          </span>
-          <span v-else>
-            如有疑问，请联系
-          </span>
-          <a href="mailto:cateam@chinaccelerator.com">cateam@chinaccelerator.com</a>
-        </h5>
+        <h4>
+          <a role="button" data-toggle="modal" data-target="#faq-modal">
+            <span v-if="en">FAQ</span>
+            <span v-else>报名须知</span>
+          </a>
+        </h4>
       </div>
     </section>
     <section class="section fp-auto-height" data-anchor="about">
