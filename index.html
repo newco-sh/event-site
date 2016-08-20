@@ -399,9 +399,9 @@
               <span class="logo-host">
                 <img v-bind:src="h.logo">
               </span>
-              <p class="text-muted">
-                <small v-if="en" v-text="h.session.en.title"></small>
-                <small v-else v-text="h.session.zh.title"></small>
+              <p style="color:#333;">
+                <span v-if="en" v-text="h.session.en.title"></span>
+                <span v-else v-text="h.session.zh.title"></span>
               </p>
             </a>
           </li>
