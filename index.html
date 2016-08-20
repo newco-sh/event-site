@@ -400,8 +400,12 @@
       <div class="container">
         <h3 class="text-center">
           <span v-if="en">Whose Innovation Stories Do You Want to Know?</span>
-          <span v-else>关于科技创新，你想听谁的故事？</span>
+          <span v-else>关于科技创新，你想听谁的故事？</span>
         </h3>
+        <h5 class="text-center">
+          <span v-if="en">Navigating China's tech industry is tough. That's why NewCo brings you inside the most seasoned tech companies to learn, network, and be inspired.</span>
+          <span v-else>创新者往往孤军作战。这次，NewCo请你到最前沿的科技公司里，结识志同道合的朋友，和科技大咖聊一聊。</span>
+        </h5>
         <ul class="list-inline text-center">
           <li class="item-event" v-for="h in hosts">
             <a href="#" v-on:click="triggerHost(h.k, $event)" style="text-decoration:none;">
