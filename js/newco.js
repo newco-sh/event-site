@@ -310,7 +310,7 @@ var _partners = [
   { href: 'https://google.com', img: 'img/local/google.png', class: 'silver' },
   { href: 'http://www.people-squared.com/', img: 'img/local/PeopleSquared.png', class: 'silver' },
   { href: 'http://www.pillarlegalpc.com/', img: 'img/local/Pillar Legal.jpg', class: 'silver' },
-  { href: 'http://www.slush.org/', img: 'img/local/slush.png', class: 'silver' },
+  { href: 'http://www.slush.org/', img: 'img/local/Slush.png', class: 'silver' },
   { href: 'https://www.wework.com/', img: 'img/local/wework.png', class: 'silver' },
   { href: 'https://yoopay.cn/', img: 'img/local/yoopay logo.png', class: 'silver' }
 ];
