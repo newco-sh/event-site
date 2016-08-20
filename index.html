@@ -278,8 +278,8 @@
     <header class="section" data-anchor="home">
       <div class="container text-center">
         <div v-if="en">
-          <h1>Insider's Guide to China's</h1>
-          <h1>Tech Industry</h1>
+          <h1>Connecting With China's</h1>
+          <h1>Cutting-Edge Tech Companies</h1>
         </div>
         <div v-else>
           <h1>NewCo带你</h1>
@@ -390,9 +390,10 @@
     </section>
     <section class="section fp-auto-height" data-anchor="about">
       <div class="container">
-        <img src="img/8X8_BANNER_1920_80.jpg" class="img-responsive">
-        <h3 class="text-center">Choose the Companies You Want to Visit</h3>
-        <h5 class="text-center">Navigating China’s tech industry is tough. That’s why NewCo is bringing you inside China’s most cutting-edge tech companies to learn, network, and be inspired.</h5>
+        <h3 class="text-center">
+          <span v-if="en">Whose Innovation Stories Do You Want to Know?</span>
+          <span v-else>关于科技创新，你想听谁的故事？</span>
+        </h3>
         <ul class="list-inline text-center">
           <li class="item-event" v-for="h in hosts">
             <a href="#" v-on:click="triggerHost(h.k, $event)" style="text-decoration:none;">
@@ -408,7 +409,7 @@
         </ul>
         <div class="well well-newco text-center">
           <h5>
-            <span v-if="en">More host companies will be announced - stay tuned</span>
+            <span v-if="en">Stay tuned for more host company announcement!</span>
             <span v-else>参与企业名单将不断更新，敬请期待。</span>
           </h5>
         </div>
@@ -417,8 +418,8 @@
           <span v-else>八分之约</span>
         </h3>
         <h5 style="font-weight:900;">
-          <span v-if="en">THE CHINACCELERATOR 8X8 EVENT CONNECTS YOU WITH A WIDE SPECTRUM OF FOUNDERS AND THOUGHT LEADERS IN CHINA.</span>
-          <span v-else>中国加速8X8活动将国内行业先锋和资深创业家带到您跟前，与您分享心得和互动交流。</span>
+          <span v-if="en">THE CHINACCELERATOR 8X8 SPEAKER EVENT CONNECTS YOU WITH SEASONED ENTREPRENEURS IN CHINA.</span>
+          <span v-else>中国加速八分之约企业家分享会将国内行业先锋和资深创业家带到您跟前，与您分享心得与交流。</span>
         </h5>
         <div class="well well-newco text-center">
           <h5>
@@ -516,7 +517,7 @@
         </h3>
         <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/chinaccelerator-logo.png" style="height:72px;display:inline-block;float:right;margin:0 0.5em;">
         <p v-if="en">
-          <a href="http://chinaccelerator.com" target="_blank">Chinaccelerator</a>, the first startup accelerator in China and Asia, is a mentorship-driven program helping internet startups from around the world cross borders - from the world into China and from China to the world. It is backed by the venture fund SOSV with $250M AUM operating five accelerator programs around the world.
+          <a href="http://chinaccelerator.com" target="_blank">Chinaccelerator</a>, the first startup accelerator in China and Asia, is a mentorship-driven program helping internet startups from around the world cross borders - from the world into China and from China to the world. It is backed by the venture fund SOSV with $250M AUM operating nine accelerator programs around the world.
           <br><br>
           This September, NewCo and Chinaccelerator are coming together to connect the world’s top start-ups, high-growth companies, investors, influencers and entrepreneurs through NewCo Shanghai and Chinaccelerator 8x8, an event where 8 of the tech industries biggest movers and shakers give 8 minute talks about how they have succeeded in building tech companies.
         </p>

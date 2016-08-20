@@ -16,7 +16,7 @@ var _hosts = [
         intro: "In the past two decades, Chinese companies have gone global through a variety of routes: listing on overseas stock markets, subsidiaries outside China, M&As, and so on. But not many Chinese companies have foreign executives at their top. As the first non-Chinese CTO at Tudou, what did it feel like to Mr. Mushero? Find out at ChinaNetCloud's host session!"
       },
       zh: {
-        title: 'TBD',
+        title: '作为土豆第一位外籍CTO，我有什么想说',
         intro: 'TBD'
       }
     },
@@ -45,7 +45,7 @@ var _hosts = [
         intro: 'TBD'
       },
       zh: {
-        title: 'TBD',
+        title: '那些年一夜爆红的图片APP，现在还好吗？',
         intro: 'TBD'
       }
     },
@@ -70,11 +70,11 @@ var _hosts = [
     industry: 'EduTech',
     session: {
       en: {
-        title: 'On Being an Foreign Entrepreneur in China',
+        title: 'Perseverance: A Foreign Entrepreneur in China',
         intro: 'TBD'
       },
       zh: {
-        title: 'TBD',
+        title: '老外在中国的创业经：坚持不懈',
         intro: 'TBD'
       }
     },
@@ -92,18 +92,18 @@ var _hosts = [
     name: 'Platform88',
     link: 'https://www.Platform88.com/',
     logo: 'img/hosts/Platform88.png',
-    presenter: 'TBD',
+    presenter: '',
     avatar: '',
     lang: 'EN',
     position: '',
     industry: 'Startup Services',
     session: {
       en: {
-        title: 'TBD',
+        title: 'Born to Scale: From Ideas to Product',
         intro: 'TBD'
       },
       zh: {
-        title: 'TBD',
+        title: '从idea到产品，你要绕开哪些槛？',
         intro: 'TBD'
       }
     },
@@ -113,7 +113,7 @@ var _hosts = [
     },
     intro: {
       en: '<p>We help innovators and startup teams from around the world build and scale their products. Vetted Factories, Industry Experts, Merchandising Hubs.</p>',
-      zh: '<p></p>'
+      zh: '<p>Platform88是一家创意设计公司。它像一座桥梁，给国外的工厂介绍国内靠谱的产品，投入生产，也帮助国内的工厂开拓国外的市场。</p>'
     }
   },
   {
@@ -128,11 +128,11 @@ var _hosts = [
     industry: 'Cloud Computing',
     session: {
       en: {
-        title: "What's Next for Cloud Computing?",
-        intro: "Learn about cloud computing's current ecosystem in China and its future through Qiniu's case studies."
+        title: "Cloud Computing Case Study, Success Story",
+        intro: "Learn about cloud computing's current ecosystem in China and its future with Qiniu's real-life case studies."
       },
       zh: {
-        title: 'TBD',
+        title: '案例分享- 国内领先的企业级云服务商',
         intro: 'TBD'
       }
     },
@@ -161,7 +161,7 @@ var _hosts = [
         intro: "What is wanghong? Who can be a wanghong? What is the new wanghong economy? Who can you leverage wanghong to help you promote, sell and create content for you? Miranda will tackle these questions for you."
       },
       zh: {
-        title: 'TBD',
+        title: '路人甲也可以成为赚钱的网红',
         intro: 'TBD'
       }
     },
@@ -190,7 +190,7 @@ var _hosts = [
         intro: 'TBD'
       },
       zh: {
-        title: 'TBD',
+        title: '微信时代，微博已死了吗？',
         intro: 'TBD'
       }
     },
@@ -219,7 +219,7 @@ var _hosts = [
         intro: 'TBD'
       },
       zh: {
-        title: 'TBD',
+        title: '简单难懂的道理：创业团队的合作精神',
         intro: 'TBD'
       }
     },
@@ -235,7 +235,7 @@ var _hosts = [
 ];
 var _agenda = [
   {
-    date: '2016-09-12',
+    date: '2016-09-12 (MON)',
     slots: [{
       start: '19:00',
       end: '22:00',
@@ -246,27 +246,13 @@ var _agenda = [
     }]
   },
   {
-    date: '2016-09-13',
+    date: '2016-09-13 (TUE)',
     slots: [{
       start: '09:00',
-      end: '10:00',
-      events: [{
-        en: 'TBD',
-        zh: '待定'
-      }]
-    }, {
-      start: '10:00',
-      end: '11:00',
-      events: [{
-        en: 'TBD',
-        zh: '待定'
-      }]
-    }, {
-      start: '11:00',
       end: '12:00',
       events: [{
-        en: 'TBD',
-        zh: '待定'
+        en: 'Host Company Sessions',
+        zh: '主题企业活动'
       }]
     }, {
       start: '12:00',
@@ -277,45 +263,24 @@ var _agenda = [
       }]
     }, {
       start: '13:30',
-      end: '14:30',
-      events: [{
-        en: 'TBD',
-        zh: '待定'
-      }]
-    }, {
-      start: '14:30',
-      end: '15:30',
-      events: [{
-        en: 'TBD',
-        zh: '待定'
-      }]
-    }, {
-      start: '15:30',
-      end: '16:30',
-      events: [{
-        en: 'TBD',
-        zh: '待定'
-      }]
-    }, {
-      start: '16:30',
       end: '17:30',
       events: [{
-        en: 'TBD',
-        zh: '待定'
+        en: 'Host Company Sessions',
+        zh: '主题企业活动'
       }]
     }, {
       start: '17:30',
       end: '19:00',
       events: [{
-        en: 'Dinner Break',
-        zh: '晚休'
+        en: 'Break',
+        zh: '休息'
       }]
     }, {
       start: '19:00',
       end: '21:00',
       events: [{
-        en: '8x8 Speaking Event',
-        zh: '8x8企业家分享'
+        en: 'Chinaccelerator 8x8 Speaker Event',
+        zh: '中国加速八分之约企业家分享'
       }]
     }, {
       start: '21:00',
@@ -345,6 +310,7 @@ var _partners = [
   { href: 'https://google.com', img: 'img/local/google.png', class: 'silver' },
   { href: 'http://www.people-squared.com/', img: 'img/local/PeopleSquared.png', class: 'silver' },
   { href: 'http://www.pillarlegalpc.com/', img: 'img/local/Pillar Legal.jpg', class: 'silver' },
+  { href: 'http://www.slush.org/', img: 'img/local/slush.png', class: 'silver' },
   { href: 'https://www.wework.com/', img: 'img/local/wework.png', class: 'silver' },
   { href: 'https://yoopay.cn/', img: 'img/local/yoopay logo.png', class: 'silver' }
 ];
