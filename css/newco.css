@@ -97,7 +97,7 @@ body {
 header.section[data-anchor=home] {
   background:
     linear-gradient(rgba(51, 74, 117, 1), rgba(17, 17, 17, 0.6)),
-    url('../img/header-banner_2.jpg');
+    url('../img/header-banner_3.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -110,7 +110,7 @@ header.section[data-anchor=home] {
 .section[data-anchor=tickets] {
   background:
     linear-gradient(rgba(251, 251, 255, 0.9), rgba(251, 251, 255, 0.7)),
-    url('../img/Batch8_DemoDay_mid.jpg');
+    url('../img/Batch8_DemoDay_mid_1920_80.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
