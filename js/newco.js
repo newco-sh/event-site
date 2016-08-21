@@ -240,7 +240,7 @@ var _agenda = [
       start: '19:00',
       end: '22:00',
       events: [{
-        en: 'VIP Dinner (Sponsored by WeWork)',
+        en: 'VIP Kickoff Dinner (Sponsored by WeWork)',
         zh: 'VIP 启动晚宴 (Sponsored by WeWork)'
       }]
     }]
@@ -341,18 +341,18 @@ var _faq = [
       zh: '会有和其他NewCo观众认识、交流的机会吗？'
     },
     a: {
-      en: '<p>Yes! We will have a VIP Kickoff Dinner from 7pm-10pm on Monday, September 12, and an After Party (woo-hoo!) at the end of the festival on Tuesday, September 13.</p>',
-      zh: '<p>必须！9月12日（周一）晚7pm-10pm将有一个VIP启动晚宴。9月13日（周二）活动结束当晚也会有一个After Party。</p>'
+      en: '<p>Yes! We will have a VIP Kickoff Dinner from 7pm-10pm on Monday, September 12, where our host companies, local partners, and VIP Pass holders will attend, and an After Party for everyone (woo-hoo!) at the end of the festival on Tuesday, September 13.</p>',
+      zh: '<p>必须！9月12日（周一）晚7pm-10pm将有一个VIP启动晚宴，主题公司、合作伙伴以及VIP票持有者将出席。9月13日（周二）活动结束当晚也会有一个所有人都可参加的After Party。</p>'
     }
   },
   {
     q: {
       en: "What's the 8X8 Speaker Event？",
-      zh: 'TBD'
+      zh: '八分之约是什么？'
     },
     a: {
       en: "<p>The 8X8 Speaker Event is held by Chinaccelerator each year in Shanghai and Beijing. 8 heroes will each speak for 8 minutes on everything they've learned from being an entrepreneur. This time, it will capstone NewCo Shanghai and all NewCo attendees are invited.</p>",
-      zh: 'TBD'
+      zh: '八分之约企业家分享会为中国加速的经典活动，每年在北京、上海举行。此次，八分之约将把NewCo节日推向高潮，NewCo所有参与者都能参加。届时，8位成功企业家将用8分钟分享他们创业途中坎坷和成功的心得，旨在将宝贵的创业经验带给更多在创业途中的朋友。'
     }
   },
   {
@@ -362,7 +362,7 @@ var _faq = [
     },
     a: {
       en: '<p>Yes! Lunch is included in both VIP and Standard passes.</p>',
-      zh: '<p>有的！VIP和普通票都含午餐。</p>'
+      zh: '<p>有的！VIP和标准票都含午餐。</p>'
     }
   },
   {
