@@ -21,12 +21,41 @@ var _hosts = [
       }
     },
     p_intro: {
-      en: '<p>Mr. Steve Mushero co-founded ChinaNetCloud in 2008 and serves as its Chief Technology Officer and Chief Executive Officer. Mr. Mushero served as the Chief Technical Officer of Tudou Holdings Limited. He has over 20 years of technology management experience across a wide range of industries and international contexts. </p>',
+      en: "<p>Previously, Steve served as the first foreign CTO at Tudou, China's Youtube.</p>",
       zh: '<p>Steve Mushero先生在2008年共同创立了云络科技，担任公司的CTO和CEO。他曾在硅谷担任过各种网络技术创业公司的CTO，后来成为土豆网的第一名外籍CTO。</p>'
     },
     intro: {
-      en: "<p>The world's largest Internet server management company, and China's oldest Cloud Computing business.<p>",
-      zh: '<p>全球最大的互联网服务器管理公司、中国最早提供服务器管理及云计算服务的公司。</p>'
+      en: "<p>The world's largest Internet server management company, and China's oldest Cloud Computing business. In 2015, Steve and his American co-founder raised a US$9 million series A for ChinaNetCloud from local Chinese investors, an amount unheard of for foreign entrepreneurs in China.<p>",
+      zh: '<p>全球最大的互联网服务器管理公司、中国最早提供服务器管理及云计算服务的公司。两位共同创始人均为美国人。于2015年完成5600万元人民币A轮融资。</p>'
+    }
+  },
+  {
+    k: 'Dianrong',
+    name: '点融网',
+    link: 'https://www.dianrong.com',
+    logo: 'img/hosts/dianrong.jpg',
+    presenter: 'TBD',
+    avatar: '',
+    lang: 'CN',
+    position: '',
+    industry: 'FinTech',
+    session: {
+      en: {
+        title: "China is Disrupting Fintech Global",
+        intro: ""
+      },
+      zh: {
+        title: '互联网金融正在慢慢渗透你的生活',
+        intro: ''
+      }
+    },
+    p_intro: {
+      en: "<p>TBD</p>",
+      zh: '<p></p>'
+    },
+    intro: {
+      en: "<p>China’s leading Internet finance company, Dianrong was founded in 2012 by the co-founder and former Head of Technology of Lending Club, Soul Htite, who joined efforts with Kevin Guo, a PE fund partner and lawyer from Shanghai to create the next generation financial services technology not only for China but also globally. With over 2,600 employees and 28 offices across China, Dianrong.com operates a largest online marketplace in China and provides banking solution services to financial institutions.<p>",
+      zh: '<p>点融网是中国领先的互联网金融公司，2012年，由Lending Club的联合创始人、前技术总裁苏海德（Soul Htite）与上海知名律师、私募基金合伙人郭宇航共同创立，总部位于上海。目前，点融网在全国有28家分公司，有2600多名员工。</p>'
     }
   },
   {
@@ -170,7 +199,7 @@ var _hosts = [
       zh: '<p>Miranda Tan 毕业于康奈尔大学, 在PR、市场营销和公共关系领域有超过15年的经验。</p>'
     },
     intro: {
-      en: "<p>A data driven KOL marketplace that matches brands with the best KOLs, ROBIN8 makes reaching out to reporters and influencers effortless and effective. Robin8 is changing the face of PR with technology that's been years in the making.</p>",
+      en: "<p>A data driven KOL marketplace that matches brands with the best KOLs. It's the only player in China that has end-to-end attribution for KOL posts and can match KOLs to campaigns based on their influence on a particular subject.</p>",
       zh: '<p>Robin8是基于大数据的网红和新媒体广告平台，来自美国纽约，2015年3月进入中国。Robin8是一个双向平台，广告主在上面发布各种类型的广告，网红则可以在Robin8上进行注册并接单，通过转发广告获取利益。广告主可以选择一次性进行支付或按点击量支付。Robin8会通过大数据分析，以影响力为准为网红打分，影响力越高证明人气越旺。Robin8目前已有6万网红注册。ROBIN8的投资人包括线性资本，Pre Angel，SOSV, 华睿互联，凯洲资本及365投资等 。</p>'
     }
   },
