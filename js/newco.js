@@ -1,6 +1,35 @@
 /* DATA */
 var _hosts = [
   {
+    k: 'Chinaccelerator',
+    name: 'Chinaccelerator中国加速',
+    link: 'https://www.chinaccelerator.com',
+    logo: 'img/hosts/CA.png',
+    presenter: 'TBD',
+    avatar: '',
+    lang: 'EN',
+    position: '',
+    industry: 'Startup Accelerator',
+    session: {
+      en: {
+        title: "Helping Chinese Startups Go Global",
+        intro: "What are the opportunities and challenges that Chinese startups face abroad? Come join Chinaccelerator's host session and bring your questions."
+      },
+      zh: {
+        title: '中国创业公司在海外的机遇与挑战',
+        intro: ''
+      }
+    },
+    p_intro: {
+      en: "<p></p>",
+      zh: '<p></p>'
+    },
+    intro: {
+      en: "<p>Chinaccelerator, the first startup accelerator in China and Asia, is a mentorship-driven program helping internet startups from around the world cross borders - from the world into China and from China to the world. It is backed by the venture fund SOSV with $250M AUM operating nine accelerator programs around the world. Chinaccelerator offers three months of rigorous guidance, training and resources from mentors, partners and investors. The robust and supportive alumni network continues into the startups' post-Chinaccelerator lifespan.<p>",
+      zh: '<p>中国加速是亚洲第一个以导师为驱动的软件创业加速器，是管理着2.5亿美元的早期创投SOSV基金在全球六个城市投资成立的加速器之一。它覆盖全球，每年经营两届创业项目，帮助来自全球的初创公司进入中国市场，也帮助中国公司进入国际市场。中国加速主要关注电子商务、金融科技、数据营销以及教育等生活方式类创业项目。它拥有国际化的背景，集合了来自全球的顶级导师、合作伙伴和投资人，为创业者提供更广泛的视角和更丰富的资源。</p>'
+    }
+  },
+  {
     k: 'ChinaNetCloud',
     name: 'ChinaNetCloud云络科技',
     link: 'https://www.chinanetcloud.com/en/',
@@ -33,7 +62,7 @@ var _hosts = [
     k: 'Dianrong',
     name: '点融网',
     link: 'https://www.dianrong.com',
-    logo: 'img/hosts/dianrong.jpg',
+    logo: 'img/hosts/dianrong.png',
     presenter: 'TBD',
     avatar: '',
     lang: 'CN',
@@ -41,7 +70,7 @@ var _hosts = [
     industry: 'FinTech',
     session: {
       en: {
-        title: "China is Disrupting Fintech Global",
+        title: "China is Disrupting Global Fintech",
         intro: ""
       },
       zh: {
@@ -114,6 +143,35 @@ var _hosts = [
     intro: {
       en: '<p>On italki you can find the best online language teachers from around the world. italki is the world leader in online language education with over 1.2 million students and 1500+ teachers of 100 languages.</p>',
       zh: '<p>italki是全球知名的一对一在线外教平台，拥有三千多名活跃的注册教师，每天教授数以千计的在线付费课程。</p>'
+    }
+  },
+  {
+    k: 'Mei.com魅力惠',
+    name: 'Mei.com魅力惠',
+    link: 'https://www.mei.com/',
+    logo: 'img/hosts/mei.com.png',
+    presenter: 'Thibault Villet 韦奕博',
+    avatar: 'img/hosts/Thibault Villet.png',
+    lang: 'EN',
+    position: 'Founder & CEO',
+    industry: 'Luxury E-commerce',
+    session: {
+      en: {
+        title: "Is China's Luxury Market Back to Rational Growth?",
+        intro: ''
+      },
+      zh: {
+        title: '中国奢侈品市场回归理性？',
+        intro: ''
+      }
+    },
+    p_intro: {
+      en: '<p>Thibault founded Glamour Sales China, the first online authorized outlet in China focusing on luxury, fashion and lifestyle brands. Prior to founding Glamour Sales China, Thibault was a manager and vice president for L’Oreal Luxury Products. Thibault holds an MBA from ESCP Europe specialising in international business and has proficiency in four languages: Chinese, French, German, and English.</p>',
+      zh: '<p>韦奕博先生拥有15年奢侈品行业经验及7年中国生活经历，曾经担任欧莱雅中国区副总裁及Coach大中华区总裁。</p>'
+    },
+    intro: {
+      en: '<p>As the leading Luxury & Fashion Flash Sales website in Asia, Mei.com (Glamour Sales) entered into the China market in April 2010. In July, 2015, Alibaba invested over $100 million in Mei.com. To date, Mei.com has established official partnerships with over 2,400 international luxury, fashion, beauty and lifestyle brands.</p>',
+      zh: '<p>作为亚洲时尚奢品限时折扣网站的领导者，于2010年进入中国市场。至今已与1500多个国际著名时尚及奢侈品牌官方授权合作。2015年7月，阿里巴巴逾亿美元战略投资魅力惠。</p>'
     }
   },
   {
