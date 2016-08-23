@@ -62,7 +62,7 @@ var _hosts = [
     k: 'Dianrong',
     name: '点融网',
     link: 'https://www.dianrong.com',
-    logo: 'img/hosts/dianrong.png',
+    logo: 'img/hosts/Dianrong.png',
     presenter: 'TBD',
     avatar: '',
     lang: 'CN',
