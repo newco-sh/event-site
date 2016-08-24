@@ -152,7 +152,9 @@
             </div>
             <div class="col-md-8 col-sm-12">
               <h3 v-text="host.presenter" class="text-newco"></h3>
-              <span v-text="host.position"></span>, <span v-text="host.name"></span>
+              <p>
+                <span v-text="host.position"></span>, <span v-text="host.name"></span>
+              </p>
               <div v-if="en" v-html="host.p_intro.en"></div>
               <div v-else v-html="host.p_intro.zh"></div>
             </div>
@@ -166,6 +168,44 @@
               <h3 v-text="host.name" class="text-newco"></h3>
               <div v-if="en" v-html="host.intro.en"></div>
               <div v-else v-html="host.intro.zh"></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- speaker modal -->
+  <div class="modal modal-newco fade" id="speaker-modal" tabindex="-1" role="dialog" aria-labelledby="speaker-label">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="speaker-label">
+            <span v-text="speaker.name"></span>
+            <small>
+              <a href="#" class="link-newco" v-on:click="toggleLang">
+                <span v-if="en">汉</span>
+                <span v-else>EN</span>
+              </a>
+            </small>
+          </h4>
+        </div>
+        <div class="modal-body">
+          <h4>Speaker</h4>
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <img v-bind:src="speaker.avatar" class="img-circle center-block" style="max-height:180px;">
+            </div>
+            <div class="col-md-8 col-sm-12">
+              <h3 v-text="speaker.name" class="text-newco"></h3>
+              <p>
+                <span v-text="speaker.position"></span>, <span v-text="speaker.company"></span>
+              </p>
+              <div v-if="en" v-html="speaker.intro.en"></div>
+              <div v-else v-html="speaker.intro.zh"></div>
             </div>
           </div>
         </div>
@@ -406,16 +446,16 @@
       <div class="container">
         <h3 class="text-center">
           <span v-if="en">Whose Innovation Stories Do You Want to Know?</span>
-          <span v-else>关于科技创新，你想听谁的故事？</span>
+          <span v-else>关于科技创新，你想听谁的故事？</span>
         </h3>
         <h5 class="text-center">
           <span v-if="en">Navigating China's tech industry is tough. That's why NewCo brings you inside the most seasoned tech companies to learn, network, and be inspired.</span>
-          <span v-else>创新者往往孤军作战。这次，NewCo请你到最前沿的科技公司里，结识志同道合的朋友，和科技大咖聊一聊。</span>
+          <span v-else>创新者往往孤军作战。这次，NewCo请你到最前沿的科技公司里，结识志同道合的朋友，和科技大咖聊一聊。</span>
         </h5>
         <ul class="list-inline text-center">
           <li class="item-event" v-for="h in hosts">
             <a href="#" v-on:click="triggerHost(h.k, $event)" style="text-decoration:none;">
-              <span class="logo-host">
+              <span class="item-event-logo">
                 <img v-bind:src="h.logo">
               </span>
               <p style="color:#333;">
@@ -439,9 +479,18 @@
           <span v-if="en">The 8X8 Speaker Event is held by Chinaccelerator each year in Shanghai and Beijing. 8 heroes will each speak for 8 minutes on everything they've learned from being an entrepreneur. This time, it will capstone NewCo Shanghai and all NewCo attendees are invited.</span>
           <span v-else>中国加速八分之约企业家分享会每年在北京、上海举行。此次，八分之约将把NewCo节日推向高潮，NewCo所有参与者都能参加。届时，8位成功企业家将用8分钟分享他们创业途中坎坷和成功的心得，旨在将宝贵的创业经验带给更多在创业途中的朋友。</span>
         </h5>
+        <ul class="list-inline text-center">
+          <li class="item-event" v-for="s in speakers">
+            <a href="#" v-on:click="triggerSpeaker(s.k, $event)" style="text-decoration:none;">
+              <span class="item-event-logo">
+                <img v-bind:src="s.avatar" class="img-circle">
+              </span>
+            </a>
+          </li>
+        </ul>
         <div class="well well-newco text-center">
           <h5>
-            <span v-if="en">Coming soon - stay tuned.</span>
+            <span v-if="en">More to come - stay tuned.</span>
             <span v-else>敬请期待</span>
           </h5>
         </div>

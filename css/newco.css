@@ -27,12 +27,12 @@ body {
   width: 200px;
   margin: 0.5em;
 }
-.item-event .logo-host {
+.item-event .item-event-logo {
   display: block;
   height: 120px;
   line-height: 120px;
 }
-.item-event .logo-host img {
+.item-event .item-event-logo img {
   /*display: inline-block;*/
   margin: 0 auto;
   max-width: 100%;

@@ -233,6 +233,30 @@ var _hosts = [
     }
   }
 ];
+var _speakers = [
+  {
+    k: 'greg_nance',
+    name: 'Greg Nance 马千里',
+    avatar: 'img/speakers/Greg_Nance.jpg',
+    position: 'Founder & CEO',
+    company: 'Dyad.com',
+    intro: {
+      en: '<p>Ultra-marathoner, ultra-motivator and entrepreneur out of Cambridge University in 2012, Greg co-founded Moneythink and Dyad.com (formerly ChaseFuture), organizations recognized by the Obama Administration, NASDAQ, Wall Street Journal, Harvard Business Review, Forbes and more.</p>',
+      zh: '<p>2012年研究生毕业于剑桥大学管理硕士专业。在创办ChaseFuture以前，Greg创建的非盈利组织MoneyThink获得了美国白宫授予的最佳学生领袖创新奖。他喜欢在铺满常青叶的林径上跑步，在普吉特海湾游泳，攀登白雪皑皑的喀斯喀特山脉。</p>'
+    }
+  },
+  {
+    k: 'sam_flemming',
+    name: 'Sam Flemming 费嘉明',
+    avatar: 'img/speakers/Sam_Flemming.jpg',
+    position: 'Founder & Chairman',
+    company: 'Kantar Media CIC',
+    intro: {
+      en: "<p>Founded CIC in 2004 as the first and leading social media research and intelligence firm in Asia Pacific where he grew the business and oversaw its 2012 acquisition and integration by WPP's Kantar Media.</p>",
+      zh: '<p>作为中国领先的社会化商业资讯提供商 - CIC的创始人和首席执行官，Sam从参与创建Chinapay.com (国内首家在线支付平台) 至今，15年来始终引领着中国互联网的发展。自2004年创建CIC，Sam始终致力于将CIC塑造为解读中国社会化媒体与社会化商业的先行者。</p>'
+    }
+  }
+];
 var _agenda = [
   {
     date: '2016-09-12 (MON)',
@@ -421,6 +445,8 @@ $(function() {
     data: {
       selected_host: 'Robin8',
       hosts: _hosts,
+      selected_speaker: 'greg_nance',
+      speakers: _speakers,
       agenda: _agenda,
       partners: _partners,
       links: _links,
@@ -432,6 +458,12 @@ $(function() {
         var self = this;
         return self.hosts.find(function(host) {
           return host.k === self.selected_host;
+        });
+      },
+      speaker: function() {
+        var self = this;
+        return self.speakers.find(function(speaker) {
+          return speaker.k === self.selected_speaker;
         });
       }
     },
@@ -445,6 +477,11 @@ $(function() {
         e.preventDefault();
         this.selected_host = host;
         $('#host-modal').modal('show');
+      },
+      triggerSpeaker: function(speaker, e) {
+        e.preventDefault();
+        this.selected_speaker = speaker;
+        $('#speaker-modal').modal('show');
       }
     }
   });
