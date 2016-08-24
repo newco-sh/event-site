@@ -1,6 +1,35 @@
 /* DATA */
 var _hosts = [
   {
+    k: 'Chinaccelerator',
+    name: 'Chinaccelerator中国加速',
+    link: 'https://www.chinaccelerator.com',
+    logo: 'img/hosts/CA.png',
+    presenter: 'TBD',
+    avatar: '',
+    lang: 'EN',
+    position: '',
+    industry: 'Startup Accelerator',
+    session: {
+      en: {
+        title: "Helping Chinese Startups Go Global",
+        intro: "What are the opportunities and challenges that Chinese startups face abroad? Come join Chinaccelerator's host session and bring your questions."
+      },
+      zh: {
+        title: '中国创业公司在海外的机遇与挑战',
+        intro: ''
+      }
+    },
+    p_intro: {
+      en: "<p></p>",
+      zh: '<p></p>'
+    },
+    intro: {
+      en: "<p>Chinaccelerator, the first startup accelerator in China and Asia, is a mentorship-driven program helping internet startups from around the world cross borders - from the world into China and from China to the world. It is backed by the venture fund SOSV with $250M AUM operating nine accelerator programs around the world. Chinaccelerator offers three months of rigorous guidance, training and resources from mentors, partners and investors. The robust and supportive alumni network continues into the startups' post-Chinaccelerator lifespan.<p>",
+      zh: '<p>中国加速是亚洲第一个以导师为驱动的软件创业加速器，是管理着2.5亿美元的早期创投SOSV基金在全球六个城市投资成立的加速器之一。它覆盖全球，每年经营两届创业项目，帮助来自全球的初创公司进入中国市场，也帮助中国公司进入国际市场。中国加速主要关注电子商务、金融科技、数据营销以及教育等生活方式类创业项目。它拥有国际化的背景，集合了来自全球的顶级导师、合作伙伴和投资人，为创业者提供更广泛的视角和更丰富的资源。</p>'
+    }
+  },
+  {
     k: 'ChinaNetCloud',
     name: 'ChinaNetCloud云络科技',
     link: 'https://www.chinanetcloud.com/en/',
@@ -21,12 +50,41 @@ var _hosts = [
       }
     },
     p_intro: {
-      en: '<p>Mr. Steve Mushero co-founded ChinaNetCloud in 2008 and serves as its Chief Technology Officer and Chief Executive Officer. Mr. Mushero served as the Chief Technical Officer of Tudou Holdings Limited. He has over 20 years of technology management experience across a wide range of industries and international contexts. </p>',
+      en: "<p>Previously, Steve served as the first foreign CTO at Tudou, China's Youtube.</p>",
       zh: '<p>Steve Mushero先生在2008年共同创立了云络科技，担任公司的CTO和CEO。他曾在硅谷担任过各种网络技术创业公司的CTO，后来成为土豆网的第一名外籍CTO。</p>'
     },
     intro: {
-      en: "<p>The world's largest Internet server management company, and China's oldest Cloud Computing business.<p>",
-      zh: '<p>全球最大的互联网服务器管理公司、中国最早提供服务器管理及云计算服务的公司。</p>'
+      en: "<p>The world's largest Internet server management company, and China's oldest Cloud Computing business. In 2015, Steve and his American co-founder raised a US$9 million series A for ChinaNetCloud from local Chinese investors, an amount unheard of for foreign entrepreneurs in China.<p>",
+      zh: '<p>全球最大的互联网服务器管理公司、中国最早提供服务器管理及云计算服务的公司。两位共同创始人均为美国人。于2015年完成5600万元人民币A轮融资。</p>'
+    }
+  },
+  {
+    k: 'Dianrong',
+    name: '点融网',
+    link: 'https://www.dianrong.com',
+    logo: 'img/hosts/Dianrong.png',
+    presenter: 'TBD',
+    avatar: '',
+    lang: 'CN',
+    position: '',
+    industry: 'FinTech',
+    session: {
+      en: {
+        title: "China is Disrupting Global Fintech",
+        intro: ""
+      },
+      zh: {
+        title: '互联网金融正在慢慢渗透你的生活',
+        intro: ''
+      }
+    },
+    p_intro: {
+      en: "<p>TBD</p>",
+      zh: '<p></p>'
+    },
+    intro: {
+      en: "<p>China’s leading Internet finance company, Dianrong was founded in 2012 by the co-founder and former Head of Technology of Lending Club, Soul Htite, who joined efforts with Kevin Guo, a PE fund partner and lawyer from Shanghai to create the next generation financial services technology not only for China but also globally. With over 2,600 employees and 28 offices across China, Dianrong.com operates a largest online marketplace in China and provides banking solution services to financial institutions.<p>",
+      zh: '<p>点融网是中国领先的互联网金融公司，2012年，由Lending Club的联合创始人、前技术总裁苏海德（Soul Htite）与上海知名律师、私募基金合伙人郭宇航共同创立，总部位于上海。目前，点融网在全国有28家分公司，有2600多名员工。</p>'
     }
   },
   {
@@ -85,6 +143,35 @@ var _hosts = [
     intro: {
       en: '<p>On italki you can find the best online language teachers from around the world. italki is the world leader in online language education with over 1.2 million students and 1500+ teachers of 100 languages.</p>',
       zh: '<p>italki是全球知名的一对一在线外教平台，拥有三千多名活跃的注册教师，每天教授数以千计的在线付费课程。</p>'
+    }
+  },
+  {
+    k: 'Mei.com魅力惠',
+    name: 'Mei.com魅力惠',
+    link: 'https://www.mei.com/',
+    logo: 'img/hosts/mei.com.png',
+    presenter: 'Thibault Villet 韦奕博',
+    avatar: 'img/hosts/Thibault Villet.png',
+    lang: 'EN',
+    position: 'Founder & CEO',
+    industry: 'Luxury E-commerce',
+    session: {
+      en: {
+        title: "Is China's Luxury Market Back to Rational Growth?",
+        intro: ''
+      },
+      zh: {
+        title: '中国奢侈品市场回归理性？',
+        intro: ''
+      }
+    },
+    p_intro: {
+      en: '<p>Thibault founded Glamour Sales China, the first online authorized outlet in China focusing on luxury, fashion and lifestyle brands. Prior to founding Glamour Sales China, Thibault was a manager and vice president for L’Oreal Luxury Products. Thibault holds an MBA from ESCP Europe specialising in international business and has proficiency in four languages: Chinese, French, German, and English.</p>',
+      zh: '<p>韦奕博先生拥有15年奢侈品行业经验及7年中国生活经历，曾经担任欧莱雅中国区副总裁及Coach大中华区总裁。</p>'
+    },
+    intro: {
+      en: '<p>As the leading Luxury & Fashion Flash Sales website in Asia, Mei.com (Glamour Sales) entered into the China market in April 2010. In July, 2015, Alibaba invested over $100 million in Mei.com. To date, Mei.com has established official partnerships with over 2,400 international luxury, fashion, beauty and lifestyle brands.</p>',
+      zh: '<p>作为亚洲时尚奢品限时折扣网站的领导者，于2010年进入中国市场。至今已与1500多个国际著名时尚及奢侈品牌官方授权合作。2015年7月，阿里巴巴逾亿美元战略投资魅力惠。</p>'
     }
   },
   {
@@ -170,7 +257,7 @@ var _hosts = [
       zh: '<p>Miranda Tan 毕业于康奈尔大学, 在PR、市场营销和公共关系领域有超过15年的经验。</p>'
     },
     intro: {
-      en: "<p>A data driven KOL marketplace that matches brands with the best KOLs, ROBIN8 makes reaching out to reporters and influencers effortless and effective. Robin8 is changing the face of PR with technology that's been years in the making.</p>",
+      en: "<p>A data driven KOL marketplace that matches brands with the best KOLs. It's the only player in China that has end-to-end attribution for KOL posts and can match KOLs to campaigns based on their influence on a particular subject.</p>",
       zh: '<p>Robin8是基于大数据的网红和新媒体广告平台，来自美国纽约，2015年3月进入中国。Robin8是一个双向平台，广告主在上面发布各种类型的广告，网红则可以在Robin8上进行注册并接单，通过转发广告获取利益。广告主可以选择一次性进行支付或按点击量支付。Robin8会通过大数据分析，以影响力为准为网红打分，影响力越高证明人气越旺。Robin8目前已有6万网红注册。ROBIN8的投资人包括线性资本，Pre Angel，SOSV, 华睿互联，凯洲资本及365投资等 。</p>'
     }
   },
@@ -264,7 +351,7 @@ var _agenda = [
       start: '19:00',
       end: '22:00',
       events: [{
-        en: 'VIP Dinner (Sponsored by WeWork)',
+        en: 'VIP Kickoff Dinner (Sponsored by WeWork)',
         zh: 'VIP 启动晚宴 (Sponsored by WeWork)'
       }]
     }]
@@ -365,18 +452,18 @@ var _faq = [
       zh: '会有和其他NewCo观众认识、交流的机会吗？'
     },
     a: {
-      en: '<p>Yes! We will have a VIP Kickoff Dinner from 7pm-10pm on Monday, September 12, and an After Party (woo-hoo!) at the end of the festival on Tuesday, September 13.</p>',
-      zh: '<p>必须！9月12日（周一）晚7pm-10pm将有一个VIP启动晚宴。9月13日（周二）活动结束当晚也会有一个After Party。</p>'
+      en: '<p>Yes! We will have a VIP Kickoff Dinner from 7pm-10pm on Monday, September 12, where our host companies, local partners, and VIP Pass holders will attend, and an After Party for everyone (woo-hoo!) at the end of the festival on Tuesday, September 13.</p>',
+      zh: '<p>必须！9月12日（周一）晚7pm-10pm将有一个VIP启动晚宴，主题公司、合作伙伴以及VIP票持有者将出席。9月13日（周二）活动结束当晚也会有一个所有人都可参加的After Party。</p>'
     }
   },
   {
     q: {
       en: "What's the 8X8 Speaker Event？",
-      zh: 'TBD'
+      zh: '八分之约是什么？'
     },
     a: {
       en: "<p>The 8X8 Speaker Event is held by Chinaccelerator each year in Shanghai and Beijing. 8 heroes will each speak for 8 minutes on everything they've learned from being an entrepreneur. This time, it will capstone NewCo Shanghai and all NewCo attendees are invited.</p>",
-      zh: 'TBD'
+      zh: '八分之约企业家分享会为中国加速的经典活动，每年在北京、上海举行。此次，八分之约将把NewCo节日推向高潮，NewCo所有参与者都能参加。届时，8位成功企业家将用8分钟分享他们创业途中坎坷和成功的心得，旨在将宝贵的创业经验带给更多在创业途中的朋友。'
     }
   },
   {
@@ -386,7 +473,7 @@ var _faq = [
     },
     a: {
       en: '<p>Yes! Lunch is included in both VIP and Standard passes.</p>',
-      zh: '<p>有的！VIP和普通票都含午餐。</p>'
+      zh: '<p>有的！VIP和标准票都含午餐。</p>'
     }
   },
   {
