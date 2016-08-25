@@ -215,7 +215,7 @@ var _hosts = [
     industry: 'Social App',
     session: {
       en: {
-        title: 'The Internet of Everyone and the New Wang Hong Economy',
+        title: 'The New Wanghong Economy and the Internet of Everyone',
         intro: "What is wanghong? Who can be a wanghong? What is the new wanghong economy? Who can you leverage wanghong to help you promote, sell and create content for you? Miranda will answer all of these, and more."
       },
       zh: {
@@ -233,32 +233,32 @@ var _hosts = [
     }
   },
   {
-    k: 'Weibo',
-    name: 'Sina Weibo',
-    link: 'http://weibo.com/',
-    logo: 'img/hosts/Sina_Weibo.png',
-    presenter: 'Ken Hong/洪力舟',
-    avatar: '',
-    lang: 'TBD',
-    position: 'GM of Weibo Marketing Strategy',
-    industry: 'TBD',
+    k: 'Stringkly上线了',
+    name: 'Stringkly上线了',
+    link: 'http://strikingly.com/',
+    logo: 'img/hosts/Strikingly.png',
+    presenter: 'David Chen陈海沙',
+    avatar: 'img/hosts/Strikingly_David.jpg',
+    lang: 'CN/EN',
+    position: 'Founder and CEO',
+    industry: 'Internet & Design',
     session: {
       en: {
-        title: 'WeChat Might Be King, but Weibo is Not Dead',
-        intro: 'Many of you have probably asked this question many times. Come hear what GM of Weibo Marketing has to say.'
+        title: 'How the First Chinese YC Startup is Born',
+        intro: ""
       },
       zh: {
-        title: '微信时代，微博已死了吗？',
-        intro: '相信大多数人都有这个疑问。来听听新浪微博营销策略总经理怎么说。'
+        title: '第一家征服YC的中国公司——回国了',
+        intro: ''
       }
     },
     p_intro: {
-      en: '<p>In April 2012, Ken joined Sina as the GM of Weibo Marketing Strategy, helping Sina develop its popular Weibo platform into a powerful marketing platform for advertisers and agencies. Since then, he has worked with MNCs, large Chinese enterprises and advertising agencies on various social media marketing programs including Social Advertising, Social CRM and Social Commerce.</p>',
-      zh: '<p>Ken于2012年4月加入新浪，担任新浪微博营销策略总经理。他主要负责推动新浪微博平台创造更大的价值。他已帮助多家跨国公司、国内大型企业及广告代理机构制定各种社会化媒体营销方案，包括社交广告、社交客户关系管理以及社交商务等项目。</p>'
+      en: '<p>In 2012, I dropped out from the University of Chicago to start Strikingly along with my two 2 cofounders, Teng Bao and Dafeng Guo. We moved to Silicon Valley with $100 in our pocket and were accepted into Y Combinator after eating ramen noodle in our 1 bedroom apartment for 5 months. Before Strikingly, I cofounded Moneythink, a non-profit financial literacy education organization. Moneythink was the winner of the 2013 MassChallenge 100K award, and is now funded by Blackstone, recognized by the White House as the Champions of Change, and featured on Forbes, MTV, the Chicago Tribune, and U.S. News. In 2016, I was honored to be named Forbes 30 Under 30 Asia.</p>',
+      zh: '<p>芝加哥大学经济学专业，曾任芝加哥大学学生会副主席。进入2016年福布斯杂志的“亚洲30位30岁以下年轻领袖（30 under 30）”榜单。</p>'
     },
     intro: {
-      en: "<p>As a leading social media platform for people to create, distribute and discover Chinese-language content, Weibo provides an unprecedented and simple way for people and organizations to publicly express themselves in real time, interact with others on a massive global platform and stay connected with the world.",
-      zh: ''
+      en: "<p>A website builder that allows the user, with little or no development experience, to create mobile optimized websites within minutes. Strikingly is the first Chinese company to graduate from the Y Combinator seed accelerator.</p>",
+      zh: '<p>Strikingly是一个傻瓜式的建站平台，能让没有开发经验的用户在 30 分钟内建好可自适应平板、手机和浏览器的网站。它是第一家被世界顶级的硅谷孵化器Y Combinator孵化的中国团队，创新工场在北美投资的第一个项目。上线第二周即开始盈利，两周内完成150万美金融资。</p>'
     }
   },
   {
@@ -288,6 +288,93 @@ var _hosts = [
     intro: {
       en: "<p>China's leading workplace collaboration app. In 2015, it raised $12 million in Series B funding.</p>",
       zh: '<p>国内领先的团队协作工具，2015年完成1200万美元的B轮融资。</p>'
+    }
+  },
+  {
+    k: 'Tezign特赞',
+    name: 'Tezign特赞',
+    link: 'http://tezign.com/',
+    logo: 'img/hosts/Tezign.png',
+    presenter: 'XiaoQian过晓倩',
+    avatar: 'img/hosts/Tezign_XiaoQian.jpg',
+    lang: 'TBD',
+    position: 'COO',
+    industry: 'Deisgn & Tech',
+    session: {
+      en: {
+        title: 'The Happy Marriage of On-Demand Economy and the Creative Industry',
+        intro: ''
+      },
+      zh: {
+        title: '按需经济如何解放创意阶层？',
+        intro: '初创公司需要怎样的设计师？大型企业如何革新人力配置？按需雇佣和全职雇佣如何相辅相成？成为自由工作者很难吗？发达国家的创意阶层对中国有什么启示？Uber和Airbnb是近年来大热的“按需经济”的代表，通过它们，人们可以进行物质财产的“共享”，优化资源的利用率。随着中国消费升级及进入后工业时代，创意阶层大幅增加，区别于传统劳动者，创意阶层贩卖的是知识、技能和时间，通过互联网，他们可以按需支配自己的“非物质财产（知识、技能、时间）”来获取回报；对于企业来说，通过按需雇佣创意阶层，可以极大地优化人力配置，让人才利用更高效，人力成本更低。'
+      }
+    },
+    p_intro: {
+      en: "<p>Prior to foundingTezign.com, Daisy was a part of the curating team for the Chinese pavilion at Venice Biennale 2012. She also has experience curating exhibitions in Italy, Spain and Germany. Her design background and consistent reflection on design industry gives her more insights into today's creative economy, leading to the foudation of Tezign.com in 2014. </p>",
+      zh: '<p>过晓茜，联合创始人及首席运营官（COO），中央美术学院学士。达沃斯世界经济论坛“全球杰出青年”。她作为项目总监带领团队完成美国“纽约帝国大厦2014春节文化展示橱窗设计”，作为策展人助理参与策划威尼斯双年展中国馆，多次在意大利、西班牙、美国等参与策划国家级艺术展览，有着丰富的策展和公关经验。</p>'
+    },
+    intro: {
+      en: "<p>Tezign is a solution that can fix the employment issue for companies who need a flexible way to deploy human capital. Tezign is an on-demand creative marketplace & workflow solution for designers and companies to use that provides enhanced high quality and optimum cost in an efficient way.</p>",
+      zh: '特赞(tezign.com)是一个对接最优秀设计师的互联网平台，目前开放的领域有平面设计、UI设计、插画设计、动画视频设计。'
+    }
+  },
+  {
+    k: 'Weibo',
+    name: 'Sina Weibo',
+    link: 'http://weibo.com/',
+    logo: 'img/hosts/Sina_Weibo.png',
+    presenter: 'Ken Hong/洪力舟',
+    avatar: 'img/hosts/Weibo_Ken Hong.jpg',
+    lang: 'TBD',
+    position: 'GM of Weibo Marketing Strategy',
+    industry: 'TBD',
+    session: {
+      en: {
+        title: 'WeChat Might Be King, but Weibo is Not Dead',
+        intro: 'Many of you have probably asked this question many times. Come hear what GM of Weibo Marketing has to say.'
+      },
+      zh: {
+        title: '微信时代，微博已死了吗？',
+        intro: '相信大多数人都有这个疑问。来听听新浪微博营销策略总经理怎么说。'
+      }
+    },
+    p_intro: {
+      en: '<p>In April 2012, Ken joined Sina as the GM of Weibo Marketing Strategy, helping Sina develop its popular Weibo platform into a powerful marketing platform for advertisers and agencies. Since then, he has worked with MNCs, large Chinese enterprises and advertising agencies on various social media marketing programs including Social Advertising, Social CRM and Social Commerce.</p>',
+      zh: '<p>Ken于2012年4月加入新浪，担任新浪微博营销策略总经理。他主要负责推动新浪微博平台创造更大的价值。他已帮助多家跨国公司、国内大型企业及广告代理机构制定各种社会化媒体营销方案，包括社交广告、社交客户关系管理以及社交商务等项目。</p>'
+    },
+    intro: {
+      en: "<p>As a leading social media platform for people to create, distribute and discover Chinese-language content, Weibo provides an unprecedented and simple way for people and organizations to publicly express themselves in real time, interact with others on a massive global platform and stay connected with the world.",
+      zh: ''
+    }
+  },
+  {
+    k: '周末去哪儿 Zhoumo Qunar (Weekend Getaway)',
+    name: '周末去哪儿 Zhoumo Qunar (Weekend Getaway)',
+    link: 'http://wanzhoumo.com/',
+    logo: 'img/hosts/Zhoumoqunar.png',
+    presenter: 'Xiao Peng 肖鹏',
+    avatar: 'img/hosts/Zhoumoqunar_Zhou.jpg',
+    lang: 'CN',
+    position: 'CEO',
+    industry: 'Travel',
+    session: {
+      en: {
+        title: 'Travel App: Beyond Deals and Discounts',
+        intro: ''
+      },
+      zh: {
+        title: '旅游休闲APP：不仅是服务买卖平台',
+        intro: ''
+      }
+    },
+    p_intro: {
+      en: '<p> </p>',
+      zh: '<p></p>'
+    },
+    intro: {
+      en: "<p>A weekend event finder app. In February 2016, it has has raised tens of millions USD in Series B financing led by Momo, China's Tinder. It is a partner of Shanghai Disneyland.",
+      zh: '一款专注于让人们体验更美好的周末生活而存在的应用。于今年 2 月获得数千万美金 B 轮融资，本轮融资由陌陌领投，上一轮投资机构蓝湖资本和经纬创投跟投。现已是上海迪士尼度假区旅游业界合作伙伴。'
     }
   }
 ];
