@@ -88,35 +88,6 @@ var _hosts = [
     }
   },
   {
-    k: 'FotoPlace',
-    name: 'FotoPlace 足记',
-    link: 'http://www.fotoplace.cc/',
-    logo: 'img/hosts/FotoPlace足记.png',
-    presenter: '杨柳/Yang Liu',
-    avatar: 'img/hosts/FotoPlace_Yang Liu.jpg',
-    lang: 'CN',
-    position: 'CEO',
-    industry: 'Social App',
-    session: {
-      en: {
-        title: 'The Overnight Success of a Photo-sharing App',
-        intro: 'TBD'
-      },
-      zh: {
-        title: '那些年一夜爆红的图片APP，现在还好吗？',
-        intro: 'TBD'
-      }
-    },
-    p_intro: {
-      en: '<p>Yang Liu, born in 1970s, graduated from Shanghai Normal University with a degree in Dramatic Literature. In love with films, her job for over a decade was instead in product management. In 2014, she finally merged her love for films and her experience in product management, leading to the inception of FotoPlace. </p>',
-      zh: '<p>杨柳，70后白羊座，风风火火恍恍惚惚。。上海师范大学影视戏剧文学专业毕业。作为一个长期电影中毒者，十几年工龄却没有从事与电影相关的工作。2014年，人到中年，无心插柳意外开始创业。当初喜欢的专业与十来年的工作经历终于殊途同归，可见一切自有妥帖的安排。作为「足记」APP的创始人，也是「足记」最大的“bug”（据旁人追忆，此语出自某次醉生梦死后）。非典型互联网产品汪，女汉砸，记性不好，智商堪忧，懒散，好吃，代谢慢，不运动，胖，不好看，心大，学渣一枚。闪闪发亮的深井冰。一个看起来奔放，但本质上内向的人，尴尬症晚期患者，不擅应对各类冷场。</p>'
-    },
-    intro: {
-      en: '<p>An image-based social App using movie language to record life. Launched in December 2014, FotoPlace had taken China’s social media world in early 2015, rocketing to the top of photo-type app rankings across several countries and totaling 30m users. </p>',
-      zh: '<p>足记是一款用电影语言记录生活的图片社交应用。通过足记，可以轻松将普通照片制作成充满电影感的图片，将平凡生活记录成电影，做自己生活的导演。同时，在足记中还可以查找电影取景地，跟随电影足迹、名人与历史的足迹发现身边的美。足记在2014年12月上线正式版本，2015年2月初增加了大片模式，随后在朋友圈引爆了3000万用户的电影情怀，横扫几十个国家的摄影排行榜榜首。</p>'
-    }
-  },
-  {
     k: 'Italki',
     name: 'Italki',
     link: 'https://www.italki.com/',
