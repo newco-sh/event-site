@@ -2,7 +2,7 @@
 var _hosts = [
   {
     k: 'Chinaccelerator',
-    name: 'Chinaccelerator中国加速',
+    name: 'Chinaccelerator中国加速',
     link: 'https://www.chinaccelerator.com',
     logo: 'img/hosts/CA.png',
     presenter: 'TBD',
@@ -45,7 +45,7 @@ var _hosts = [
         intro: "In the past two decades, Chinese companies have gone global through a variety of routes: listing on overseas stock markets, subsidiaries outside China, M&As, and so on. But not many Chinese companies have foreign executives at their top. As the first non-Chinese CTO at Tudou, what did it feel like to Mr. Mushero? Find out at ChinaNetCloud's host session!"
       },
       zh: {
-        title: '作为土豆第一位外籍CTO，我有什么想说',
+        title: '作为土豆第一位外籍CTO，我有什么想说',
         intro: ''
       }
     },
@@ -60,7 +60,7 @@ var _hosts = [
   },
   {
     k: 'Dianrong',
-    name: '点融网',
+    name: '点融网',
     link: 'https://www.dianrong.com',
     logo: 'img/hosts/Dianrong.png',
     presenter: 'TBD',
@@ -88,6 +88,38 @@ var _hosts = [
     }
   },
   {
+<<<<<<< HEAD
+=======
+    k: 'FotoPlace',
+    name: 'FotoPlace 足记',
+    link: 'http://www.fotoplace.cc/',
+    logo: 'img/hosts/FotoPlace足记.png',
+    presenter: '杨柳/Yang Liu',
+    avatar: 'img/hosts/FotoPlace_Yang Liu.jpg',
+    lang: 'CN',
+    position: 'CEO',
+    industry: 'Social App',
+    session: {
+      en: {
+        title: 'The Overnight Success of a Photo-sharing App',
+        intro: 'TBD'
+      },
+      zh: {
+        title: '那些年一夜爆红的图片APP，现在还好吗？',
+        intro: 'TBD'
+      }
+    },
+    p_intro: {
+      en: '<p>Yang Liu, born in 1970s, graduated from Shanghai Normal University with a degree in Dramatic Literature. In love with films, her job for over a decade was instead in product management. In 2014, she finally merged her love for films and her experience in product management, leading to the inception of FotoPlace. </p>',
+      zh: '<p>杨柳，70后白羊座，风风火火恍恍惚惚。。上海师范大学影视戏剧文学专业毕业。作为一个长期电影中毒者，十几年工龄却没有从事与电影相关的工作。2014年，人到中年，无心插柳意外开始创业。当初喜欢的专业与十来年的工作经历终于殊途同归，可见一切自有妥帖的安排。作为「足记」APP的创始人，也是「足记」最大的“bug”（据旁人追忆，此语出自某次醉生梦死后）。非典型互联网产品汪，女汉砸，记性不好，智商堪忧，懒散，好吃，代谢慢，不运动，胖，不好看，心大，学渣一枚。闪闪发亮的深井冰。一个看起来奔放，但本质上内向的人，尴尬症晚期患者，不擅应对各类冷场。</p>'
+    },
+    intro: {
+      en: '<p>An image-based social App using movie language to record life. Launched in December 2014, FotoPlace had taken China’s social media world in early 2015, rocketing to the top of photo-type app rankings across several countries and totaling 30m users. </p>',
+      zh: '<p>足记是一款用电影语言记录生活的图片社交应用。通过足记，可以轻松将普通照片制作成充满电影感的图片，将平凡生活记录成电影，做自己生活的导演。同时，在足记中还可以查找电影取景地，跟随电影足迹、名人与历史的足迹发现身边的美。足记在2014年12月上线正式版本，2015年2月初增加了大片模式，随后在朋友圈引爆了3000万用户的电影情怀，横扫几十个国家的摄影排行榜榜首。</p>'
+    }
+  },
+  {
+>>>>>>> origin/gh-pages
     k: 'Italki',
     name: 'Italki',
     link: 'https://www.italki.com/',
@@ -103,7 +135,7 @@ var _hosts = [
         intro: 'TBD'
       },
       zh: {
-        title: '老外在中国的创业经：坚持不懈',
+        title: '老外在中国的创业经：坚持不懈',
         intro: 'TBD'
       }
     },
@@ -118,11 +150,11 @@ var _hosts = [
   },
   {
     k: 'Mei.com魅力惠',
-    name: 'Mei.com魅力惠',
+    name: 'Mei.com魅力惠',
     link: 'https://www.mei.com/',
     logo: 'img/hosts/mei.com.png',
     presenter: 'Thibault Villet 韦奕博',
-    avatar: 'img/hosts/Thibault Villet.png',
+    avatar: 'img/hosts/Thibault Villet.png',
     lang: 'EN',
     position: 'Founder & CEO',
     industry: 'Luxury E-commerce',
@@ -142,7 +174,7 @@ var _hosts = [
     },
     intro: {
       en: '<p>As the leading Luxury & Fashion Flash Sales website in Asia, Mei.com (Glamour Sales) entered into the China market in April 2010. In July, 2015, Alibaba invested over $100 million in Mei.com. To date, Mei.com has established official partnerships with over 2,400 international luxury, fashion, beauty and lifestyle brands.</p>',
-      zh: '<p>作为亚洲时尚奢品限时折扣网站的领导者，于2010年进入中国市场。至今已与1500多个国际著名时尚及奢侈品牌官方授权合作。2015年7月，阿里巴巴逾亿美元战略投资魅力惠。</p>'
+      zh: '<p>作为亚洲时尚奢品限时折扣网站的领导者，于2010年进入中国市场。至今已与1500多个国际著名时尚及奢侈品牌官方授权合作。2015年7月，阿里巴巴逾亿美元战略投资魅力惠。</p>'
     }
   },
   {
@@ -161,7 +193,7 @@ var _hosts = [
         intro: ''
       },
       zh: {
-        title: '从idea到产品，你要绕开哪些槛？',
+        title: '从idea到产品，你要绕开哪些槛？',
         intro: ''
       }
     },
@@ -190,8 +222,8 @@ var _hosts = [
         intro: "What is driving corporate cloud use? Qiniu will tell you why their enterprise clients - Eleme, Meitu, Hujiang, iPanda live streaming, and many more, are using the cloud."
       },
       zh: {
-        title: '他们都在用云：美图，饿了么，沪江，熊猫直播',
-        intro: '云服务已经成为互联网最热话题之一，其便利和优势不必多说。通过真实案例分析，七牛副总裁带来的绝对是干货：饿了么，美图，熊猫直播，沪江，知乎，果壳，美柚，汽车之家。。。尽在七牛的主题活动。'
+        title: '他们都在用云：美图，饿了么，沪江，熊猫直播',
+        intro: '云服务已经成为互联网最热话题之一，其便利和优势不必多说。通过真实案例分析，七牛副总裁带来的绝对是干货：饿了么，美图，熊猫直播，沪江，知乎，果壳，美柚，汽车之家。。。尽在七牛的主题活动。'
       }
     },
     p_intro: {
@@ -220,7 +252,7 @@ var _hosts = [
       },
       zh: {
         title: '路人甲也可以成为赚钱的网红',
-        intro: '谁才能成为网红？网红经济是什么？谁能从网红经济中获利？这些超越papi酱的问题，Miranda将逐一为大家解答。'
+        intro: '谁才能成为网红？网红经济是什么？谁能从网红经济中获利？这些超越papi酱的问题，Miranda将逐一为大家解答。'
       }
     },
     p_intro: {
@@ -248,7 +280,7 @@ var _hosts = [
         intro: 'Many of you have probably asked this question many times. Come hear what GM of Weibo Marketing has to say.'
       },
       zh: {
-        title: '微信时代，微博已死了吗？',
+        title: '微信时代，微博已死了吗？',
         intro: '相信大多数人都有这个疑问。来听听新浪微博营销策略总经理怎么说。'
       }
     },
@@ -341,7 +373,7 @@ var _agenda = [
       end: '13:30',
       events: [{
         en: 'Lunch (provided by NewCo)',
-        zh: '午餐（NewCo提供）'
+        zh: '午餐（NewCo提供）'
       }]
     }, {
       start: '13:30',
@@ -355,14 +387,14 @@ var _agenda = [
       end: '19:00',
       events: [{
         en: 'Break',
-        zh: '休息'
+        zh: '休息'
       }]
     }, {
       start: '19:00',
       end: '21:00',
       events: [{
         en: 'Chinaccelerator 8x8 Speaker Event (FREE)',
-        zh: '中国加速八分之约企业家分享（含在普通和VIP票内）'
+        zh: '中国加速八分之约企业家分享（含在普通和VIP票内）'
       }]
     }, {
       start: '21:00',
@@ -424,7 +456,7 @@ var _faq = [
     },
     a: {
       en: '<p>Yes! We will have a VIP Kickoff Dinner from 7pm-10pm on Monday, September 12, where our host companies, local partners, and VIP Pass holders will attend, and an After Party for everyone (woo-hoo!) at the end of the festival on Tuesday, September 13.</p>',
-      zh: '<p>必须！9月12日（周一）晚7pm-10pm将有一个VIP启动晚宴，主题公司、合作伙伴以及VIP票持有者将出席。9月13日（周二）活动结束当晚也会有一个所有人都可参加的After Party。</p>'
+      zh: '<p>必须！9月12日（周一）晚7pm-10pm将有一个VIP启动晚宴，主题公司、合作伙伴以及VIP票持有者将出席。9月13日（周二）活动结束当晚也会有一个所有人都可参加的After Party。</p>'
     }
   },
   {
@@ -444,7 +476,7 @@ var _faq = [
     },
     a: {
       en: '<p>Yes! Lunch is included in both VIP and Standard passes.</p>',
-      zh: '<p>有的！VIP和标准票都含午餐。</p>'
+      zh: '<p>有的！VIP和标准票都含午餐。</p>'
     }
   },
   {
@@ -454,7 +486,7 @@ var _faq = [
     },
     a: {
       en: '<p>We got it! There will be cool NewCo buses taking you to the host companies you sign up for.</p>',
-      zh: '<p>不用担心！NewCo到时会提供巴士带大家前往。</p>'
+      zh: '<p>不用担心！NewCo到时会提供巴士带大家前往。</p>'
     }
   },
   {
