@@ -449,7 +449,11 @@ var _agenda = [
       end: '21:00',
       events: [{
         en: 'Chinaccelerator 8x8 Speaker Event (FREE)',
-        zh: '中国加速八分之约企业家分享（含在普通和VIP票内）'
+        zh: '中国加速八分之约企业家分享（含在普通和VIP票内）',
+        location: {
+          en: 'Location: Kingtown Plaza Hotel Shanghai, F5, No.126 XinZha Road, Huangpu District, Shanghai (Near ChangSha Road, 3 minutes from XinZha Subway Station)',
+          zh: '地址：上海黄浦区新闸路126号5楼瑞延厅上海嘉廷酒店（靠近长沙路，距离新闸路地铁3分钟路程）'
+        }
       }]
     }, {
       start: '21:00',

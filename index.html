@@ -528,6 +528,10 @@
                       <span v-if="en" v-text="event.en"></span>
                       <span v-else v-text="event.zh"></span>
                     </span>
+                    <div v-if="event.location" style="padding-top:0.5em;font-size:0.8em;">
+                      <span v-if="en" v-text="event.location.en"></span>
+                      <span v-else v-text="event.location.zh"></span>
+                    </div>
                   </h4>
                 </div>
               </div>
