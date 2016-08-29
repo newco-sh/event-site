@@ -245,8 +245,12 @@ footer .link-newco:hover {
 .label-newco:nth-child(even) {
   background-color: rgb(194, 172, 120);
 }
-.img-partner.silver {
+.img-partner.silver,
+.img-partner.support {
   height: 54px;
+}
+.img-partner.platinum {
+  height: 225px;
 }
 /* responsiveness */
 @media screen and (max-width: 768px) {

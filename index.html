@@ -543,7 +543,51 @@
     <section class="section fp-auto-height" data-anchor="partners">
       <div class="container">
         <h3 class="section-title">
-          <span v-if="en">GLOBAL PARTNERS</span>
+          <span v-if="en">Platinum Partners</span>
+          <span v-else>铂金合作伙伴</span>
+        </h3>
+        <ul class="list-inline">
+          <li v-for="partner in partners.platinum" style="margin:0.5em;">
+            <a v-bind:href="partner.href">
+              <img v-bind:src="partner.img" class="img-partner platinum">
+            </a>
+          </li>
+        </ul>
+        <!-- <h3 class="section-title">
+          <span v-if="en">Gold Partners</span>
+          <span v-else>黄金合作伙伴</span>
+        </h3>
+        <ul class="list-inline">
+          <li v-for="partner in partners.gold" style="margin:0.5em;">
+            <a v-bind:href="partner.href">
+              <img v-bind:src="partner.img" class="img-partner gold">
+            </a>
+          </li>
+        </ul> -->
+        <h3 class="section-title">
+          <span v-if="en">Silver Partners</span>
+          <span v-else>白银合作伙伴</span>
+        </h3>
+        <ul class="list-inline">
+          <li v-for="partner in partners.silver" style="margin:0.5em;">
+            <a v-bind:href="partner.href">
+              <img v-bind:src="partner.img" class="img-partner silver">
+            </a>
+          </li>
+        </ul>
+        <h3 class="section-title">
+          <span v-if="en">Support Partners</span>
+          <span v-else>Support Partners</span>
+        </h3>
+        <ul class="list-inline">
+          <li v-for="partner in partners.support" style="margin:0.5em;">
+            <a v-bind:href="partner.href">
+              <img v-bind:src="partner.img" class="img-partner support">
+            </a>
+          </li>
+        </ul>
+        <h3 class="section-title">
+          <span v-if="en">Global Partners</span>
           <span v-else>国际合作伙伴</span>
         </h3>
         <ul class="list-inline">
@@ -558,17 +602,6 @@
           </li>
           <li>
             <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="img/global/twitter.png" class="img-partner silver">
-          </li>
-        </ul>
-        <h3 class="section-title">
-          <span v-if="en">LOCAL PARTNERS</span>
-          <span v-else>本地合作伙伴</span>
-        </h3>
-        <ul class="list-inline">
-          <li v-for="partner in partners" style="margin:0.5em;">
-            <a v-bind:href="partner.href">
-              <img v-bind:src="partner.img" class="img-partner" v-bind:class="partner.class">
-            </a>
           </li>
         </ul>
         <div class="well well-newco">

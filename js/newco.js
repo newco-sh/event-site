@@ -479,14 +479,22 @@ var _links = [
   { href: 'http://ny.newco.co', name: 'New York' },
   { href: 'http://tor.newco.co', name: 'Toronto' }
 ];
-var _partners = [
-  { href: 'https://google.com', img: 'img/local/google.png', class: 'silver' },
-  { href: 'http://www.people-squared.com/', img: 'img/local/PeopleSquared.png', class: 'silver' },
-  { href: 'http://www.pillarlegalpc.com/', img: 'img/local/Pillar Legal.jpg', class: 'silver' },
-  { href: 'http://www.slush.org/', img: 'img/local/Slush.png', class: 'silver' },
-  { href: 'https://www.wework.com/', img: 'img/local/wework.png', class: 'silver' },
-  { href: 'https://yoopay.cn/', img: 'img/local/yoopay logo.png', class: 'silver' }
-];
+var _partners = {
+  platinum: [
+    { href: 'http://www.publicis.com/', img: 'img/local/Publicis.png' }
+  ],
+  gold: [],
+  silver: [
+    { href: 'http://www.pillarlegalpc.com/', img: 'img/local/Pillar Legal.jpg' },
+    { href: 'https://www.wework.com/', img: 'img/local/wework.png' }
+  ],
+  support: [
+    { href: 'https://google.com', img: 'img/local/google.png' },
+    { href: 'http://www.slush.org/', img: 'img/local/Slush.png' },
+    { href: 'http://www.people-squared.com/', img: 'img/local/PeopleSquared.png' },
+    { href: 'https://yoopay.cn/', img: 'img/local/yoopay logo.png' }
+  ]
+};
 var _faq = [
   {
     q: {
