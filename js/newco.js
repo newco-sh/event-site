@@ -60,27 +60,27 @@ var _hosts = [
   },
   {
     k: 'Dianrong',
-    name: '点融网',
+    name: 'Dianrong.com点融网',
     link: 'https://www.dianrong.com',
     logo: 'img/hosts/Dianrong.png',
-    presenter: 'TBD',
-    avatar: '',
+    presenter: 'Jing Pan',
+    avatar: 'img/hosts/Dianrong_Pan.png',
     lang: 'CN',
-    position: '',
+    position: 'CMO',
     industry: 'FinTech',
     session: {
       en: {
-        title: "China is Disrupting Global Fintech",
+        title: "How Dianrong is Shaping China's Financial Infrastructure",
         intro: ""
       },
       zh: {
-        title: '互联网金融正在慢慢渗透你的生活',
+        title: '中国金融体系的未来',
         intro: ''
       }
     },
     p_intro: {
-      en: "<p>TBD</p>",
-      zh: '<p></p>'
+      en: "<p>Jing is responsible for Dianrong.com’s marketing and PR efforts, building the brand and acquire customers via the internet. Prior, she was the founding management team member of AdChina, the former largest advertising technology company in China and currently part of Alibaba’s advertising platform.</p>",
+      zh: '<p>潘静负责点融网的营销和公关工作，建设企业品牌，获取互联网客户。加入点融网之前，她曾经是中国最大的广告技术平台易传媒（现阿里巴巴广告平台的一部分）的创始管理团队一员。在此之前，她就职于纽约奥美互动和北京奥美互动。</p>'
     },
     intro: {
       en: "<p>China’s leading Internet finance company, Dianrong was founded in 2012 by the co-founder and former Head of Technology of Lending Club, Soul Htite, who joined efforts with Kevin Guo, a PE fund partner and lawyer from Shanghai to create the next generation financial services technology not only for China but also globally. With over 2,600 employees and 28 offices across China, Dianrong.com operates a largest online marketplace in China and provides banking solution services to financial institutions.<p>",
@@ -122,7 +122,7 @@ var _hosts = [
     link: 'https://www.mei.com/',
     logo: 'img/hosts/mei.com.png',
     presenter: 'Thibault Villet 韦奕博',
-    avatar: 'img/hosts/Thibault Villet.png',
+    avatar: 'img/hosts/Thibault Villet.png',
     lang: 'EN',
     position: 'Founder & CEO',
     industry: 'Luxury E-commerce',
@@ -150,27 +150,27 @@ var _hosts = [
     name: 'Platform88',
     link: 'https://www.Platform88.com/',
     logo: 'img/hosts/Platform88.png',
-    presenter: '',
-    avatar: '',
+    presenter: 'Jacob Rothman',
+    avatar: 'img/hosts/Platform88_Jacob.png',
     lang: 'EN',
-    position: '',
+    position: 'Founding Partner',
     industry: 'Startup Services',
     session: {
       en: {
-        title: 'Born to Scale: From Ideas to Product',
+        title: 'How To Build and Scale Your Product',
         intro: ''
       },
       zh: {
-        title: '从idea到产品，你要绕开哪些槛？',
+        title: '创客分享：从生产到规模化',
         intro: ''
       }
     },
     p_intro: {
-      en: '<p></p>',
+      en: '<p>Jacob has more than ten years of experience in manufacturing, branding and retail. A full time “start up rabbi”, he draws from his experience of running a factory in Southern China to help startups.</p>',
       zh: '<p></p>'
     },
     intro: {
-      en: '<p>We help innovators and startup teams from around the world build and scale their products. Vetted Factories, Industry Experts, Merchandising Hubs.</p>',
+      en: '<p>Platform88 helps innovators to manufacture and distribute their products throughout the world. P88’s extensive network of vetted factories, industry experts and merchandising hubs have served 70+ clients to bring their innovation into reality.</p>',
       zh: '<p>Platform88是一家创意设计公司。它像一座桥梁，给国外的工厂介绍国内靠谱的产品，投入生产，也帮助国内的工厂开拓国外的市场。</p>'
     }
   },
@@ -228,8 +228,8 @@ var _hosts = [
       zh: '<p>Miranda Tan 毕业于康奈尔大学, 在PR、市场营销和公共关系领域有超过15年的经验。</p>'
     },
     intro: {
-      en: "<p>A data driven KOL marketplace that matches brands with the best KOLs. It's the only player in China that has end-to-end attribution for KOL posts and can match KOLs to campaigns based on their influence on a particular subject.</p>",
-      zh: '<p>Robin8是基于大数据的网红和新媒体广告平台，来自美国纽约，2015年3月进入中国。Robin8是一个双向平台，广告主在上面发布各种类型的广告，网红则可以在Robin8上进行注册并接单，通过转发广告获取利益。广告主可以选择一次性进行支付或按点击量支付。Robin8会通过大数据分析，以影响力为准为网红打分，影响力越高证明人气越旺。Robin8目前已有6万网红注册。ROBIN8的投资人包括线性资本，Pre Angel，SOSV, 华睿互联，凯洲资本及365投资等 。</p>'
+      en: "<p>Robin8 is China's leading influencer and KOL marketplace and platform in China. Over 20 Million+ influencers and KOLs in our search engine and app! Robin8 is the only player in China that offers end-to-end attribution for Influencer post.</p>",
+      zh: '<p>Robin8是基于大数据的网红和新媒体广告平台，来自美国纽约，2015年3月进入中国。Robin8是一个双向平台，广告主在上面发布各种类型的广告，网红则可以在Robin8上进行注册并接单，通过转发广告获取利益。Robin8平台目前聚集了超过两千万网红。投资人包括线性资本，Pre Angel，SOSV, 华睿互联，凯洲资本及365投资等 。</p>'
     }
   },
   {
@@ -282,7 +282,7 @@ var _hosts = [
       }
     },
     p_intro: {
-      en: "<p>Yaqian Wang joined Teambition in 2014 when the company was still a startup with about 20 people. As COO of Teambition, Yaqian is response for HR, finance and the company's daily operations. She also works closely with the CEO and other leaders to make sure every department and team collaborate smoothly. in 2016, Teambition has 120 employees in 7 cities in China.</p><p>Yaqian hold a PhD in Economics from Lund University in Sweden and Master in Organisational Psychology from Shanghai Jiao Tong University. Before joining Teambition, Yaqian was a researcher at Lund Institute of Economic Research and working on a learning partnership between Lund University and SCA Packaging, in which she worked as a consultant for the company on innovation and organisational culture. She also has worked at McKinsey Company in Shanghai and Italy Cement Group in Milan.</p>",
+      en: "<p>Yaqian Wang joined Teambition in 2014 when the company was still a startup with about 20 people. As COO of Teambition, Yaqian is response for HR, finance and the company's daily operations. She also works closely with the CEO and other leaders to make sure every department and team collaborate smoothly. in 2016, Teambition has 120 employees in 7 cities in China.</p>",
       zh: '<p>上海交通大学管理学学士，应用心理学硕士，瑞典隆德大学管理学博士。博士期间在欧洲最大的包装公司 SCA Packaging 三个欧洲分公司进行组织创新文化的研究，并曾在麦肯锡公司上海分公司，意大利水泥集团米兰总部工作实习。2014年博士毕业回国后加入 Teambition，负责公司内部运营，带领 Teambition 从20多个人成长为100+人。</p>'
     },
     intro: {
