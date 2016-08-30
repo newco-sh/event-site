@@ -5,10 +5,10 @@ var _hosts = [
     name: 'Chinaccelerator中国加速',
     link: 'https://www.chinaccelerator.com',
     logo: 'img/hosts/CA.png',
-    presenter: 'TBD',
-    avatar: '',
+    presenter: 'William Bao Bean',
+    avatar: 'img/hosts/CA_WBB.jpg',
     lang: 'EN',
-    position: '',
+    position: 'Managing Director',
     industry: 'Startup Accelerator',
     session: {
       en: {
