@@ -516,6 +516,61 @@ var _speakers = [
       en: "<p>Founded CIC in 2004 as the first and leading social media research and intelligence firm in Asia Pacific where he grew the business and oversaw its 2012 acquisition and integration by WPP's Kantar Media.</p>",
       zh: '<p>作为中国领先的社会化商业资讯提供商 - CIC的创始人和首席执行官，Sam从参与创建Chinapay.com (国内首家在线支付平台) 至今，15年来始终引领着中国互联网的发展。自2004年创建CIC，Sam始终致力于将CIC塑造为解读中国社会化媒体与社会化商业的先行者。</p>'
     }
+  },
+  {
+    k: 'vivian_zhu',
+    name: 'Vivian Zhu 朱京华',
+    avatar: 'img/speakers/Vivian_Zhu.png',
+    position: 'Chief Digital Media & Innovation Officer',
+    company: 'Publicis Media',
+    intro: {
+      en: "<p>Vivian was appointed Chief Digital & Innovation Officer, Publicis Media Greater China in May 2016. Prior to it, she has been Chief Digital Officer Starcom MediaVest Group Greater China and focused on accelerating the agency’s fast growing digital business by fortifying its digital talent pool & capabilities and enriching the agency's digital & analytics products. Her in-depth understanding of how media impacts human behaviour puts her in good stead when it comes to utilising the right insights and tools to optimize communications so that they deliver on strategies. An avid advocate for using data to personalise human experience in the multi-channel and fragmented media realities of today’s world, Vivian also strongly believes in leveraging the latest technological innovations to drive tracking and analysis.</p>",
+      zh: '<p>2016年5月，Vivian被阳狮媒体任命为其大中华区的首席数字与创新官。在此之前，她曾担任星传媒体集团大中华区首席数字官，主要负责带领团队提升星传媒体集团持续增长的互动营销业务，巩固团队能力，丰富互动营销和数据分析业务产品创新。她深入理解媒体如何影响消费者行为，利用正确的洞察和工具来优化传播，实现策略的实施。她热衷于利用数据在多渠道和分散媒体上的使用来完成个性化人群体验。Vivian坚信，运用前沿技术的创新来推动数据的跟踪与分析。</p>'
+    }
+  },
+  {
+    k: 'denny_huang',
+    name: 'Denny Huang',
+    avatar: 'img/speakers/Denny_Huang.jpg',
+    position: 'Managing Partner',
+    company: 'Partner eXperience',
+    intro: {
+      en: "<p></p>",
+      zh: '<p></p>'
+    }
+  },//all set
+  {
+    k: 'bobby_lee',
+    name: 'Bobby Lee',
+    avatar: 'img/speakers/Bobby_Lee.jpg',
+    position: 'CEO',
+    company: 'BTCC',
+    intro: {
+      en: '<p>Chief Executive Officer Bobby Lee was born in the Ivory Coast, educated at Stanford, and worked as vice president of technology of Walmart before taking leadership of BTCC in 2013. Chief Operating Officer Samson Mow is a leading Canadian game industry executive who worked as director of production at Ubisoft and started a mobile game development company before joining BTCC in February 2015. Chief Technology Officer Mikael Wang operated an IT consultancy company in Sweden and developed innovative cloud computing solutions at Ericsson before joining BTCC in 2013. Together, they bring an innovative mindset, international perspective and the highest quality standards to BTCC.</p>',
+      zh: '<p>CEO李启元 (Bobby Lee)出生于科特迪瓦，毕业于斯坦福大学；在2013年创立BTCC前，任沃尔玛技术副总裁。 加拿大籍首席运营官缪永权 (Samson Mow)是一名非常资深的游戏人，曾任Ubisoft制作总监；在2015年2月加入BTCC前一直管理自己亲自创办的手游开发企业。瑞典籍首席技术官王立栋 (Mikael Wang)在瑞典创立了一家广受好评的IT咨询机构； 2013年加入BTCC，此前在爱立信工作时曾开发创新性云计算解决方案。该团队将共同为BTCC业务发展带来创新思维、国际化视角与最高的质量标准。</p>'
+    },
+  },// all set
+  {
+    k: 'lu_guo',
+    name: 'Lu Guo',
+    avatar: 'img/speakers/Lu_Guo.jpg',
+    position: 'VP Digital & Ecommerce',
+    company: 'Johnson & Johnson',
+    intro: {
+      en: "<p>Lu Guo today is Vice President, Digital and Ecommerce at Johnson & Johnson, the global leader in Consumer Goods and Healthcare, leading up all digital marketing, CRM, analytics, and ecommerce P&L. Ranked by Manager Today Magazine as one of the Top 100 Managerial Talents in China in 2013, Lu is a recognized leader who is known for her capability to drive rapid growth and innovation in large global corporations.</p>",
+      zh: '<p></p>'
+    }
+  },
+  {
+    k: 'lucas_englehardt',
+    name: 'Lucas Englehardt',
+    avatar: 'img/speakers/Lucas_Englehardt.png',
+    position: 'Chairman',
+    company: '外卖超人 Waimai Chaoren',
+    intro: {
+      en: "<p>Lucas is an American entrepreneur with a decade of China experience. He is founder and chairman of Waimaichaoren, a restaurant delivery platform operating across 18 cities in China.  He previously founded online intelligence firm BloggerInsight and coworking office 88 Spaces. Lucas studied at Union College and Fudan University and began his career working in finance in the US and China.</p>",
+      zh: '<p>他是一个有着在中国十年生活经验的美国企业家。他是外卖超人的创始人和董事长，外卖超人是一个分布中国18个城市的订餐平台。他之前有创立过在线调查机构BloggerInsight和联合办公室 88 Spaces。他毕业于美国联合学院和中国复旦大学，最先在美国和中国从事金融领域的工作。</p>'
+    }
   }
 ];
 var _agenda = [
