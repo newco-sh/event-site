@@ -456,8 +456,8 @@ var _hosts = [
     }
   },
   p_intro: {
-    en: '<p></p>',
-    zh: '<p></p>'
+    en: "<p>Vivian was appointed Chief Digital & Innovation Officer, Publicis Media Greater China in May 2016. Prior to it, she has been Chief Digital Officer Starcom MediaVest Group Greater China and focused on accelerating the agency’s fast growing digital business by fortifying its digital talent pool & capabilities and enriching the agency's digital & analytics products. Her in-depth understanding of how media impacts human behaviour puts her in good stead when it comes to utilising the right insights and tools to optimize communications so that they deliver on strategies. An avid advocate for using data to personalise human experience in the multi-channel and fragmented media realities of today’s world, Vivian also strongly believes in leveraging the latest technological innovations to drive tracking and analysis.</p>",
+    zh: '<p>2016年5月，Vivian被阳狮媒体任命为其大中华区的首席数字与创新官。在此之前，她曾担任星传媒体集团大中华区首席数字官，主要负责带领团队提升星传媒体集团持续增长的互动营销业务，巩固团队能力，丰富互动营销和数据分析业务产品创新。她深入理解媒体如何影响消费者行为，利用正确的洞察和工具来优化传播，实现策略的实施。她热衷于利用数据在多渠道和分散媒体上的使用来完成个性化人群体验。Vivian坚信，运用前沿技术的创新来推动数据的跟踪与分析。</p>'
   },
   intro: {
     en: "<p>In a world of accelerated change, the future of a brand and business cannot be predicted precisely, but it can be imagined. Today’s brands compete with new technologies, empowered consumers, shifting public attitudes, brand new contenders and much more. In order to keep their relevance among customers, managing change and uncertainty is a pre-requisite. Publicis aims to be the preferred creative partner for our clients' marketing transformation.</p>",
