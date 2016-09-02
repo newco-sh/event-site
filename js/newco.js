@@ -581,39 +581,36 @@ var _agenda = [
       end: '22:00',
       events: [{
         en: 'VIP Kickoff Dinner (Sponsored by WeWork)',
-        zh: 'VIP 启动晚宴 (Sponsored by WeWork)'
+        zh: 'VIP 启动晚宴 (Sponsored by WeWork)',
+        location: {
+          en: "135 Yanping Road Jing'An District Shanghai 200042",
+          zh: '地址：上海静安区延平路135号'
+        }
       }]
     }]
   },
   {
     date: '2016-09-13 (TUE)',
     slots: [{
-      start: '09:00',
-      end: '12:00',
+      start: '08:30',
+      end: '9:30',
       events: [{
-        en: 'Host Company Sessions',
-        zh: '主题企业活动'
+        en: 'Registration & Breakfast',
+        zh: '签到 & 早餐'
       }]
     }, {
-      start: '12:00',
-      end: '13:30',
+      start: '10:00',
+      end: '18:00',
       events: [{
-        en: 'Lunch (provided by NewCo)',
-        zh: '午餐（NewCo提供）'
+        en: 'Track Sessions: Host Company Visits (lunch provided)',
+        zh: '线路参观：互联网公司互动交流（包括午餐）'
       }]
-    }, {
-      start: '13:30',
-      end: '17:30',
-      events: [{
-        en: 'Host Company Sessions',
-        zh: '主题企业活动'
-      }]
-    }, {
-      start: '17:30',
+    },  {
+      start: '18:00',
       end: '19:00',
       events: [{
-        en: 'Break',
-        zh: '休息'
+        en: 'Dinner',
+        zh: '晚餐'
       }]
     }, {
       start: '19:00',
