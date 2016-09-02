@@ -21,7 +21,7 @@ var _hosts = [
       }
     },
     p_intro: {
-      en: "<p></p>",
+      en: "<p>William joined SOS Ventures from SingTel Innov8 where he was Managing Director supporting China investment activities. Previously William was a Partner at Softbank China & India Holdings, an early stage venture capital firm backed by Softbank of Japan and Cisco. William began his career as an equity research analyst most recently with Deutsche Bank where he was responsible for Internet and Telecom Equipment across Asia and China technology, media and telecom. In addition he covered Digital Media and Telecom Equipment companies at Bank of America Securities in San Francisco and PCs and Enterprise Hardware at Bear Stearns in New York.u</p>",
       zh: '<p></p>'
     },
     intro: {
@@ -483,16 +483,19 @@ var _partners = {
   platinum: [
     { href: 'http://www.publicis.com/', img: 'img/local/Publicis.png' }
   ],
-  gold: [],
+  gold: [
+    { href: 'http://www.caohejing.com/en/', img: 'img/local/Caohejing.png' },
+  ],
   silver: [
     { href: 'http://www.pillarlegalpc.com/', img: 'img/local/Pillar Legal.jpg' },
     { href: 'https://www.wework.com/', img: 'img/local/wework.png' }
   ],
   support: [
-    { href: 'https://google.com', img: 'img/local/google.png' },
+    { href: 'http:///www.dduwork.com/', img: 'img/local/DayDayUp.png' },
+    { href: 'http://google.com', img: 'img/local/google.png' },
     { href: 'http://www.slush.org/', img: 'img/local/Slush.png' },
     { href: 'http://www.people-squared.com/', img: 'img/local/PeopleSquared.png' },
-    { href: 'https://yoopay.cn/', img: 'img/local/yoopay logo.png' }
+    { href: 'http://yoopay.cn/', img: 'img/local/yoopay logo.png' }
   ]
 };
 var _faq = [

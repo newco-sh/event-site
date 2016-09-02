@@ -565,6 +565,17 @@
           </li>
         </ul> -->
         <h3 class="section-title">
+          <span v-if="en">Gold Partners</span>
+          <span v-else>黄金合作伙伴</span>
+        </h3>
+        <ul class="list-inline">
+          <li v-for="partner in partners.gold" style="margin:0.5em;">
+            <a v-bind:href="partner.href">
+              <img v-bind:src="partner.img" class="img-partner gold">
+            </a>
+          </li>
+        </ul>
+        <h3 class="section-title">
           <span v-if="en">Silver Partners</span>
           <span v-else>白银合作伙伴</span>
         </h3>
