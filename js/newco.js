@@ -376,7 +376,123 @@ var _hosts = [
       en: "<p>A weekend event finder app. In February 2016, it has has raised tens of millions USD in Series B financing led by Momo, China's Tinder. It is a partner of Shanghai Disneyland.",
       zh: '一款专注于让人们体验更美好的周末生活而存在的应用。于今年 2 月获得数千万美金 B 轮融资，本轮融资由陌陌领投，上一轮投资机构蓝湖资本和经纬创投跟投。现已是上海迪士尼度假区旅游业界合作伙伴。'
     }
+  },
+  {
+    k: 'BTCC',
+    name: 'BTCC',
+    link: 'http://www.btcc.com/',
+    logo: 'img/hosts/BTCC_LOGO.png',
+    presenter: 'Bobby Lee',
+    avatar: 'img/speakers/Bobby_Lee.jpg',
+    lang: 'EN',
+    position: 'CEO',
+    industry: 'FinTech',
+    session: {
+      en: {
+        title: 'A future of Digital Currency',
+        intro: ''
+      },
+      zh: {
+        title: '数字货币的未来',
+        intro: ''
+      }
+    },
+    p_intro: {
+      en: '<p>Chief Executive Officer Bobby Lee was born in the Ivory Coast, educated at Stanford, and worked as vice president of technology of Walmart before taking leadership of BTCC in 2013. Chief Operating Officer Samson Mow is a leading Canadian game industry executive who worked as director of production at Ubisoft and started a mobile game development company before joining BTCC in February 2015. Chief Technology Officer Mikael Wang operated an IT consultancy company in Sweden and developed innovative cloud computing solutions at Ericsson before joining BTCC in 2013. Together, they bring an innovative mindset, international perspective and the highest quality standards to BTCC.</p>',
+      zh: '<p>CEO李启元 (Bobby Lee)出生于科特迪瓦，毕业于斯坦福大学；在2013年创立BTCC前，任沃尔玛技术副总裁。 加拿大籍首席运营官缪永权 (Samson Mow)是一名非常资深的游戏人，曾任Ubisoft制作总监；在2015年2月加入BTCC前一直管理自己亲自创办的手游开发企业。瑞典籍首席技术官王立栋 (Mikael Wang)在瑞典创立了一家广受好评的IT咨询机构； 2013年加入BTCC，此前在爱立信工作时曾开发创新性云计算解决方案。该团队将共同为BTCC业务发展带来创新思维、国际化视角与最高的质量标准。</p>'
+    },
+    intro: {
+      en: "<p>BTCC was originally founded as BTCChina in 2011. It is the longest-running and one of the largest bitcoin exchanges worldwide. BTCC plays a leading role in every segment of the bitcoin ecosystem, offering a digital currency exchange, a mining pool, payment processing, consumer wallets, and blockchain engraving. The diverse products and services BTCC offers allow its customers to engage in all aspects of the digital currency spectrum in one integrated platform. Headquartered in Shanghai, BTCC serves a global customer base and has become an industry leader for security, risk mitigation, credibility, and technological innovation. Its mission is to provide the world with the most convenient and trustworthy digital currency services.</p>",
+      zh: '<p>BTCC，由上海萨图西网络有限公司运营，最初以“比特币中国”的名字创立于2011年。BTCC是中国第一个比特币交易所，也是目前全世界运营历史最长的比特币交易所。如今，BTCC引领着比特币生态圈的各个方面，提供数字货币交易所，矿池，支付网关，用户钱包和区块链刻字等服务。BTCC在一个综合平台提供不同的产品和服务，方便全球用户能全方面地参与数字货币领域的所有环节。</p>'
+    }
+  }, // confirmed, ready to post
+  {
+    k: 'Udacity',
+    name: 'Udacity',
+    link: 'https://www.udacity.com/',
+    logo: 'img/hosts/Udacity.png',
+    presenter: 'Clarissa Shen',
+    avatar: 'img/speakers/Clarissa_Shen.jpg',
+    lang: 'EN',
+    position: 'Managing Director, Asia',
+    industry: 'EduTech',
+    session: {
+      en: {
+        title: 'Preparing next gen tech leadership',
+        intro: ''
+      },
+      zh: {
+        title: '科技领域里的未来人才',
+        intro: ''
+      }
+    },
+    p_intro: {
+      en: '<p>Coming soon!</p>',
+      zh: '<p></p>'
+    },
+    intro: {
+      en: "<p>Udacity was born out of a Stanford University experiment in which Sebastian Thrun and Peter Norvig offered their 'Introduction to Artificial Intelligence' course online to anyone, for free. Over 160,000 students in more than 190 countries enrolled and not much later, Udacity was born. Now we're a growing team of educators and engineers on a mission to change the future of education by bridging the gap between real-world skills, relevant education, and employment.</p>",
+      zh: '<p>优达学城（Udacity）诞生于斯坦福大学的一个实验。当时还是斯坦福大学教授的Sebastian Thrun和Peter Norvig，通过在线授课的方式，向全世界免费开放他们的课程“人工智能概论”。来自190个国家的16万多名学生报名参加了这门课。不久之后，优达学城（Udacity ）正式成立。我们是一个还在快速成长的团队。全世界最优秀的工程师和教育者相聚在这里，为了用教育改变世界的未来而共同努力。我们相信，在优达学城（Udacity），高等教育也能满足行业的实际需求，能够让学习者拥有实用的技能，成为被全球领先科技企业认可的抢手人才。</p>'
+    }
+  }, // Need speaker introduction materials still
+  {
+  k: 'Publicis',
+  name: 'Publicis',
+  link: 'http://www.publicis.com/',
+  logo: 'img/hosts/Publicis.png',
+  presenter: 'Vivian Zhu',
+  avatar: 'img/speakers/Vivian_Zhu.png',
+  lang: 'EN',
+  position: 'Chief Digital & Media Officer, Publicis Media Greater China',
+  industry: 'AdTech',
+  session: {
+    en: {
+      title: 'Bridging innovation between startups and global brands',
+      intro: ''
+    },
+    zh: {
+      title: '跨国品牌与创业公司之间的创新',
+      intro: ''
+    }
+  },
+  p_intro: {
+    en: '<p></p>',
+    zh: '<p></p>'
+  },
+  intro: {
+    en: "<p>In a world of accelerated change, the future of a brand and business cannot be predicted precisely, but it can be imagined. Today’s brands compete with new technologies, empowered consumers, shifting public attitudes, brand new contenders and much more. In order to keep their relevance among customers, managing change and uncertainty is a pre-requisite. Publicis aims to be the preferred creative partner for our clients' marketing transformation.</p>",
+    zh: '<p></p>'
   }
+},
+{
+   k: '杏仁医生 Xingren Yisheng',
+   name: '杏仁医生 Xingren Yisheng',
+   link: 'http://www.xingren.com/',
+   logo: 'img/hosts/Xingren.png',
+   presenter: 'Martin Shen',
+   avatar: 'img/speakers/Martin_Shen.jpg',
+   lang: 'CN',
+   position: 'CEO',
+   industry: 'HealthCare',
+   session: {
+     en: {
+       title: 'Xingren journey from 0 to 400,000 healthcare professionals',
+       intro: ''
+     },
+     zh: {
+       title: '杏仁医生从零到40万注册医生用户的故事',
+       intro: ''
+     }
+   },
+   p_intro: {
+     en: '<p></p>',
+     zh: '<p>马丁医生是高级资深经理，有超过18年的医疗领域的经验，包含临床，医院管理和医疗信息化（最近八年）。马丁医生的任职经历包括：西门子医疗信息服务业务发展总经理（该业务全球年收入超过十亿欧元），iSoft集团（CSC医疗系统）亚太区解决方案和临床总监，以及和睦家医院副总经理（中国第一家中美联合医院）。在西门子工作期间，马丁医生被西门子集团（德国）人力资源部评为全球经理精英，作为未来领袖培养。</p>'
+   },
+   intro: {
+     en: "<p></p>",
+     zh: '<p>公司由Martin Shen马丁医生和徐琳创立，马丁医生有超过十五年医疗领域从业经历，徐琳则具有十五年互联网从业经历。2014.9.3上线至2016年3月，公司已拥有574员工，辐射34个城市，实名且执业认证医生覆盖全国37,774家医院，累计医生数达383,016位。</p>'
+   }
+ }
 ];
 var _speakers = [
   {
