@@ -666,7 +666,9 @@ var _partners = {
     { href: 'http://google.com', img: 'img/local/google.png' },
     { href: 'http://www.slush.org/', img: 'img/local/Slush.png' },
     { href: 'http://www.people-squared.com/', img: 'img/local/PeopleSquared.png' },
-    { href: 'http://yoopay.cn/', img: 'img/local/yoopay logo.png' }
+    { href: 'http://yoopay.cn/', img: 'img/local/yoopay logo.png' },
+    { href: 'https://247tickets.cn/', img: 'img/local/247.png' },
+    { href: 'http://en.woowbow.com/', img: 'img/local/woowbow.png' }
   ]
 };
 var _faq = [
