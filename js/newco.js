@@ -665,7 +665,8 @@ var _partners = {
     { href: 'http://www.people-squared.com/', img: 'img/local/PeopleSquared.png' },
     { href: 'http://yoopay.cn/', img: 'img/local/yoopay logo.png' },
     { href: 'https://247tickets.cn/', img: 'img/local/247.png' },
-    { href: 'http://en.woowbow.com/', img: 'img/local/woowbow.png' }
+    { href: 'http://en.woowbow.com/', img: 'img/local/woowbow.png' },
+    { href: 'http://www.swissnex.org/', img: 'img/local/swissnex.png' }
   ]
 };
 var _faq = [
