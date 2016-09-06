@@ -443,11 +443,11 @@ var _hosts = [
   presenter: 'Vivian Zhu',
   avatar: 'img/speakers/Vivian_Zhu.png',
   lang: 'EN',
-  position: 'Chief Digital & Media Officer, Publicis Media Greater China',
+  position: 'Chief Digital Media & Innovation Officer, Publicis Media Greater China',
   industry: 'AdTech',
   session: {
     en: {
-      title: 'Bridging innovation between startups and global brands',
+      title: 'How brands can connect with startups',
       intro: ''
     },
     zh: {
@@ -460,8 +460,8 @@ var _hosts = [
     zh: '<p>2016年5月，Vivian被阳狮媒体任命为其大中华区的首席数字与创新官。在此之前，她曾担任星传媒体集团大中华区首席数字官，主要负责带领团队提升星传媒体集团持续增长的互动营销业务，巩固团队能力，丰富互动营销和数据分析业务产品创新。她深入理解媒体如何影响消费者行为，利用正确的洞察和工具来优化传播，实现策略的实施。她热衷于利用数据在多渠道和分散媒体上的使用来完成个性化人群体验。Vivian坚信，运用前沿技术的创新来推动数据的跟踪与分析。</p>'
   },
   intro: {
-    en: "<p>In a world of accelerated change, the future of a brand and business cannot be predicted precisely, but it can be imagined. Today’s brands compete with new technologies, empowered consumers, shifting public attitudes, brand new contenders and much more. In order to keep their relevance among customers, managing change and uncertainty is a pre-requisite. Publicis aims to be the preferred creative partner for our clients' marketing transformation.</p>",
-    zh: '<p></p>'
+    en: "<p>Publicis Media is one of the four solutions hubs of Publicis Groupe, alongside Publicis Communications, Publicis.Sapient and Publicis Healthcare. Led by Steve King, CEO, Publicis Media is powered by its four global brands, Starcom, Zenith, Mediavest | Spark and Optimedia | Blue 449, and supported by its digital-first, data-driven Global Practices which together deliver client value and business transformation. Publicis Media is committed to helping its clients navigate the modern media landscape and is present in more than 100 countries with over 13,500 employees worldwide. </p>",
+    zh: '<p>阳狮媒体（Publicis Media）是阳狮集团旗下的四个业务模块之一，其他三个业务模块是Publicis Communications, Publicis.Sapient 和 Publicis Healthcare。阳狮媒体的全球CEO Steve King，领导星传媒体（Starcom）、实力媒体（Zenith）、精锐媒体| Spark（Mediavest| Spark）、突破传播| Blue 449（Optimedia|Blue 449）四个全球品牌，连同数字营销优先、数据驱动的专家团队一起，为客户提供卓越价值并助其实现业务革新。通过遍布全球100多个国家和地区的13,500多名员工，阳狮媒体致力于帮助客户坐享现代媒体所带来的商机。</p>'
   }
 },
 {
