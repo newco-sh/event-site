@@ -412,7 +412,7 @@ var _hosts = [
     link: 'https://www.udacity.com/',
     logo: 'img/hosts/Udacity.png',
     presenter: 'Clarissa Shen',
-    avatar: 'img/speakers/Clarissa_Shen.jpg',
+    avatar: 'img/hosts/Clarissa_Shen.jpg',
     lang: 'EN',
     position: 'Managing Director, Asia',
     industry: 'EduTech',
@@ -470,7 +470,7 @@ var _hosts = [
    link: 'http://www.xingren.com/',
    logo: 'img/hosts/Xingren.png',
    presenter: 'Martin Shen',
-   avatar: 'img/speakers/Martin_Shen.jpg',
+   avatar: 'img/hosts/Martin_Shen.jpg',
    lang: 'CN',
    position: 'CEO',
    industry: 'HealthCare',
@@ -583,8 +583,8 @@ var _agenda = [
         en: 'VIP Kickoff Dinner (Sponsored by WeWork)',
         zh: 'VIP 启动晚宴 (Sponsored by WeWork)',
         location: {
-          en: "135 Yanping Road Jing'An District Shanghai 200042",
-          zh: '地址：上海静安区延平路135号'
+          en: "",
+          zh: ''
         }
       }]
     }]
