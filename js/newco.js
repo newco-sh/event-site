@@ -346,6 +346,23 @@ var _hosts = [
     intro: {
       en: "<p>As a leading social media platform for people to create, distribute and discover Chinese-language content, Weibo provides an unprecedented and simple way for people and organizations to publicly express themselves in real time, interact with others on a massive global platform and stay connected with the world.",
       zh: ''
+    },
+    presenter_2: 'Micro Cao/曹宇翔',
+    avatar_2: 'img/hosts/Sina_Weibo_Micro.png',
+    position_2: 'Senior Director of Commercial Operations',
+    session_2: {
+      en: {
+        title: 'Unleash Your Fans Value',
+        intro: ''
+      },
+      zh: {
+        title: '引爆品牌的粉丝能量',
+        intro: ''
+      }
+    },
+    p_intro_2: {
+      en: '<p>Micro Cao, Senior Director of Commercial Operations. Work experience: Publicis DIGITAS – Account director; LOreal China – Internet marketing manager; EuroRSCG – Associate digital director.</p>',
+      zh: '<p>曹宇翔，微博高级商业运营总监。背景：阳狮锐奇集团 – 客户总监，欧莱雅中国 – 网络营销市场经理，灵智精实集团 – 数字业务副总监。</p>'
     }
   },
   {
@@ -436,63 +453,63 @@ var _hosts = [
     }
   }, // Need speaker introduction materials still
   {
-  k: 'Publicis',
-  name: 'Publicis',
-  link: 'http://www.publicis.com/',
-  logo: 'img/hosts/Publicis.png',
-  presenter: 'Vivian Zhu',
-  avatar: 'img/speakers/Vivian_Zhu.png',
-  lang: 'EN',
-  position: 'Chief Digital & Media Officer, Publicis Media Greater China',
-  industry: 'AdTech',
-  session: {
-    en: {
-      title: 'Bridging innovation between startups and global brands',
-      intro: ''
+    k: 'Publicis',
+    name: 'Publicis',
+    link: 'http://www.publicis.com/',
+    logo: 'img/hosts/Publicis.png',
+    presenter: 'Vivian Zhu',
+    avatar: 'img/speakers/Vivian_Zhu.png',
+    lang: 'EN',
+    position: 'Chief Digital & Media Officer, Publicis Media Greater China',
+    industry: 'AdTech',
+    session: {
+      en: {
+        title: 'Bridging innovation between startups and global brands',
+        intro: ''
+      },
+      zh: {
+        title: '跨国品牌与创业公司之间的创新',
+        intro: ''
+      }
     },
-    zh: {
-      title: '跨国品牌与创业公司之间的创新',
-      intro: ''
+    p_intro: {
+      en: "<p>Vivian was appointed Chief Digital & Innovation Officer, Publicis Media Greater China in May 2016. Prior to it, she has been Chief Digital Officer Starcom MediaVest Group Greater China and focused on accelerating the agency’s fast growing digital business by fortifying its digital talent pool & capabilities and enriching the agency's digital & analytics products. Her in-depth understanding of how media impacts human behaviour puts her in good stead when it comes to utilising the right insights and tools to optimize communications so that they deliver on strategies. An avid advocate for using data to personalise human experience in the multi-channel and fragmented media realities of today’s world, Vivian also strongly believes in leveraging the latest technological innovations to drive tracking and analysis.</p>",
+      zh: '<p>2016年5月，Vivian被阳狮媒体任命为其大中华区的首席数字与创新官。在此之前，她曾担任星传媒体集团大中华区首席数字官，主要负责带领团队提升星传媒体集团持续增长的互动营销业务，巩固团队能力，丰富互动营销和数据分析业务产品创新。她深入理解媒体如何影响消费者行为，利用正确的洞察和工具来优化传播，实现策略的实施。她热衷于利用数据在多渠道和分散媒体上的使用来完成个性化人群体验。Vivian坚信，运用前沿技术的创新来推动数据的跟踪与分析。</p>'
+    },
+    intro: {
+      en: "<p>In a world of accelerated change, the future of a brand and business cannot be predicted precisely, but it can be imagined. Today’s brands compete with new technologies, empowered consumers, shifting public attitudes, brand new contenders and much more. In order to keep their relevance among customers, managing change and uncertainty is a pre-requisite. Publicis aims to be the preferred creative partner for our clients' marketing transformation.</p>",
+      zh: '<p></p>'
     }
   },
-  p_intro: {
-    en: "<p>Vivian was appointed Chief Digital & Innovation Officer, Publicis Media Greater China in May 2016. Prior to it, she has been Chief Digital Officer Starcom MediaVest Group Greater China and focused on accelerating the agency’s fast growing digital business by fortifying its digital talent pool & capabilities and enriching the agency's digital & analytics products. Her in-depth understanding of how media impacts human behaviour puts her in good stead when it comes to utilising the right insights and tools to optimize communications so that they deliver on strategies. An avid advocate for using data to personalise human experience in the multi-channel and fragmented media realities of today’s world, Vivian also strongly believes in leveraging the latest technological innovations to drive tracking and analysis.</p>",
-    zh: '<p>2016年5月，Vivian被阳狮媒体任命为其大中华区的首席数字与创新官。在此之前，她曾担任星传媒体集团大中华区首席数字官，主要负责带领团队提升星传媒体集团持续增长的互动营销业务，巩固团队能力，丰富互动营销和数据分析业务产品创新。她深入理解媒体如何影响消费者行为，利用正确的洞察和工具来优化传播，实现策略的实施。她热衷于利用数据在多渠道和分散媒体上的使用来完成个性化人群体验。Vivian坚信，运用前沿技术的创新来推动数据的跟踪与分析。</p>'
-  },
-  intro: {
-    en: "<p>In a world of accelerated change, the future of a brand and business cannot be predicted precisely, but it can be imagined. Today’s brands compete with new technologies, empowered consumers, shifting public attitudes, brand new contenders and much more. In order to keep their relevance among customers, managing change and uncertainty is a pre-requisite. Publicis aims to be the preferred creative partner for our clients' marketing transformation.</p>",
-    zh: '<p></p>'
-  }
-},
-{
-   k: '杏仁医生 Xingren Yisheng',
-   name: '杏仁医生 Xingren Yisheng',
-   link: 'http://www.xingren.com/',
-   logo: 'img/hosts/Xingren.png',
-   presenter: 'Martin Shen',
-   avatar: 'img/hosts/Martin_Shen.jpg',
-   lang: 'CN',
-   position: 'CEO',
-   industry: 'HealthCare',
-   session: {
-     en: {
-       title: 'Xingren journey from 0 to 400,000 healthcare professionals',
-       intro: ''
+  {
+     k: '杏仁医生 Xingren Yisheng',
+     name: '杏仁医生 Xingren Yisheng',
+     link: 'http://www.xingren.com/',
+     logo: 'img/hosts/Xingren.png',
+     presenter: 'Martin Shen',
+     avatar: 'img/hosts/Martin_Shen.jpg',
+     lang: 'CN',
+     position: 'CEO',
+     industry: 'HealthCare',
+     session: {
+       en: {
+         title: 'Xingren journey from 0 to 400,000 healthcare professionals',
+         intro: ''
+       },
+       zh: {
+         title: '杏仁医生从零到40万注册医生用户的故事',
+         intro: ''
+       }
      },
-     zh: {
-       title: '杏仁医生从零到40万注册医生用户的故事',
-       intro: ''
+     p_intro: {
+       en: '<p></p>',
+       zh: '<p>马丁医生是高级资深经理，有超过18年的医疗领域的经验，包含临床，医院管理和医疗信息化（最近八年）。马丁医生的任职经历包括：西门子医疗信息服务业务发展总经理（该业务全球年收入超过十亿欧元），iSoft集团（CSC医疗系统）亚太区解决方案和临床总监，以及和睦家医院副总经理（中国第一家中美联合医院）。在西门子工作期间，马丁医生被西门子集团（德国）人力资源部评为全球经理精英，作为未来领袖培养。</p>'
+     },
+     intro: {
+       en: "<p></p>",
+       zh: '<p>公司由Martin Shen马丁医生和徐琳创立，马丁医生有超过十五年医疗领域从业经历，徐琳则具有十五年互联网从业经历。2014.9.3上线至2016年3月，公司已拥有574员工，辐射34个城市，实名且执业认证医生覆盖全国37,774家医院，累计医生数达383,016位。</p>'
      }
-   },
-   p_intro: {
-     en: '<p></p>',
-     zh: '<p>马丁医生是高级资深经理，有超过18年的医疗领域的经验，包含临床，医院管理和医疗信息化（最近八年）。马丁医生的任职经历包括：西门子医疗信息服务业务发展总经理（该业务全球年收入超过十亿欧元），iSoft集团（CSC医疗系统）亚太区解决方案和临床总监，以及和睦家医院副总经理（中国第一家中美联合医院）。在西门子工作期间，马丁医生被西门子集团（德国）人力资源部评为全球经理精英，作为未来领袖培养。</p>'
-   },
-   intro: {
-     en: "<p></p>",
-     zh: '<p>公司由Martin Shen马丁医生和徐琳创立，马丁医生有超过十五年医疗领域从业经历，徐琳则具有十五年互联网从业经历。2014.9.3上线至2016年3月，公司已拥有574员工，辐射34个城市，实名且执业认证医生覆盖全国37,774家医院，累计医生数达383,016位。</p>'
-   }
- }
+  }
 ];
 var _speakers = [
   {
