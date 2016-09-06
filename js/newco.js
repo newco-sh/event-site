@@ -436,9 +436,9 @@ var _hosts = [
     }
   }, // Need speaker introduction materials still
   {
-  k: 'Publicis',
-  name: 'Publicis',
-  link: 'http://www.publicis.com/',
+  k: 'Publicis Media',
+  name: 'Publicis Media',
+  link: '',
   logo: 'img/hosts/Publicis.png',
   presenter: 'Vivian Zhu',
   avatar: 'img/speakers/Vivian_Zhu.png',
@@ -649,7 +649,7 @@ var _links = [
 ];
 var _partners = {
   platinum: [
-    { href: 'http://www.publicis.com/', img: 'img/local/Publicis.png' }
+    { href: '', img: 'img/local/Publicis.png' }
   ],
   gold: [
     { href: 'http://www.caohejing.com/en/', img: 'img/local/Caohejing.png' },
