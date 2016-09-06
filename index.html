@@ -136,9 +136,18 @@
         </div>
         <div class="modal-body">
           <h4>
-            Session Title:
             <span v-if="en" v-text="host.session.en.title"></span>
             <span v-else v-text="host.session.zh.title"></span>
+            <span class="label label-default">
+              <span v-if="en">Language:</span>
+              <span v-else>语言：</span>
+              <span v-text="host.lang"></span>
+            </span>
+            &nbsp;
+            <span class="label label-default">
+              Industry:
+              <span v-text="host.industry"></span>
+            </span>
           </h4>
           <p>
             <span v-if="en" v-text="host.session.en.intro"></span>
