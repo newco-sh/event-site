@@ -580,11 +580,11 @@ var _agenda = [
       start: '19:00',
       end: '22:00',
       events: [{
-        en: 'VIP Kickoff Dinner (Sponsored by WeWork)',
-        zh: 'VIP 启动晚宴 (Sponsored by WeWork)',
+        en: 'VIP Kickoff Dinner (sponsored by WeWork)',
+        zh: 'VIP 启动晚宴 (sponsored by WeWork)',
         location: {
-          en: "135 Yanping Road Jing'An District Shanghai 200042",
-          zh: '地址：上海静安区延平路135号'
+          en: "Location: WeWork, No.135 Yanping Road Jing'An District Shanghai 200042",
+          zh: '地址：WeWork, 上海静安区延平路135号'
         }
       }]
     }]
@@ -592,34 +592,38 @@ var _agenda = [
   {
     date: '2016-09-13 (TUE)',
     slots: [{
-      start: '08:30',
+      start: '08:00',
       end: '9:30',
       events: [{
-        en: 'Registration & Breakfast',
-        zh: '签到 & 早餐'
+        en: 'Complimentary Breakfast & Registration （sponsored by Element Fresh)',
+        zh: '免费早餐 & 签到 (sponsored by Element Fresh)',
+        location: {
+          en: 'Location: Element Fresh, Kerry Center, No.1515 Nanjing West Road, JingAn District (above JingAn Temple station, exit 3)',
+          zh: '地址：Element Fresh, 南京西路1515号静安嘉里中心'
+        }
       }]
     }, {
       start: '10:00',
       end: '18:00',
       events: [{
-        en: 'Track Sessions: Host Company Visits (lunch provided)',
+        en: 'Track Sessions: Host Company Visits & Lunch (provided)',
         zh: '线路参观：互联网公司互动交流（包括午餐）'
       }]
     },  {
       start: '18:00',
       end: '19:00',
       events: [{
-        en: 'Dinner',
+        en: 'Dinner Break (provided)',
         zh: '晚餐'
       }]
     }, {
       start: '19:00',
       end: '21:00',
       events: [{
-        en: 'Chinaccelerator 8x8 Speaker Event (FREE)',
+        en: 'Chinaccelerator 8x8 Speaker Event',
         zh: '中国加速八分之约企业家分享（含在普通和VIP票内）',
         location: {
-          en: 'Location: Kingtown Plaza Hotel Shanghai, F5, No.126 XinZha Road, Huangpu District, Shanghai (Near ChangSha Road, 3 minutes from XinZha Subway Station)',
+          en: 'Location: Kingtown Plaza Hotel Shanghai, F5, No.126 XinZha Road, Huangpu District, Shanghai (near ChangSha Road, XinZha station)',
           zh: '地址：上海黄浦区新闸路126号5楼瑞延厅上海嘉廷酒店（靠近长沙路，距离新闸路地铁3分钟路程）'
         }
       }]
