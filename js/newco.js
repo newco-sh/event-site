@@ -411,30 +411,30 @@ var _hosts = [
     name: 'Udacity',
     link: 'https://www.udacity.com/',
     logo: 'img/hosts/Udacity.png',
-    presenter: 'Clarissa Shen',
-    avatar: 'img/speakers/Clarissa_Shen.jpg',
+    presenter: 'Adam Century',
+    avatar: 'img/hosts/Adam_Century.jpg',
     lang: 'EN',
-    position: 'Managing Director, Asia',
-    industry: 'EduTech',
+    position: 'International',
+    industry: 'EdTech',
     session: {
       en: {
-        title: 'Preparing next gen tech leadership',
+        title: 'TBD',
         intro: ''
       },
       zh: {
-        title: '科技领域里的未来人才',
+        title: 'TBD',
         intro: ''
       }
     },
     p_intro: {
-      en: '<p>Coming soon!</p>',
-      zh: '<p></p>'
+      en: "<p>Adam Century is responsible for coordinating and managing the localization and internationalization of Udacity content and classroom experience, both in China and in other key growth markets. Prior to joining Udacity, Adam served as director of policy at the United States Information Technology Office (USITO) in Beijing, consulting multinational information technology companies on China policy and strategic challenges. Before that, Adam was a Fulbright Scholar in Chongqing, and worked at the Beijing bureau of the New York Times. In 2013, while a Fulbright Scholar, Adam retraced the Communist Party’s Long March on motorcycle. </p>",
+      zh: '<p>潘亚当先生负责优达学城中国和其它非美国市场的内容和教室产品的本地化和国际化工作。加入优达学诚之前，潘先生曾任美国信息产业机构北京办事处政策总监，为美资信息与通信技术企业提供中国政策与战略市场方面咨询。在此之前，潘先生是美国国务院富布莱特基金会访问学者，并曾在纽约时报北京分社工作。2013年，潘先生花三个月时间骑行摩托车重走了长征路。</p>'
     },
     intro: {
       en: "<p>Udacity was born out of a Stanford University experiment in which Sebastian Thrun and Peter Norvig offered their 'Introduction to Artificial Intelligence' course online to anyone, for free. Over 160,000 students in more than 190 countries enrolled and not much later, Udacity was born. Now we're a growing team of educators and engineers on a mission to change the future of education by bridging the gap between real-world skills, relevant education, and employment.</p>",
       zh: '<p>优达学城（Udacity）诞生于斯坦福大学的一个实验。当时还是斯坦福大学教授的Sebastian Thrun和Peter Norvig，通过在线授课的方式，向全世界免费开放他们的课程“人工智能概论”。来自190个国家的16万多名学生报名参加了这门课。不久之后，优达学城（Udacity ）正式成立。我们是一个还在快速成长的团队。全世界最优秀的工程师和教育者相聚在这里，为了用教育改变世界的未来而共同努力。我们相信，在优达学城（Udacity），高等教育也能满足行业的实际需求，能够让学习者拥有实用的技能，成为被全球领先科技企业认可的抢手人才。</p>'
     }
-  }, // Need speaker introduction materials still
+  }, 
   {
   k: 'Publicis Media',
   name: 'Publicis Media',
