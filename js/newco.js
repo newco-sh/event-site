@@ -662,6 +662,7 @@ var _partners = {
     { href: 'http://www.pillarlegalpc.com/', img: 'img/local/Pillar Legal.jpg' },
     { href: 'https://www.wework.com/', img: 'img/local/wework.png' },
     { href: 'http://www.elementfresh.com/#home', img: 'img/local/EF2.png' }
+
   ],
   support: [
     { href: 'http:///www.dduwork.com/', img: 'img/local/DayDayUp.png' },
@@ -672,7 +673,8 @@ var _partners = {
     { href: 'https://247tickets.cn/', img: 'img/local/247.png' },
     { href: 'http://en.woowbow.com/', img: 'img/local/woowbow.png' },
     { href: 'http://www.swissnex.org/', img: 'img/local/swissnex.png' },
-    { href: 'http://www.stupid.fm', img: 'img/local/shagua4.png' }
+    { href: 'http://www.stupid.fm', img: 'img/local/shagua4.png' },
+    { href: 'http://www.saucepan.co/', img: 'img/local/Saucepan.jpg' }
   ]
 };
 var _faq = [
