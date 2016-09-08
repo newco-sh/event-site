@@ -434,7 +434,7 @@ var _hosts = [
       en: "<p>Udacity was born out of a Stanford University experiment in which Sebastian Thrun and Peter Norvig offered their 'Introduction to Artificial Intelligence' course online to anyone, for free. Over 160,000 students in more than 190 countries enrolled and not much later, Udacity was born. Now we're a growing team of educators and engineers on a mission to change the future of education by bridging the gap between real-world skills, relevant education, and employment.</p>",
       zh: '<p>优达学城（Udacity）诞生于斯坦福大学的一个实验。当时还是斯坦福大学教授的Sebastian Thrun和Peter Norvig，通过在线授课的方式，向全世界免费开放他们的课程“人工智能概论”。来自190个国家的16万多名学生报名参加了这门课。不久之后，优达学城（Udacity ）正式成立。我们是一个还在快速成长的团队。全世界最优秀的工程师和教育者相聚在这里，为了用教育改变世界的未来而共同努力。我们相信，在优达学城（Udacity），高等教育也能满足行业的实际需求，能够让学习者拥有实用的技能，成为被全球领先科技企业认可的抢手人才。</p>'
     }
-  }, 
+  },
   {
   k: 'Publicis Media',
   name: 'Publicis Media',
