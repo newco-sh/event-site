@@ -694,8 +694,8 @@ var _faq = [
       zh: '报名付费后，如何挑选我要参加的主题企业活动？'
     },
     a: {
-      en: '<p>Prior to the event, you will receive an email instruction to sign up for host company sessions.</p><p>*Please note that there will be more than one sessions happening per timeslot.</p><p>A VIP Pass gives you access to an unlimited number of host company sessions. A Standard Pass gives you access to 5 host company sessions, but you will NOT be able to register for more than one session per timeslot.</p>',
-      zh: '<p>成功报名的观众将在临近活动时收到一封报名主题活动的邮件指引。</p><p>*请注意，每个时间段会有多项主题活动同时进行。</p><p>VIP票持有者可随意选择主题企业活动数量。标准票持有者可选择5项企业活动，但同一时间段只能选择一项。</p>'
+      en: '<p>Prior to the event, you will receive an email instruction to sign up for host company sessions.</p><p>*Please note that there will be more than one sessions happening per timeslot.</p><p> Each pass will provide access to 1 track which includes 5 host company sessions.</p>',
+      zh: '<p>成功报名的观众将在临近活动时收到一封报名主题活动的邮件指引。</p><p>*请注意，每个时间段会有多项主题活动同时进行。</p><p>标准票持有者可选择5项企业活动，但同一时间段只能选择一项。</p>'
     }
   },
   {
@@ -724,8 +724,8 @@ var _faq = [
       zh: 'NewCo会提供餐饮吗？'
     },
     a: {
-      en: '<p>Yes! Lunch is included in both VIP and Standard passes.</p>',
-      zh: '<p>有的！VIP和标准票都含午餐。</p>'
+      en: '<p>Yes! Breakfast, lunch and dinner are included in both VIP and Standard passes.</p>',
+      zh: '<p>有的！VIP和标准票都含早餐，午餐 & 晚餐。</p>'
     }
   },
   {
