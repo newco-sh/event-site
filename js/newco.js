@@ -583,8 +583,8 @@ var _agenda = [
         en: 'VIP Kickoff Dinner (sponsored by WeWork)',
         zh: 'VIP 启动晚宴 (sponsored by WeWork)',
         location: {
-          en: "Location: WeWork, No.135 Yanping Road Jing'An District Shanghai 200042",
-          zh: '地址：WeWork, 上海静安区延平路135号'
+          en: "",
+          zh: ''
         }
       }]
     }]
