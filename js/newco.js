@@ -595,11 +595,11 @@ var _agenda = [
       start: '08:00',
       end: '9:30',
       events: [{
-        en: 'Complimentary Breakfast & Registration （sponsored by Element Fresh)',
-        zh: '免费早餐 & 签到 (sponsored by Element Fresh)',
+        en: 'Registration & Complimentary Breakfast（sponsored by Element Fresh)',
+        zh: '签到 & 免费早餐  (sponsored by Element Fresh)',
         location: {
-          en: 'Location: Element Fresh, Kerry Center, No.1515 Nanjing West Road, JingAn District (above JingAn Temple station, exit 3)',
-          zh: '地址：Element Fresh, 南京西路1515号静安嘉里中心'
+          en: 'Location: People Squared Hero Center, Bldg 3 West Entrance, 28 Yuyuan East Road, JingAn District',
+          zh: '地址：P2创客中心,静安区愚园东路28号一楼创客中心'
         }
       }]
     }, {
