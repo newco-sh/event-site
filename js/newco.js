@@ -418,11 +418,11 @@ var _hosts = [
     industry: 'EdTech',
     session: {
       en: {
-        title: 'TBD',
+        title: "Building an EdTech Unicorn and our Mission to Double the World's GDP",
         intro: ''
       },
       zh: {
-        title: 'TBD',
+        title: '成为教育界的独角兽，让全球GDP翻倍的使命',
         intro: ''
       }
     },
