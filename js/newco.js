@@ -674,7 +674,8 @@ var _partners = {
     { href: 'http://en.woowbow.com/', img: 'img/local/woowbow.png' },
     { href: 'http://www.swissnex.org/', img: 'img/local/swissnex.png' },
     { href: 'http://www.stupid.fm', img: 'img/local/shagua4.png' },
-    { href: 'http://www.saucepan.co/', img: 'img/local/Saucepan.jpg' }
+    { href: 'http://www.saucepan.co/', img: 'img/local/Saucepan.jpg' },
+    { href: 'http://vcoffee.cn/', img: 'img/local/VCoffee.png' }
   ]
 };
 var _faq = [
