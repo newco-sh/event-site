@@ -657,6 +657,7 @@ var _partners = {
   ],
   gold: [
     { href: 'http://www.caohejing.com/en/', img: 'img/local/innoclub.png' },
+    { href: 'http://www.goverb.com/', img: 'img/local/verb.png' },
   ],
   silver: [
     { href: 'http://www.pillarlegalpc.com/', img: 'img/local/Pillar Legal.jpg' },
