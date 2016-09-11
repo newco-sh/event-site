@@ -593,16 +593,28 @@ var _agenda = [
     date: '2016-09-13 (TUE)',
     slots: [{
       start: '08:00',
-      end: '9:30',
+      end: '8:30',
       events: [{
-        en: 'Registration & Complimentary Breakfast（sponsored by Element Fresh)',
-        zh: '签到 & 免费早餐  (sponsored by Element Fresh)',
+        en: 'Registration',
+        zh: '签到',
         location: {
           en: 'Location: People Squared Hero Center, Bldg 3 West Entrance, 28 Yuyuan East Road, JingAn District',
           zh: '地址：P2创客中心,静安区愚园东路28号一楼创客中心'
         }
       }]
-    }, {
+    },
+    {
+      start: '08:30',
+      end: '9:30',
+      events: [{
+        en: ' Complimentary Breakfast（sponsored by Element Fresh)',
+        zh: '免费早餐  (sponsored by Element Fresh)',
+        location: {
+          en: '',
+          zh: ''
+        }
+      }]
+    },{
       start: '10:00',
       end: '18:00',
       events: [{
