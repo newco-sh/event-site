@@ -492,7 +492,36 @@ var _hosts = [
      en: "<p></p>",
      zh: '<p>公司由Martin Shen马丁医生和徐琳创立，马丁医生有超过十五年医疗领域从业经历，徐琳则具有十五年互联网从业经历。2014.9.3上线至2016年3月，公司已拥有574员工，辐射34个城市，实名且执业认证医生覆盖全国37,774家医院，累计医生数达383,016位。</p>'
    }
- }
+ },
+ {
+    k: 'Gululu',
+    name: 'Gululu',
+    link: 'http://www.mygululu.com/',
+    logo: 'img/hosts/gululu_logo.png',
+    presenter: 'Alvin Zhang',
+    avatar: 'img/hosts/Gululu.png',
+    lang: 'EN',
+    position: 'Founder & CEO',
+    industry: 'Wellness IOT',
+    session: {
+      en: {
+        title: 'Making well-being practices fun & engaging for children',
+        intro: ''
+      },
+      zh: {
+        title: '',
+        intro: ''
+      }
+    },
+    p_intro: {
+      en: "<p>Founder and CEO of team Gululu. Former CMO of Renren (deeply invoved in its IPO in 2011), former VP of Alibaba Group and former VP of NetEase. A 16-year highly regarded Internet veteran with strong commercial and diverse experiences. An angel investor in China, US, and Israel in 2014.  A frequent startup mentor in China and Taiwan.</p>",
+      zh: "<p>江志强，前人人首席营销官（历经公司上市）、前阿里集团VP、前网易VP。16年以上互联网经验，历经门户、社区、网络广告、社交、移动等行业发展。2014年从事天使投资，2015年在儿童 - 物联网领域创办巨鲸网络科技，今年7月发布全球首款Gululu儿童互动水壶 (www.mygululu.com)</p>",
+    },
+    intro: {
+      en: "<p>Founded in Jan 2015, Gululu is an IOT and children focused tech startup that endeavours to add value to children’s wellbeing. First product of Gululu is a Tamagochi-like interactive bottle that help kids to stay hydrated by caring for virtual pets in the bottle.</p>",
+      zh: '<p></p>'
+    }
+  }
 ];
 var _speakers = [
   {
@@ -540,14 +569,14 @@ var _speakers = [
     }
   },//all set
   {
-    k: 'bobby_lee',
-    name: 'Bobby Lee',
-    avatar: 'img/speakers/Bobby_Lee.jpg',
-    position: 'CEO',
-    company: 'BTCC',
+    k: 'geoffrey_handley',
+    name: 'Geoffrey Handley',
+    avatar: 'img/speakers/geoffrey.jpg',
+    position: 'Founding General Partner',
+    company: 'China Scot Fund',
     intro: {
-      en: '<p>Chief Executive Officer Bobby Lee was born in the Ivory Coast, educated at Stanford, and worked as vice president of technology of Walmart before taking leadership of BTCC in 2013. Chief Operating Officer Samson Mow is a leading Canadian game industry executive who worked as director of production at Ubisoft and started a mobile game development company before joining BTCC in February 2015. Chief Technology Officer Mikael Wang operated an IT consultancy company in Sweden and developed innovative cloud computing solutions at Ericsson before joining BTCC in 2013. Together, they bring an innovative mindset, international perspective and the highest quality standards to BTCC.</p>',
-      zh: '<p>CEO李启元 (Bobby Lee)出生于科特迪瓦，毕业于斯坦福大学；在2013年创立BTCC前，任沃尔玛技术副总裁。 加拿大籍首席运营官缪永权 (Samson Mow)是一名非常资深的游戏人，曾任Ubisoft制作总监；在2015年2月加入BTCC前一直管理自己亲自创办的手游开发企业。瑞典籍首席技术官王立栋 (Mikael Wang)在瑞典创立了一家广受好评的IT咨询机构； 2013年加入BTCC，此前在爱立信工作时曾开发创新性云计算解决方案。该团队将共同为BTCC业务发展带来创新思维、国际化视角与最高的质量标准。</p>'
+      en: "<p>Geoffrey Handley is a successful serial global entrepreneur, investor and advisor. He has spent the last 20 years founding, growing and selling global tech businesses, in both Asia and the US, from .com in 90’s to Mobile in ’00s and now Ad-Tech & Analytics in ‘10s. More recently as a friend, investor & mentor in 30+ super smart founders & teams.</p>",
+      zh: '<p></p>'
     },
   },// all set
   {
