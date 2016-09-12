@@ -580,13 +580,13 @@ var _speakers = [
     },
   },// all set
   {
-    k: 'lu_guo',
-    name: 'Lu Guo',
-    avatar: 'img/speakers/Lu_Guo.jpg',
-    position: 'VP Digital & Ecommerce',
-    company: 'Johnson & Johnson',
+    k: 'richard_chen',
+    name: 'Richard Chen',
+    avatar: 'img/speakers/Richard_Chen.jpg',
+    position: 'Founding Partner',
+    company: 'Huangpu River Capital',
     intro: {
-      en: "<p>Lu Guo today is Vice President, Digital and Ecommerce at Johnson & Johnson, the global leader in Consumer Goods and Healthcare, leading up all digital marketing, CRM, analytics, and ecommerce P&L. Ranked by Manager Today Magazine as one of the Top 100 Managerial Talents in China in 2013, Lu is a recognized leader who is known for her capability to drive rapid growth and innovation in large global corporations.</p>",
+      en: "<p>Richard Chen is Founding Partner of Huangpu River Capital (Cross Border Growth Fund), Venture Partner of Ceyuan Ventures (one of the largest VC funds in China), and Venture Partner of Vitruvian Partners (one of the largest Tech PE funds in Europe). Richard Chen specializes in investing in top Western TMT companies and help them scale in China and round the world.</p>",
       zh: '<p></p>'
     }
   },
